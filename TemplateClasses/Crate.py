@@ -7,7 +7,7 @@ class Crate:
     def __init__(self, info):
         self.CrateType = info[CrateCSVConstants.CRATE_TYPE]
         self.CrateName = info[CrateCSVConstants.CRATE_NAME]
-        self.Preview_Name = info[CrateCSVConstants.PREVIEW_NAME] or self.CrateName
+        self.Preview_Name = info[CrateCSVConstants.PREVIEW_NAME] or f"{self.CrateName} Preview"
         self.StartingKeys = int(info[CrateCSVConstants.STARTING_KEYS] or 0)
         self.Max_Mass_Open = int(info[CrateCSVConstants.MAX_MASS_OPEN] or 10)
         self.InGUI = info[CrateCSVConstants.IN_GUI] == 'True' or False
@@ -23,7 +23,7 @@ class Crate:
         self.PhysicalKey_Item = info[CrateCSVConstants.PHYSICAL_KEY_ITEM] or 'TRIPWIRE_HOOK'
         self.PhysicalKey_Glowing = info[CrateCSVConstants.PHYSICAL_KEY_GLOWING] == 'TRUE' or True
         self.Hologram_Toggle = info[CrateCSVConstants.HOLOGRAM_TOGGLE] == 'True' or True
-        self.Hologram_Height = info[CrateCSVConstants.HOLOGRAM_HEIGHT] or 1.5
+        self.Hologram_Height = round(float(info[CrateCSVConstants.HOLOGRAM_HEIGHT] or 1.5), 1)
         self.Hologram_Message = info[CrateCSVConstants.HOLOGRAM_MESSAGE].split("\\n") or [f"{self.CrateName}"]
         self.Preview = CratePreview(info)
         self.dict = {}
@@ -33,7 +33,7 @@ class Crate:
         physicalKeyDict = {
             CrateFields.PHYSICAL_KEY_NAME: self.PhysicalKey_Name,
             CrateFields.PHYSICAL_KEY_LORE: self.PhysicalKey_Lore,
-            CrateFields.PHYSICAL_KEY_ITEM: self.PhysicalKey_Glowing,
+            CrateFields.PHYSICAL_KEY_ITEM: self.PhysicalKey_Item,
             CrateFields.PHYSICAL_KEY_GLOWING: self.PhysicalKey_Glowing
         }
 

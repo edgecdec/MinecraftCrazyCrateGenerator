@@ -1,7 +1,4 @@
 Crate:
-  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
-  # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
-  # QuickCrate simply allows you to speed open crates.
   CrateType: QuickCrate
   CrateName: '&eScratch Crate'
   Preview-Name: '&eScratch Crate Preview'
@@ -9,35 +6,34 @@ Crate:
   Max-Mass-Open: 10
   InGUI: false
   Slot: 14
-  OpeningBroadCast: true
+  OpeningBroadCast: false
   BroadCast: '%prefix%&6&l%player%&r &7is opening a &e&lScratch Chest&7.'
-  Item: 'CHEST'
+  Item: CHEST
   Glowing: false
   Name: '&e&lScratch Chest'
   Lore:
-    - '&7This crate contains basic materials.'
-    - '&7You have &6%Keys% keys &7to open this crate with.'
-    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '&7This crate contains basic materials.'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
   Preview:
     Toggle: true
     ChestLines: 6
     Glass:
       Toggle: true
-      # The name of the border item.
-      Name: ' '
-      Item: 'YELLOW_STAINED_GLASS_PANE'
+      Item: YELLOW_STAINED_GLASS_PANE
+      Name: '   '
   PhysicalKey:
     Name: '&e&lScratch Crate &c&lKey'
     Lore:
-      - '&7A Scratch Key'
-      - '&7For a Scratch Crate.'
-    Item: 'TRIPWIRE_HOOK'
-    Glowing: True
+    - '&7A Scratch Key'
+    - '&7For a Scratch Crate.'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
   Hologram:
     Toggle: true
     Height: 1.5
     Message:
-      - '&e&lScratch Chest'
+    - '&e&lScratch Chest'
   Prizes:
     1:
       DisplayName: '&a&lIron'

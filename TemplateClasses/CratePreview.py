@@ -13,9 +13,9 @@ class CratePreview():
 
     def createDict(self):
         glassDict = {
+            CratePreviewFields.GLASS_TOGGLE: self.Glass_Toggle,
             CratePreviewFields.GLASS_ITEM: self.Glass_Item,
-            CratePreviewFields.GLASS_NAME: self.Glass_Name,
-            CratePreviewFields.GLASS_TOGGLE: self.Glass_Toggle
+            CratePreviewFields.GLASS_NAME: self.Glass_Name
         }
         self.dict = {
             CratePreviewFields.TOGGLE: self.Toggle,
