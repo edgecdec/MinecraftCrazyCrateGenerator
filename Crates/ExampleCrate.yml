@@ -1,0 +1,167 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+  # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  # QuickCrate simply allows you to speed open crates.
+  CrateType: QuickCrate
+  CrateName: '&eScratch Crate'
+  Preview-Name: '&eScratch Crate Preview'
+  StartingKeys: 0
+  Max-Mass-Open: 10
+  InGUI: false
+  Slot: 14
+  OpeningBroadCast: true
+  BroadCast: '%prefix%&6&l%player%&r &7is opening a &e&lScratch Chest&7.'
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&e&lScratch Chest'
+  Lore:
+    - '&7This crate contains basic materials.'
+    - '&7You have &6%Keys% keys &7to open this crate with.'
+    - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      # The name of the border item.
+      Name: ' '
+      Item: 'YELLOW_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&e&lScratch Crate &c&lKey'
+    Lore:
+      - '&7A Scratch Key'
+      - '&7For a Scratch Crate.'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: True
+  Hologram:
+    Toggle: true
+    Height: 1.5
+    Message:
+      - '&e&lScratch Chest'
+  Prizes:
+    1:
+      DisplayName: '&a&lIron'
+      DisplayItem: 'IRON_INGOT'
+      DisplayAmount: 32
+      Lore:
+        - '&7Iron.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:IRON_INGOT, Amount:32'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    2:
+      DisplayName: '&a&lGold'
+      DisplayItem: 'GOLD_INGOT'
+      DisplayAmount: 32
+      Lore:
+        - '&7Gold.'
+      MaxRange: 100
+      Chance: 35
+      Items:
+        - 'Item:GOLD_INGOT, Amount:32'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    3:
+      DisplayName: '&a&lBlaze_Rod'
+      DisplayItem: 'BLAZE_ROD'
+      DisplayAmount: 32
+      Lore:
+        - '&7Blaze_Rod.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:BLAZE_ROD, Amount:32'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    4:
+      DisplayName: '&a&lQuartz'
+      DisplayItem: 'QUARTZ'
+      DisplayAmount: 64
+      Lore:
+        - '&7Quartz.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:QUARTZ, Amount:64'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    5:
+      DisplayName: '&a&lEnder_Pearls'
+      DisplayItem: 'ENDER_PEARL'
+      DisplayAmount: 16
+      Lore:
+        - '&7Ender_Pearls.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:ENDER_PEARL, Amount:16'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    6:
+      DisplayName: '&a&lSoul_Sand'
+      DisplayItem: 'SOUL_SAND'
+      DisplayAmount: 64
+      Lore:
+        - '&7Soul_Sand.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:SOUL_SAND, Amount:64'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    7:
+      DisplayName: '&a&lGlow_Stone'
+      DisplayItem: 'GLOWSTONE'
+      DisplayAmount: 16
+      Lore:
+        - '&7Glowstone.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:GLOWSTONE, Amount:16'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    8:
+      DisplayName: '&a&lEndstone'
+      DisplayItem: 'ENDSTONE'
+      DisplayAmount: 64
+      Lore:
+        - '&7Endstone.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:ENDSTONE, Amount:64'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
+    9:
+      DisplayName: '&a&lBlaze_Rod'
+      DisplayItem: 'LAPIS_LAZULI'
+      DisplayAmount: 64
+      Lore:
+        - '&7Lapis_Lazuli.'
+      MaxRange: 100
+      Chance: 40
+      Items:
+        - 'Item:LAPIS_LAZULI, Amount:64'
+      Commands:
+        - 'eco give %player% 75'
+      Messages:
+        - '&7You just won a &r%reward%.'
