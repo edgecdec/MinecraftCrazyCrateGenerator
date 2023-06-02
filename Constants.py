@@ -28,11 +28,13 @@ class CrateCSVConstants:
 
 class RewardCSVConstants:
     DISPLAY_NAME = "DisplayName"
+    DISPLAY_ITEM = "DisplayItem"
     DISPLAY_AMOUNT = "DisplayAmount"
     LORE = "Lore"
     MAX_RANGE = "MaxRange"
     CHANCE = "Chance"
     ITEMS = "Items"
+    AMOUNTS = "Amounts"
     COMMANDS = "Commands"
     MESSAGES = "Messages"
 
@@ -68,3 +70,14 @@ class CrateFields:
     HOLOGRAM_HEIGHT = "Height"
     HOLOGRAM_MESSAGE = "Message"
     PREVIEW = "Preview"
+
+class RewardFields:
+    DISPLAY_NAME = "DisplayName"
+    DISPLAY_ITEM = "DisplayItem"
+    DISPLAY_AMOUNT = "DisplayAmount"
+    LORE = "Lore"
+    MAX_RANGE = "MaxRange"
+    CHANCE = "Chance"
+    ITEMS = "Items"
+    COMMANDS = "Commands"
+    MESSAGES = "Messages"

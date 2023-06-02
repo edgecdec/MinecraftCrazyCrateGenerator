@@ -1,0 +1,11 @@
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
+Netherite Ingot,,,,,3,NETHERITE_INGOT,1,eco give %player% 1000,
+Cash Money,,,$$$$,,2,PAPER,1,eco give %player% 100000,&7You just won &r100k!!!
+Cash Money,,,$$$,,5,PAPER,1,eco give %player% 50000,&7You just won &r50k!!!
+Cash Money,,,$$,,20,PAPER,1,eco give %player% 10000,&7You just won &r10k!!!
+Cash Money,,,$,,50,PAPER,1,eco give %player% 5000,&7You just won &r5k!!!
+Netherite Scrap,,,,,30,NETHERITE_SCRAP,1,eco give %player% 1000,
+Diamond,,,,,30,DIAMOND,5,eco give %player% 1000,
+Diamond,,,,,10,DIAMOND,10,eco give %player% 1000,
+Diamond,,,,,3,DIAMOND,64,eco give %player% 1000,
+Cocoa Farmer,GOLDEN_AXE,,I <3 Cocoa,,1,AIR,1,"execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:'[{""text"":""Cocoa Farmer"",""italic"":false}]',Lore:['[{""text"":""Forged by DubDubHotTubDub\'s Admin Abuse Powers"",""italic"":false}]']}} 1",&7You just won the &rjackpot!!!

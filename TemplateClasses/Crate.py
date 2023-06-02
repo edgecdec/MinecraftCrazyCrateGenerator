@@ -1,10 +1,14 @@
 from Constants import CrateCSVConstants
 from TemplateClasses.CratePreview import CratePreview
 from Constants import CrateFields
+from TemplateClasses.Reward import Reward
+from Util import *
 
 
 class Crate:
     def __init__(self, info):
+        self.info = info
+        self.RewardSheetName = info[CrateCSVConstants.REWARD_SHEET_NAME]
         self.CrateType = info[CrateCSVConstants.CRATE_TYPE]
         self.CrateName = info[CrateCSVConstants.CRATE_NAME]
         self.Preview_Name = info[CrateCSVConstants.PREVIEW_NAME] or f"{self.CrateName} Preview"
@@ -12,7 +16,7 @@ class Crate:
         self.Max_Mass_Open = int(info[CrateCSVConstants.MAX_MASS_OPEN] or 10)
         self.InGUI = info[CrateCSVConstants.IN_GUI] == 'True' or False
         self.Slot = int(info[CrateCSVConstants.SLOT] or 14)
-        self.OpeningBroadCast = info[CrateCSVConstants.OPENING_BROADCAST] == 'True' or False
+        self.OpeningBroadCast = info[CrateCSVConstants.OPENING_BROADCAST] == 'True' or True
         self.Item = info[CrateCSVConstants.ITEM] or 'CHEST'
         self.Glowing = info[CrateCSVConstants.GLOWING] == 'True' or False
         self.Name = info[CrateCSVConstants.NAME] or self.CrateName
@@ -26,8 +30,17 @@ class Crate:
         self.Hologram_Height = round(float(info[CrateCSVConstants.HOLOGRAM_HEIGHT] or 1.5), 1)
         self.Hologram_Message = info[CrateCSVConstants.HOLOGRAM_MESSAGE].split("\\n") or [f"{self.CrateName}"]
         self.Preview = CratePreview(info)
+        self.rewards = []
+        self.populateRewards()
         self.dict = {}
         self.createDict()
+
+    def populateRewards(self):
+        rewardsInfo = convert_csv_to_dict(f"CrateCSVs/IMLCrateInfo - {self.RewardSheetName}.csv")
+        for i in range(len(rewardsInfo)):
+            curReward = Reward(rewardsInfo[i], self.info)
+            self.rewards.append(curReward.dict)
+
 
     def createDict(self):
         physicalKeyDict = {
@@ -59,6 +72,10 @@ class Crate:
             CrateFields.LORE: self.Lore,
             CrateFields.PREVIEW: self.Preview.dict,
             CrateFields.PHYSICAL_KEY: physicalKeyDict,
-            CrateFields.HOLOGRAM: hologramDict
+            CrateFields.HOLOGRAM: hologramDict,
         }
+
+        for i in range(len(self.rewards)):
+            crateDict[i] = self.rewards[i]
+
         self.dict = {"Crate": crateDict}

@@ -1,0 +1,2 @@
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
+&a&lIron,IRON_INGOT,32,&7Iron.,100,1,IRON_INGOT,32,eco give %player% 75,&7You just won a &r%reward%.

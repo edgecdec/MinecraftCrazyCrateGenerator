@@ -7,7 +7,7 @@ class CratePreview():
         self.ChestLines = int(info[CrateCSVConstants.PREVIEW_CHEST_LINES] or 6)
         self.Glass_Toggle = info[CrateCSVConstants.PREVIEW_GLASS_TOGGLE] == 'TRUE'
         self.Glass_Name = info[CrateCSVConstants.PREVIEW_GLASS_NAME] or ' '
-        self.Glass_Item = info[CrateCSVConstants.PREVIEW_GLASS_ITEM] or 'YELLOW_STAINED_GLASS_PANE'
+        self.Glass_Item = f"{info[CrateCSVConstants.PREVIEW_GLASS_ITEM]}" or "YELLOW_STAINED_GLASS_PANE"
         self.dict = {}
         self.createDict()
 
