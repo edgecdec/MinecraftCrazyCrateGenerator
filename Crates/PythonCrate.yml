@@ -44,7 +44,7 @@
       'MaxRange': 100
       'Chance': 3
       'Items':
-      - 'Item: NETHERITE_INGOT, Amount: 1'
+      - 'Item:NETHERITE_INGOT, Amount:1'
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
@@ -58,7 +58,7 @@
       'MaxRange': 100
       'Chance': 2
       'Items':
-      - 'Item: PAPER, Amount: 1'
+      - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 100000'
       'Messages':
@@ -72,7 +72,7 @@
       'MaxRange': 100
       'Chance': 5
       'Items':
-      - 'Item: PAPER, Amount: 1'
+      - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 50000'
       'Messages':
@@ -86,7 +86,7 @@
       'MaxRange': 100
       'Chance': 20
       'Items':
-      - 'Item: PAPER, Amount: 1'
+      - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 10000'
       'Messages':
@@ -100,7 +100,7 @@
       'MaxRange': 100
       'Chance': 50
       'Items':
-      - 'Item: PAPER, Amount: 1'
+      - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 5000'
       'Messages':
@@ -114,7 +114,7 @@
       'MaxRange': 100
       'Chance': 30
       'Items':
-      - 'Item: NETHERITE_SCRAP, Amount: 1'
+      - 'Item:NETHERITE_SCRAP, Amount:1'
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
@@ -128,7 +128,7 @@
       'MaxRange': 100
       'Chance': 30
       'Items':
-      - 'Item: DIAMOND, Amount: 5'
+      - 'Item:DIAMOND, Amount:5'
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
@@ -142,7 +142,7 @@
       'MaxRange': 100
       'Chance': 10
       'Items':
-      - 'Item: DIAMOND, Amount: 10'
+      - 'Item:DIAMOND, Amount:10'
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
@@ -156,7 +156,7 @@
       'MaxRange': 100
       'Chance': 3
       'Items':
-      - 'Item: DIAMOND, Amount: 64'
+      - 'Item:DIAMOND, Amount:64'
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
@@ -170,7 +170,7 @@
       'MaxRange': 100
       'Chance': 1
       'Items':
-      - 'Item: AIR, Amount: 1'
+      - 'Item:AIR, Amount:1'
       'Commands':
       - 'execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:''[{"text":"Cocoa
         Farmer","italic":false}]'',Lore:[''[{"text":"Forged by DubDubHotTubDub\''s
