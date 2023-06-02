@@ -1,11 +1,20 @@
 DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
-Netherite Ingot,,,,,3,NETHERITE_INGOT,1,eco give %player% 1000,
-Cash Money,,,$$$$,,2,PAPER,1,eco give %player% 100000,&7You just won &r100k!!!
-Cash Money,,,$$$,,5,PAPER,1,eco give %player% 50000,&7You just won &r50k!!!
+Netherite Ingot,,,,,5,NETHERITE_INGOT,1,eco give %player% 1000,
+Cash Money,,,$$$$,,3,PAPER,1,eco give %player% 100000,&7You just won &r100k!!!
+Cash Money,,,$$$,,7,PAPER,1,eco give %player% 50000,&7You just won &r50k!!!
 Cash Money,,,$$,,20,PAPER,1,eco give %player% 10000,&7You just won &r10k!!!
 Cash Money,,,$,,50,PAPER,1,eco give %player% 5000,&7You just won &r5k!!!
 Netherite Scrap,,,,,30,NETHERITE_SCRAP,1,eco give %player% 1000,
 Diamond,,,,,30,DIAMOND,5,eco give %player% 1000,
 Diamond,,,,,10,DIAMOND,10,eco give %player% 1000,
 Diamond,,,,,3,DIAMOND,64,eco give %player% 1000,
-Cocoa Farmer,GOLDEN_AXE,,I <3 Cocoa,,1,AIR,1,"execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:'[{""text"":""Cocoa Farmer"",""italic"":false}]',Lore:['[{""text"":""Forged by DubDubHotTubDub\'s Admin Abuse Powers"",""italic"":false}]']}} 1",&7You just won the &rjackpot!!!
+Cocoa Farmer,GOLDEN_AXE,,I <3 Cocoa,,1,AIR,1,"execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:'[{""text"":""Cocoa Farmer"",""italic"":false}]',Lore:['[{""text"":""Forged by DubDubHotTubDub\'s Admin Abuse Powers"",""italic"":false}]']}} 1",&7You just won the &rITEM jackpot!!!
+Soul Sand,,,,,30,SOUL_SAND,1024,eco give %player% 1000,
+Cash Money,,,$$$$$,,1,PAPER,1,eco give %player% 500000,&7You just won the &rMEGA MONEY jackpot!!!
+Name Tag,,,,,20,NAME_TAG,3,eco give %player% 1000,
+Mooor Keeeyzzz,TRIPWIRE_HOOK,3,,,15,AIR,1,crates give physical PythonCrate 3 %player%,
+Mooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,,,6,AIR,1,crates give physical PythonCrate 5 %player%,
+Soooooo Many Keyz,TRIPWIRE_HOOK,10,,,2,AIR,1,crates give physical PythonCrate 10 %player%,
+GOOOOLLLDDDD,GOLD_BLOCK,64,,,8,GOLD_BLOCK,64,eco give %player% 1000,
+Spider Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Spider Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Arachnophobes"",""italic"":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]} 1",
+Zombie Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Zombie Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Doomsday Planners"",""italic"":false}]']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]} 1",

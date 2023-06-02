@@ -42,7 +42,7 @@
       'Lore':
       - ''
       'MaxRange': 100
-      'Chance': 3
+      'Chance': 5
       'Items':
       - 'Item:NETHERITE_INGOT, Amount:1'
       'Commands':
@@ -56,7 +56,7 @@
       'Lore':
       - '$$$$'
       'MaxRange': 100
-      'Chance': 2
+      'Chance': 3
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
@@ -70,7 +70,7 @@
       'Lore':
       - '$$$'
       'MaxRange': 100
-      'Chance': 5
+      'Chance': 7
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
@@ -176,4 +176,134 @@
         Farmer","italic":false}]'',Lore:[''[{"text":"Forged by DubDubHotTubDub\''s
         Admin Abuse Powers","italic":false}]'']}} 1'
       'Messages':
-      - '&7You just won the &rjackpot!!!'
+      - '&7You just won the &rITEM jackpot!!!'
+    11:
+      'DisplayName': 'Soul Sand'
+      'DisplayItem': 'SOUL_SAND'
+      'DisplayAmount': '1024'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item:SOUL_SAND, Amount:1024'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    12:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$$$$'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 500000'
+      'Messages':
+      - '&7You just won the &rMEGA MONEY jackpot!!!'
+    13:
+      'DisplayName': 'Name Tag'
+      'DisplayItem': 'NAME_TAG'
+      'DisplayAmount': '3'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 20
+      'Items':
+      - 'Item:NAME_TAG, Amount:3'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    14:
+      'DisplayName': 'Mooor Keeeyzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '3'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 15
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 3 %player%'
+      'Messages':
+      - ''
+    15:
+      'DisplayName': 'Mooooor Keeeeeyzzzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '5'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 6
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 5 %player%'
+      'Messages':
+      - ''
+    16:
+      'DisplayName': 'Soooooo Many Keyz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '10'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 2
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 10 %player%'
+      'Messages':
+      - ''
+    17:
+      'DisplayName': 'GOOOOLLLDDDD'
+      'DisplayItem': 'GOLD_BLOCK'
+      'DisplayAmount': '64'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 8
+      'Items':
+      - 'Item:GOLD_BLOCK, Amount:64'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    18:
+      'DisplayName': 'Spider Killer'
+      'DisplayItem': 'GOLDEN_SWORD'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run golden_sword{Unbreakable:1,display:{Name:''[{"text":"Spider
+        Killer","italic":false}]'',Lore:[''[{"text":"Forged by Arachnophobes","italic":false}]'']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]}
+        1'
+      'Messages':
+      - ''
+    19:
+      'DisplayName': 'Zombie Killer'
+      'DisplayItem': 'GOLDEN_SWORD'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run golden_sword{Unbreakable:1,display:{Name:''[{"text":"Zombie
+        Killer","italic":false}]'',Lore:[''[{"text":"Forged by Doomsday Planners","italic":false}]'']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]}
+        1'
+      'Messages':
+      - ''
