@@ -34,17 +34,18 @@
     'Height': 1.5
     'Message':
     - '&e&lScratch Chest'
-  0:
-    'DisplayName': '&a&lIron'
-    'DisplayItem': 'IRON_INGOT'
-    'DisplayAmount': '32'
-    'Lore':
-    - '&7Iron.'
-    'MaxRange': '100'
-    'Chance': '1'
-    'Items':
-    - 'Item: IRON_INGOT, Amount: 32'
-    'Commands':
-    - 'eco give %player% 75'
-    'Messages':
-    - '&7You just won a &r%reward%.'
+  'Prizes':
+    1:
+      'DisplayName': '&a&lIron'
+      'DisplayItem': 'IRON_INGOT'
+      'DisplayAmount': '32'
+      'Lore':
+      - '&7Iron.'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item: IRON_INGOT, Amount: 32'
+      'Commands':
+      - 'eco give %player% 75'
+      'Messages':
+      - '&7You just won a &r%reward%.'

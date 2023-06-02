@@ -70,6 +70,7 @@ class CrateFields:
     HOLOGRAM_HEIGHT = "Height"
     HOLOGRAM_MESSAGE = "Message"
     PREVIEW = "Preview"
+    PRIZES = "Prizes"
 
 class RewardFields:
     DISPLAY_NAME = "DisplayName"

@@ -34,145 +34,146 @@
     'Height': 1.5
     'Message':
     - '&e&lPython Chest'
-  0:
-    'DisplayName': 'Netherite Ingot'
-    'DisplayItem': 'NETHERITE_INGOT'
-    'DisplayAmount': '1'
-    'Lore':
-    - ''
-    'MaxRange': ''
-    'Chance': '3'
-    'Items':
-    - 'Item: NETHERITE_INGOT, Amount: 1'
-    'Commands':
-    - 'eco give %player% 1000'
-    'Messages':
-    - ''
-  1:
-    'DisplayName': 'Cash Money'
-    'DisplayItem': 'PAPER'
-    'DisplayAmount': '1'
-    'Lore':
-    - '$$$$'
-    'MaxRange': ''
-    'Chance': '2'
-    'Items':
-    - 'Item: PAPER, Amount: 1'
-    'Commands':
-    - 'eco give %player% 100000'
-    'Messages':
-    - '&7You just won &r100k!!!'
-  2:
-    'DisplayName': 'Cash Money'
-    'DisplayItem': 'PAPER'
-    'DisplayAmount': '1'
-    'Lore':
-    - '$$$'
-    'MaxRange': ''
-    'Chance': '5'
-    'Items':
-    - 'Item: PAPER, Amount: 1'
-    'Commands':
-    - 'eco give %player% 50000'
-    'Messages':
-    - '&7You just won &r50k!!!'
-  3:
-    'DisplayName': 'Cash Money'
-    'DisplayItem': 'PAPER'
-    'DisplayAmount': '1'
-    'Lore':
-    - '$$'
-    'MaxRange': ''
-    'Chance': '20'
-    'Items':
-    - 'Item: PAPER, Amount: 1'
-    'Commands':
-    - 'eco give %player% 10000'
-    'Messages':
-    - '&7You just won &r10k!!!'
-  4:
-    'DisplayName': 'Cash Money'
-    'DisplayItem': 'PAPER'
-    'DisplayAmount': '1'
-    'Lore':
-    - '$'
-    'MaxRange': ''
-    'Chance': '50'
-    'Items':
-    - 'Item: PAPER, Amount: 1'
-    'Commands':
-    - 'eco give %player% 5000'
-    'Messages':
-    - '&7You just won &r5k!!!'
-  5:
-    'DisplayName': 'Netherite Scrap'
-    'DisplayItem': 'NETHERITE_SCRAP'
-    'DisplayAmount': '1'
-    'Lore':
-    - ''
-    'MaxRange': ''
-    'Chance': '30'
-    'Items':
-    - 'Item: NETHERITE_SCRAP, Amount: 1'
-    'Commands':
-    - 'eco give %player% 1000'
-    'Messages':
-    - ''
-  6:
-    'DisplayName': 'Diamond'
-    'DisplayItem': 'DIAMOND'
-    'DisplayAmount': '5'
-    'Lore':
-    - ''
-    'MaxRange': ''
-    'Chance': '30'
-    'Items':
-    - 'Item: DIAMOND, Amount: 5'
-    'Commands':
-    - 'eco give %player% 1000'
-    'Messages':
-    - ''
-  7:
-    'DisplayName': 'Diamond'
-    'DisplayItem': 'DIAMOND'
-    'DisplayAmount': '10'
-    'Lore':
-    - ''
-    'MaxRange': ''
-    'Chance': '10'
-    'Items':
-    - 'Item: DIAMOND, Amount: 10'
-    'Commands':
-    - 'eco give %player% 1000'
-    'Messages':
-    - ''
-  8:
-    'DisplayName': 'Diamond'
-    'DisplayItem': 'DIAMOND'
-    'DisplayAmount': '64'
-    'Lore':
-    - ''
-    'MaxRange': ''
-    'Chance': '3'
-    'Items':
-    - 'Item: DIAMOND, Amount: 64'
-    'Commands':
-    - 'eco give %player% 1000'
-    'Messages':
-    - ''
-  9:
-    'DisplayName': 'Cocoa Farmer'
-    'DisplayItem': 'GOLDEN_AXE'
-    'DisplayAmount': '1'
-    'Lore':
-    - 'I <3 Cocoa'
-    'MaxRange': ''
-    'Chance': '1'
-    'Items':
-    - 'Item: AIR, Amount: 1'
-    'Commands':
-    - 'execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:''[{"text":"Cocoa
-      Farmer","italic":false}]'',Lore:[''[{"text":"Forged by DubDubHotTubDub\''s Admin
-      Abuse Powers","italic":false}]'']}} 1'
-    'Messages':
-    - '&7You just won the &rjackpot!!!'
+  'Prizes':
+    1:
+      'DisplayName': 'Netherite Ingot'
+      'DisplayItem': 'NETHERITE_INGOT'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 3
+      'Items':
+      - 'Item: NETHERITE_INGOT, Amount: 1'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    2:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$$$'
+      'MaxRange': 100
+      'Chance': 2
+      'Items':
+      - 'Item: PAPER, Amount: 1'
+      'Commands':
+      - 'eco give %player% 100000'
+      'Messages':
+      - '&7You just won &r100k!!!'
+    3:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$$'
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item: PAPER, Amount: 1'
+      'Commands':
+      - 'eco give %player% 50000'
+      'Messages':
+      - '&7You just won &r50k!!!'
+    4:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$'
+      'MaxRange': 100
+      'Chance': 20
+      'Items':
+      - 'Item: PAPER, Amount: 1'
+      'Commands':
+      - 'eco give %player% 10000'
+      'Messages':
+      - '&7You just won &r10k!!!'
+    5:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$'
+      'MaxRange': 100
+      'Chance': 50
+      'Items':
+      - 'Item: PAPER, Amount: 1'
+      'Commands':
+      - 'eco give %player% 5000'
+      'Messages':
+      - '&7You just won &r5k!!!'
+    6:
+      'DisplayName': 'Netherite Scrap'
+      'DisplayItem': 'NETHERITE_SCRAP'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item: NETHERITE_SCRAP, Amount: 1'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    7:
+      'DisplayName': 'Diamond'
+      'DisplayItem': 'DIAMOND'
+      'DisplayAmount': '5'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item: DIAMOND, Amount: 5'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    8:
+      'DisplayName': 'Diamond'
+      'DisplayItem': 'DIAMOND'
+      'DisplayAmount': '10'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 10
+      'Items':
+      - 'Item: DIAMOND, Amount: 10'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    9:
+      'DisplayName': 'Diamond'
+      'DisplayItem': 'DIAMOND'
+      'DisplayAmount': '64'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 3
+      'Items':
+      - 'Item: DIAMOND, Amount: 64'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    10:
+      'DisplayName': 'Cocoa Farmer'
+      'DisplayItem': 'GOLDEN_AXE'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'I <3 Cocoa'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item: AIR, Amount: 1'
+      'Commands':
+      - 'execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:''[{"text":"Cocoa
+        Farmer","italic":false}]'',Lore:[''[{"text":"Forged by DubDubHotTubDub\''s
+        Admin Abuse Powers","italic":false}]'']}} 1'
+      'Messages':
+      - '&7You just won the &rjackpot!!!'

@@ -56,6 +56,10 @@ class Crate:
             CrateFields.HOLOGRAM_MESSAGE: self.Hologram_Message
         }
 
+        prizesDict = {}
+        for i in range(len(self.rewards)):
+            prizesDict[i+1] = self.rewards[i]
+
         crateDict = {
             CrateFields.CRATE_TYPE: self.CrateType,
             CrateFields.CRATE_NAME: self.CrateName,
@@ -73,9 +77,7 @@ class Crate:
             CrateFields.PREVIEW: self.Preview.dict,
             CrateFields.PHYSICAL_KEY: physicalKeyDict,
             CrateFields.HOLOGRAM: hologramDict,
+            CrateFields.PRIZES: prizesDict,
         }
-
-        for i in range(len(self.rewards)):
-            crateDict[i] = self.rewards[i]
 
         self.dict = {"Crate": crateDict}
