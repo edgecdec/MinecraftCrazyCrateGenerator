@@ -16,5 +16,5 @@ Mooor Keeeyzzz,TRIPWIRE_HOOK,3,,,15,AIR,1,crates give physical PythonCrate 3 %pl
 Mooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,,,6,AIR,1,crates give physical PythonCrate 5 %player%,
 Soooooo Many Keyz,TRIPWIRE_HOOK,10,,,2,AIR,1,crates give physical PythonCrate 10 %player%,
 GOOOOLLLDDDD,GOLD_BLOCK,64,,,8,GOLD_BLOCK,64,eco give %player% 1000,
-Spider Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Spider Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Arachnophobes"",""italic"":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]} 1",
-Zombie Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Zombie Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Doomsday Planners"",""italic"":false}]']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]} 1",
+Spider Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run give golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Spider Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Arachnophobes"",""italic"":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]} 1",
+Zombie Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run give golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Zombie Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Doomsday Planners"",""italic"":false}]']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]} 1",
