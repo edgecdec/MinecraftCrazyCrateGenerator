@@ -33,8 +33,8 @@ class Reward():
         }
 
     def populateItems(self):
-        for i in range(len(self.Items)):
+        for i in range(len(self.ItemsList)):
             curAmount = 1
             if len(self.ItemsAmountsList) > i:
                 curAmount = self.ItemsAmountsList[i]
-            self.Items.append(f"Item: {self.Items[i]}, Amount: {curAmount}")
+            self.Items.append(f"Item: {self.ItemsList[i]}, Amount: {curAmount}")

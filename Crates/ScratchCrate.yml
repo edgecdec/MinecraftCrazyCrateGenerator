@@ -42,7 +42,8 @@
     - '&7Iron.'
     'MaxRange': '100'
     'Chance': '1'
-    'Items': []
+    'Items':
+    - 'Item: IRON_INGOT, Amount: 32'
     'Commands':
     - 'eco give %player% 75'
     'Messages':

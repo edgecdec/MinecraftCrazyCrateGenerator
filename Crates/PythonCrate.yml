@@ -42,7 +42,8 @@
     - ''
     'MaxRange': ''
     'Chance': '3'
-    'Items': []
+    'Items':
+    - 'Item: NETHERITE_INGOT, Amount: 1'
     'Commands':
     - 'eco give %player% 1000'
     'Messages':
@@ -55,7 +56,8 @@
     - '$$$$'
     'MaxRange': ''
     'Chance': '2'
-    'Items': []
+    'Items':
+    - 'Item: PAPER, Amount: 1'
     'Commands':
     - 'eco give %player% 100000'
     'Messages':
@@ -68,7 +70,8 @@
     - '$$$'
     'MaxRange': ''
     'Chance': '5'
-    'Items': []
+    'Items':
+    - 'Item: PAPER, Amount: 1'
     'Commands':
     - 'eco give %player% 50000'
     'Messages':
@@ -81,7 +84,8 @@
     - '$$'
     'MaxRange': ''
     'Chance': '20'
-    'Items': []
+    'Items':
+    - 'Item: PAPER, Amount: 1'
     'Commands':
     - 'eco give %player% 10000'
     'Messages':
@@ -94,7 +98,8 @@
     - '$'
     'MaxRange': ''
     'Chance': '50'
-    'Items': []
+    'Items':
+    - 'Item: PAPER, Amount: 1'
     'Commands':
     - 'eco give %player% 5000'
     'Messages':
@@ -107,7 +112,8 @@
     - ''
     'MaxRange': ''
     'Chance': '30'
-    'Items': []
+    'Items':
+    - 'Item: NETHERITE_SCRAP, Amount: 1'
     'Commands':
     - 'eco give %player% 1000'
     'Messages':
@@ -120,7 +126,8 @@
     - ''
     'MaxRange': ''
     'Chance': '30'
-    'Items': []
+    'Items':
+    - 'Item: DIAMOND, Amount: 5'
     'Commands':
     - 'eco give %player% 1000'
     'Messages':
@@ -133,7 +140,8 @@
     - ''
     'MaxRange': ''
     'Chance': '10'
-    'Items': []
+    'Items':
+    - 'Item: DIAMOND, Amount: 10'
     'Commands':
     - 'eco give %player% 1000'
     'Messages':
@@ -146,7 +154,8 @@
     - ''
     'MaxRange': ''
     'Chance': '3'
-    'Items': []
+    'Items':
+    - 'Item: DIAMOND, Amount: 64'
     'Commands':
     - 'eco give %player% 1000'
     'Messages':
@@ -159,7 +168,8 @@
     - 'I <3 Cocoa'
     'MaxRange': ''
     'Chance': '1'
-    'Items': []
+    'Items':
+    - 'Item: AIR, Amount: 1'
     'Commands':
     - 'execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:''[{"text":"Cocoa
       Farmer","italic":false}]'',Lore:[''[{"text":"Forged by DubDubHotTubDub\''s Admin
