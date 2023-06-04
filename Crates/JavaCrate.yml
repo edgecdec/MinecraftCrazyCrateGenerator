@@ -23,7 +23,7 @@
       'Item': 'ORANGE_STAINED_GLASS'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lJava Crate'
+    'Name': '&e&lJava Crate &c&lKey'
     'Lore':
     - '&7A Java Key'
     - '&7For a Java Crate.'
@@ -42,7 +42,7 @@
       'Lore':
       - '$'
       'MaxRange': 100
-      'Chance': 100
+      'Chance': 1000
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':

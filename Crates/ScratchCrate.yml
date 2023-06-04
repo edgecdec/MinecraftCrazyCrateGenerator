@@ -21,7 +21,7 @@
     'Glass':
       'Toggle': true
       'Item': 'YELLOW_STAINED_GLASS_PANE'
-      'Name': '   '
+      'Name': ' '
   'PhysicalKey':
     'Name': '&e&lScratch Crate &c&lKey'
     'Lore':
