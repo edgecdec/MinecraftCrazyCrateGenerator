@@ -1,0 +1,3 @@
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
+Cash Money,,,$,,1000,PAPER,1,eco give %player% 20000,&7You just won &r20k!!!
+Head of Clown,PLAYER_SKULL,,Head of the almighty clown DubDubHotTubDub,,1,AIR,1,"execute as %player% run give @s player_head{display:{Name:'[{""text"":""Clown\'s Revenge"",""italic"":false}]',Lore:['[{""text"":""Clowns have feelings too..."",""italic"":false}]']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:""DubDubHotTubDub""} 1",&7You just won the jackpot!!!

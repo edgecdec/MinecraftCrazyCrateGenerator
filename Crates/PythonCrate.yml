@@ -286,7 +286,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'execute as %player% run give golden_sword{Unbreakable:1,display:{Name:''[{"text":"Spider
+      - 'execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:''[{"text":"Spider
         Killer","italic":false}]'',Lore:[''[{"text":"Forged by Arachnophobes","italic":false}]'']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]}
         1'
       'Messages':
@@ -302,7 +302,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'execute as %player% run give golden_sword{Unbreakable:1,display:{Name:''[{"text":"Zombie
+      - 'execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:''[{"text":"Zombie
         Killer","italic":false}]'',Lore:[''[{"text":"Forged by Doomsday Planners","italic":false}]'']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]}
         1'
       'Messages':
