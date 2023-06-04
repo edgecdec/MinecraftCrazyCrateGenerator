@@ -1,0 +1,67 @@
+'Crate':
+  'CrateType': 'JavaCrate'
+  'CrateName': '&eJava Crate'
+  'Preview-Name': '&eJava Crate'
+  'StartingKeys': 0
+  'Max-Mass-Open': 10
+  'InGUI': false
+  'Slot': 14
+  'OpeningBroadCast': true
+  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lJava Chest&7.'
+  'Item': 'CHEST'
+  'Glowing': false
+  'Name': '&e&lJava Chest'
+  'Lore':
+  - '&7This crate contains some awesome materials!!!'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  'Preview':
+    'Toggle': true
+    'ChestLines': 6
+    'Glass':
+      'Toggle': true
+      'Item': 'ORANGE_STAINED_GLASS'
+      'Name': ' '
+  'PhysicalKey':
+    'Name': '&e&lJava Crate'
+    'Lore':
+    - '&7A Java Key'
+    - '&7For a Java Crate.'
+    'Item': 'TRIPWIRE_HOOK'
+    'Glowing': true
+  'Hologram':
+    'Toggle': true
+    'Height': 1.5
+    'Message':
+    - '&e&lJava Chest'
+  'Prizes':
+    1:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$'
+      'MaxRange': 100
+      'Chance': 100
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 20000'
+      'Messages':
+      - '&7You just won &r20k!!!'
+    2:
+      'DisplayName': 'Head of Clown'
+      'DisplayItem': 'PLAYER_SKULL'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'Head of the almighty clown DubDubHotTubDub'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s player_head{display:{Name:''[{"text":"Clown\''s
+        Revenge","italic":false}]'',Lore:[''[{"text":"Clowns have feelings too...","italic":false}]'']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:"DubDubHotTubDub"}
+        1'
+      'Messages':
+      - '&7You just won the jackpot!!!'
