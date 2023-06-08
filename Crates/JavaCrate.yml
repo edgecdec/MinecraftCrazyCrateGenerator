@@ -212,20 +212,6 @@
       'Messages':
       - '&7You just won a meme!'
     13:
-      'DisplayName': 'PigStep'
-      'DisplayItem': 'MUSIC_DISC'
-      'DisplayAmount': '1'
-      'Lore':
-      - 'Better than Gangnam Style'
-      'MaxRange': 100
-      'Chance': 15
-      'Items':
-      - 'Item:AIR, Amount:1'
-      'Commands':
-      - 'execute as %player% run give @s pigstepdisc 1'
-      'Messages':
-      - '&7You just won PigStep!'
-    14:
       'DisplayName': 'Levels LOL'
       'DisplayItem': 'EXPERIENCE BOTTLE'
       'DisplayAmount': '1'
@@ -236,10 +222,10 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - '/execute as %player% run xp add @s 100 levels'
+      - 'execute as %player% run xp add @s 100 levels'
       'Messages':
       - '&7You just won 100 levels!'
-    15:
+    14:
       'DisplayName': 'SUS Apple'
       'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
       'DisplayAmount': '1'
@@ -253,7 +239,7 @@
       - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
       'Messages':
       - '&7You just won a better god apple!'
-    16:
+    15:
       'DisplayName': 'AWWWW MAN'
       'DisplayItem': 'CREPPER_HEAD'
       'DisplayAmount': '1'
@@ -267,7 +253,7 @@
       - 'sgive %player% C4'
       'Messages':
       - '&7BOOM GOES THE DYNAMITE!'
-    17:
+    16:
       'DisplayName': 'Diamond'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '32'
@@ -281,7 +267,7 @@
       - 'eco give %player% 10000'
       'Messages':
       - '&7meh!'
-    18:
+    17:
       'DisplayName': 'BOOTIES'
       'DisplayItem': 'NETHERITE_BOOTS'
       'DisplayAmount': '1'
@@ -297,7 +283,7 @@
         1'
       'Messages':
       - '&7You just won the best booties in the game!'
-    19:
+    18:
       'DisplayName': 'MENDING'
       'DisplayItem': 'BOOK'
       'DisplayAmount': '3'
