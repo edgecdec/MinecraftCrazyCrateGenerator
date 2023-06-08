@@ -173,7 +173,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'execute as %player% run give @s player_head{display:{Name:''[{"text":"Clown\''s
-        Revenge","italic":false}]'',Lore:[''[{"text":"Clowns have feelings too...","italic":false}]'']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:DubDubHotTubDub}
+        Revenge","italic":false}]'',Lore:[''[{"text":"Clowns have feelings too...","italic":false}]'']},Enchantments:[{id:thorns,lvl:50}],SkullOwner:DubDubHotTubDub}
         1'
       'Messages':
       - '&7You just won the jackpot!!!'
@@ -292,7 +292,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'execute as %player% give @s netherite_boots{Unbreakable:1,display:{Name:''[{"text":"ULTIMATE
+      - 'execute as %player% run give @s netherite_boots{Unbreakable:1,display:{Name:''[{"text":"ULTIMATE
         BOOTS","italic":false}]'',Lore:[''[{"text":"You can fall far","italic":false}]'']},Enchantments:[{id:blast_protection,lvl:5},{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:frost_walker,lvl:3},{id:projectile_protection,lvl:5},{id:soul_speed,lvl:4},{id:thorns,lvl:4}]}
         1'
       'Messages':
