@@ -236,7 +236,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'execute as %player% run xp give @s 100l'
+      - '/execute as %player% run xp add @s 100 levels'
       'Messages':
       - '&7You just won 100 levels!'
     15:
