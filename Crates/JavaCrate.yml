@@ -1,5 +1,5 @@
 'Crate':
-  'CrateType': 'JavaCrate'
+  'CrateType': 'QuickCrate'
   'CrateName': '&eJava Crate'
   'Preview-Name': '&eJava Crate'
   'StartingKeys': 0
@@ -10,9 +10,9 @@
   'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lJava Chest&7.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lJava Chest'
+  'Name': '&e&lJava Crate'
   'Lore':
-  - '&7This crate contains some awesome materials!!!'
+  - '&7This crate contains some awesome items!!!'
   - '&7You have &6%Keys% keys &7to open this crate with.'
   - '&7&l(&e&l!&7&l) Right click to view rewards.'
   'Preview':
@@ -33,7 +33,7 @@
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lJava Chest'
+    - '&e&lJava Crate'
   'Prizes':
     1:
       'DisplayName': 'Cash Money'
@@ -42,16 +42,128 @@
       'Lore':
       - '$'
       'MaxRange': 100
-      'Chance': 1000
+      'Chance': 30
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 20000'
+      - 'eco give %player% 30000'
       'Messages':
-      - '&7You just won &r20k!!!'
+      - '&7You just won &r30k!!!'
     2:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$'
+      'MaxRange': 100
+      'Chance': 20
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 50000'
+      'Messages':
+      - '&7You just won &r50k!!!'
+    3:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$$'
+      'MaxRange': 100
+      'Chance': 10
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 100000'
+      'Messages':
+      - '&7You just won &r100k!!!'
+    4:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$$$'
+      'MaxRange': 100
+      'Chance': 3
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 500000'
+      'Messages':
+      - '&7You just won &r500k!!!'
+    5:
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '$$$$$'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 2000000'
+      'Messages':
+      - '&7You just won &r2 mil!!!'
+    6:
+      'DisplayName': 'Mooor Keeeyzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '3'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 15
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical JavaCrate 2 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    7:
+      'DisplayName': 'Mooooor Keeeeeyzzzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '5'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 6
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical JavaCrate 4 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    8:
+      'DisplayName': 'Soooooo Many Keyz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '10'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 2
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical JavaCrate 7 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    9:
+      'DisplayName': 'Mooooor Keeeeeyzzzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '5'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 10
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 5 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    10:
       'DisplayName': 'Head of Clown'
-      'DisplayItem': 'PLAYER_SKULL'
+      'DisplayItem': 'PLAYER_HEAD'
       'DisplayAmount': '1'
       'Lore':
       - 'Head of the almighty clown DubDubHotTubDub'
@@ -61,7 +173,142 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'execute as %player% run give @s player_head{display:{Name:''[{"text":"Clown\''s
-        Revenge","italic":false}]'',Lore:[''[{"text":"Clowns have feelings too...","italic":false}]'']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:"DubDubHotTubDub"}
+        Revenge","italic":false}]'',Lore:[''[{"text":"Clowns have feelings too...","italic":false}]'']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:DubDubHotTubDub}
         1'
       'Messages':
       - '&7You just won the jackpot!!!'
+    11:
+      'DisplayName': 'S0UL''s soul'
+      'DisplayItem': 'FISHING_ROD'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'For the love of fishing'
+      'MaxRange': 100
+      'Chance': 2
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s fishing_rod{Unbreakable:1,display:{Name:''[{"text":"GG\''s
+        Best Friend","italic":false}]'',Lore:[''[{"text":"For that one person","italic":false}]'',''[{"text":"who
+        exists just to fish","italic":false}]'']},Enchantments:[{id:luck_of_the_sea,lvl:3},{id:lure,lvl:4}]}
+        1'
+      'Messages':
+      - '&7You just won the best rod!!!'
+    12:
+      'DisplayName': 'MEME'
+      'DisplayItem': 'LEATHER_BOOTS'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'For the clumsy'
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s leather_boots{Unbreakable:1,display:{color:4927107,Name:''[{"text":"Meme","italic":false}]'',Lore:[''[{"text":"Fun
+        Fact:","italic":false}]'',''[{"text":"This item is colored","italic":false}]'',''[{"text":"UDUB
+        Purple","italic":false}]'']},Enchantments:[{id:feather_falling,lvl:10},{id:soul_speed,lvl:10}]}
+        1'
+      'Messages':
+      - '&7You just won a meme!'
+    13:
+      'DisplayName': 'PigStep'
+      'DisplayItem': 'MUSIC_DISC'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'Better than Gangnam Style'
+      'MaxRange': 100
+      'Chance': 15
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s pigstepdisc 1'
+      'Messages':
+      - '&7You just won PigStep!'
+    14:
+      'DisplayName': 'Levels LOL'
+      'DisplayItem': 'EXPERIENCE BOTTLE'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'Lol get leveled'
+      'MaxRange': 100
+      'Chance': 20
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run xp give @s 100l'
+      'Messages':
+      - '&7You just won 100 levels!'
+    15:
+      'DisplayName': 'SUS Apple'
+      'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'See what happens when you eat it...'
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      'Messages':
+      - '&7You just won a better god apple!'
+    16:
+      'DisplayName': 'AWWWW MAN'
+      'DisplayItem': 'CREPPER_HEAD'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'TNT...overload'
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'sgive %player% C4'
+      'Messages':
+      - '&7BOOM GOES THE DYNAMITE!'
+    17:
+      'DisplayName': 'Diamond'
+      'DisplayItem': 'DIAMOND'
+      'DisplayAmount': '32'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 20
+      'Items':
+      - 'Item:DIAMOND, Amount:32'
+      'Commands':
+      - 'eco give %player% 10000'
+      'Messages':
+      - '&7meh!'
+    18:
+      'DisplayName': 'BOOTIES'
+      'DisplayItem': 'NETHERITE_BOOTS'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'OP AF'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% give @s netherite_boots{Unbreakable:1,display:{Name:''[{"text":"ULTIMATE
+        BOOTS","italic":false}]'',Lore:[''[{"text":"You can fall far","italic":false}]'']},Enchantments:[{id:blast_protection,lvl:5},{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:frost_walker,lvl:3},{id:projectile_protection,lvl:5},{id:soul_speed,lvl:4},{id:thorns,lvl:4}]}
+        1'
+      'Messages':
+      - '&7You just won the best booties in the game!'
+    19:
+      'DisplayName': 'MENDING'
+      'DisplayItem': 'BOOK'
+      'DisplayAmount': '3'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 2
+      'Items':
+      - 'Item:AIR, Amount:3'
+      'Commands':
+      - 'execute as %player% run give @s enchanted_book{Enchantments:[{id:mending,lvl:1}]}
+        3'
+      'Messages':
+      - '&7You just won THREE mending books!'

@@ -10,9 +10,9 @@
   'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lPython Chest&7.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lPython Chest'
+  'Name': '&e&lPython Crate'
   'Lore':
-  - '&7This crate contains some awesome materials!!!'
+  - '&7This crate contains some awesome items!!!'
   - '&7You have &6%Keys% keys &7to open this crate with.'
   - '&7&l(&e&l!&7&l) Right click to view rewards.'
   'Preview':
@@ -33,36 +33,36 @@
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lPython Chest'
+    - '&e&lPython Crate'
   'Prizes':
     1:
-      'DisplayName': 'Netherite Ingot'
-      'DisplayItem': 'NETHERITE_INGOT'
+      'DisplayName': 'Cash Money'
+      'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - ''
+      - '$'
       'MaxRange': 100
-      'Chance': 5
+      'Chance': 50
       'Items':
-      - 'Item:NETHERITE_INGOT, Amount:1'
+      - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 1000'
+      - 'eco give %player% 5000'
       'Messages':
-      - ''
+      - '&7You just won &r5k!!!'
     2:
       'DisplayName': 'Cash Money'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '$$$$'
+      - '$$'
       'MaxRange': 100
-      'Chance': 3
+      'Chance': 20
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 100000'
+      - 'eco give %player% 10000'
       'Messages':
-      - '&7You just won &r100k!!!'
+      - '&7You just won &r10k!!!'
     3:
       'DisplayName': 'Cash Money'
       'DisplayItem': 'PAPER'
@@ -82,29 +82,29 @@
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '$$'
+      - '$$$$'
       'MaxRange': 100
-      'Chance': 20
+      'Chance': 3
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 10000'
+      - 'eco give %player% 100000'
       'Messages':
-      - '&7You just won &r10k!!!'
+      - '&7You just won &r100k!!!'
     5:
       'DisplayName': 'Cash Money'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '$'
+      - '$$$$$'
       'MaxRange': 100
-      'Chance': 50
+      'Chance': 1
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 5000'
+      - 'eco give %player% 500000'
       'Messages':
-      - '&7You just won &r5k!!!'
+      - '&7You just won the &rMEGA MONEY jackpot!!!'
     6:
       'DisplayName': 'Netherite Scrap'
       'DisplayItem': 'NETHERITE_SCRAP'
@@ -120,6 +120,20 @@
       'Messages':
       - ''
     7:
+      'DisplayName': 'Netherite Ingot'
+      'DisplayItem': 'NETHERITE_INGOT'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:NETHERITE_INGOT, Amount:1'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    8:
       'DisplayName': 'Diamond'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '5'
@@ -133,7 +147,7 @@
       - 'eco give %player% 1000'
       'Messages':
       - ''
-    8:
+    9:
       'DisplayName': 'Diamond'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '10'
@@ -147,7 +161,7 @@
       - 'eco give %player% 1000'
       'Messages':
       - ''
-    9:
+    10:
       'DisplayName': 'Diamond'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '64'
@@ -161,7 +175,137 @@
       - 'eco give %player% 1000'
       'Messages':
       - ''
-    10:
+    11:
+      'DisplayName': 'GOOOOLLLDDDD'
+      'DisplayItem': 'GOLD_BLOCK'
+      'DisplayAmount': '64'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 8
+      'Items':
+      - 'Item:GOLD_BLOCK, Amount:64'
+      'Commands':
+      - 'eco give %player% 1000'
+      'Messages':
+      - ''
+    12:
+      'DisplayName': 'Mooor Keeeyzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '3'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 15
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 3 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    13:
+      'DisplayName': 'Mooooor Keeeeeyzzzzz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '5'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 6
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 5 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    14:
+      'DisplayName': 'Soooooo Many Keyz'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '10'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 2
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical PythonCrate 10 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    15:
+      'DisplayName': 'Better Key'
+      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'crates give physical JavaCrate 1 %player%'
+      'Messages':
+      - '&7You just won more keys!!!'
+    16:
+      'DisplayName': 'Spider Killer'
+      'DisplayItem': 'GOLDEN_SWORD'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:''[{"text":"Spider
+        Killer","italic":false}]'',Lore:[''[{"text":"Forged by Arachnophobes","italic":false}]'']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]}
+        1'
+      'Messages':
+      - '&7You just won an insane sword!'
+    17:
+      'DisplayName': 'Zombie Killer'
+      'DisplayItem': 'GOLDEN_SWORD'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 5
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:''[{"text":"Zombie
+        Killer","italic":false}]'',Lore:[''[{"text":"Forged by Doomsday Planners","italic":false}]'']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]}
+        1'
+      'Messages':
+      - '&7You just won an insane sword!'
+    18:
+      'DisplayName': 'PEPPER SPRAY'
+      'DisplayItem': 'IRON_NUGGET'
+      'DisplayAmount': '1'
+      'Lore':
+      - ''
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'sgive %player% Pepper_Spray'
+      'Messages':
+      - ''
+    19:
+      'DisplayName': 'BAN HIM!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'Yeah you get to ban this guy :D'
+      'MaxRange': 100
+      'Chance': 3
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'sgive %player% dthebozz_ban_voucher'
+      'Messages':
+      - ''
+    20:
       'DisplayName': 'Cocoa Farmer'
       'DisplayItem': 'GOLDEN_AXE'
       'DisplayAmount': '1'
@@ -177,80 +321,10 @@
         Admin Abuse Powers","italic":false}]'']}} 1'
       'Messages':
       - '&7You just won the &rITEM jackpot!!!'
-    11:
-      'DisplayName': 'Soul Sand'
-      'DisplayItem': 'SOUL_SAND'
-      'DisplayAmount': '1024'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 30
-      'Items':
-      - 'Item:SOUL_SAND, Amount:1024'
-      'Commands':
-      - 'eco give %player% 1000'
-      'Messages':
-      - ''
-    12:
-      'DisplayName': 'Cash Money'
-      'DisplayItem': 'PAPER'
+    21:
+      'DisplayName': 'MENDING'
+      'DisplayItem': 'BOOK'
       'DisplayAmount': '1'
-      'Lore':
-      - '$$$$$'
-      'MaxRange': 100
-      'Chance': 1
-      'Items':
-      - 'Item:PAPER, Amount:1'
-      'Commands':
-      - 'eco give %player% 500000'
-      'Messages':
-      - '&7You just won the &rMEGA MONEY jackpot!!!'
-    13:
-      'DisplayName': 'Name Tag'
-      'DisplayItem': 'NAME_TAG'
-      'DisplayAmount': '3'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 20
-      'Items':
-      - 'Item:NAME_TAG, Amount:3'
-      'Commands':
-      - 'eco give %player% 1000'
-      'Messages':
-      - ''
-    14:
-      'DisplayName': 'Mooor Keeeyzzz'
-      'DisplayItem': 'TRIPWIRE_HOOK'
-      'DisplayAmount': '3'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 15
-      'Items':
-      - 'Item:AIR, Amount:1'
-      'Commands':
-      - 'crates give physical PythonCrate 3 %player%'
-      'Messages':
-      - ''
-    15:
-      'DisplayName': 'Mooooor Keeeeeyzzzzz'
-      'DisplayItem': 'TRIPWIRE_HOOK'
-      'DisplayAmount': '5'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 6
-      'Items':
-      - 'Item:AIR, Amount:1'
-      'Commands':
-      - 'crates give physical PythonCrate 5 %player%'
-      'Messages':
-      - ''
-    16:
-      'DisplayName': 'Soooooo Many Keyz'
-      'DisplayItem': 'TRIPWIRE_HOOK'
-      'DisplayAmount': '10'
       'Lore':
       - ''
       'MaxRange': 100
@@ -258,52 +332,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'crates give physical PythonCrate 10 %player%'
-      'Messages':
-      - ''
-    17:
-      'DisplayName': 'GOOOOLLLDDDD'
-      'DisplayItem': 'GOLD_BLOCK'
-      'DisplayAmount': '64'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 8
-      'Items':
-      - 'Item:GOLD_BLOCK, Amount:64'
-      'Commands':
-      - 'eco give %player% 1000'
-      'Messages':
-      - ''
-    18:
-      'DisplayName': 'Spider Killer'
-      'DisplayItem': 'GOLDEN_SWORD'
-      'DisplayAmount': '1'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 5
-      'Items':
-      - 'Item:AIR, Amount:1'
-      'Commands':
-      - 'execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:''[{"text":"Spider
-        Killer","italic":false}]'',Lore:[''[{"text":"Forged by Arachnophobes","italic":false}]'']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]}
+      - 'execute as %player% run give @s enchanted_book{Enchantments:[{id:mending,lvl:1}]}
         1'
       'Messages':
-      - ''
-    19:
-      'DisplayName': 'Zombie Killer'
-      'DisplayItem': 'GOLDEN_SWORD'
-      'DisplayAmount': '1'
-      'Lore':
-      - ''
-      'MaxRange': 100
-      'Chance': 5
-      'Items':
-      - 'Item:AIR, Amount:1'
-      'Commands':
-      - 'execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:''[{"text":"Zombie
-        Killer","italic":false}]'',Lore:[''[{"text":"Forged by Doomsday Planners","italic":false}]'']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]}
-        1'
-      'Messages':
-      - ''
+      - '&7You just won a mending book!'

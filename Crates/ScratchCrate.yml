@@ -10,7 +10,7 @@
   'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lScratch Chest&7.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lScratch Chest'
+  'Name': '&e&lScratch Crate'
   'Lore':
   - '&7This crate contains basic materials.'
   - '&7You have &6%Keys% keys &7to open this crate with.'
@@ -33,7 +33,7 @@
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lScratch Chest'
+    - '&e&lScratch Crate'
   'Prizes':
     1:
       'DisplayName': '&a&lIron'

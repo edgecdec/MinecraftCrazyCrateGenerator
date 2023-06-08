@@ -1,3 +1,20 @@
-DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
-Cash Money,,,$,,1000,PAPER,1,eco give %player% 20000,&7You just won &r20k!!!
-Head of Clown,PLAYER_SKULL,,Head of the almighty clown DubDubHotTubDub,,1,AIR,1,"execute as %player% run give @s player_head{display:{Name:'[{""text"":""Clown\'s Revenge"",""italic"":false}]',Lore:['[{""text"":""Clowns have feelings too..."",""italic"":false}]']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:""DubDubHotTubDub""} 1",&7You just won the jackpot!!!
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages,
+Cash Money,,,$,,30,PAPER,1,eco give %player% 30000,&7You just won &r30k!!!,
+Cash Money,,,$$,,20,PAPER,1,eco give %player% 50000,&7You just won &r50k!!!,
+Cash Money,,,$$$,,10,PAPER,1,eco give %player% 100000,&7You just won &r100k!!!,
+Cash Money,,,$$$$,,3,PAPER,1,eco give %player% 500000,&7You just won &r500k!!!,
+Cash Money,,,$$$$$,,1,PAPER,1,eco give %player% 2000000,&7You just won &r2 mil!!!,
+Mooor Keeeyzzz,TRIPWIRE_HOOK,3,,,15,AIR,1,crates give physical JavaCrate 2 %player%,&7You just won more keys!!!,
+Mooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,,,6,AIR,1,crates give physical JavaCrate 4 %player%,&7You just won more keys!!!,
+Soooooo Many Keyz,TRIPWIRE_HOOK,10,,,2,AIR,1,crates give physical JavaCrate 7 %player%,&7You just won more keys!!!,
+Mooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,,,10,AIR,1,crates give physical PythonCrate 5 %player%,&7You just won more keys!!!,
+Head of Clown,PLAYER_HEAD,,Head of the almighty clown DubDubHotTubDub,,1,AIR,1,"execute as %player% run give @s player_head{display:{Name:'[{""text"":""Clown\'s Revenge"",""italic"":false}]',Lore:['[{""text"":""Clowns have feelings too..."",""italic"":false}]']},Enchantments:[{id:thorns,lvl:40}],SkullOwner:DubDubHotTubDub} 1",&7You just won the jackpot!!!,
+S0UL's soul,FISHING_ROD,,For the love of fishing,,2,AIR,1,"execute as %player% run give @s fishing_rod{Unbreakable:1,display:{Name:'[{""text"":""GG\'s Best Friend"",""italic"":false}]',Lore:['[{""text"":""For that one person"",""italic"":false}]','[{""text"":""who exists just to fish"",""italic"":false}]']},Enchantments:[{id:luck_of_the_sea,lvl:3},{id:lure,lvl:4}]} 1",&7You just won the best rod!!!,
+MEME,LEATHER_BOOTS,,For the clumsy,,5,AIR,1,"execute as %player% run give @s leather_boots{Unbreakable:1,display:{color:4927107,Name:'[{""text"":""Meme"",""italic"":false}]',Lore:['[{""text"":""Fun Fact:"",""italic"":false}]','[{""text"":""This item is colored"",""italic"":false}]','[{""text"":""UDUB Purple"",""italic"":false}]']},Enchantments:[{id:feather_falling,lvl:10},{id:soul_speed,lvl:10}]} 1",&7You just won a meme!,
+PigStep,MUSIC_DISC,,Better than Gangnam Style,,15,AIR,1,execute as %player% run give @s pigstepdisc 1,&7You just won PigStep!,
+Levels LOL,EXPERIENCE BOTTLE,,Lol get leveled,,20,AIR,1,execute as %player% run xp give @s 100l,&7You just won 100 levels!,
+SUS Apple,ENCHANTED_GOLDEN_APPLE,,See what happens when you eat it...,,5,AIR,1,sgive %player% pixelated_calvin-coated_enchanted_golden_apple,&7You just won a better god apple!,
+AWWWW MAN,CREPPER_HEAD,,TNT...overload,,30,AIR,1,sgive %player% C4,&7BOOM GOES THE DYNAMITE!,
+Diamond,,,,,20,DIAMOND,32,eco give %player% 10000,&7meh!,
+BOOTIES,NETHERITE_BOOTS,,OP AF,,1,AIR,1,"execute as %player% give @s netherite_boots{Unbreakable:1,display:{Name:'[{""text"":""ULTIMATE BOOTS"",""italic"":false}]',Lore:['[{""text"":""You can fall far"",""italic"":false}]']},Enchantments:[{id:blast_protection,lvl:5},{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:frost_walker,lvl:3},{id:projectile_protection,lvl:5},{id:soul_speed,lvl:4},{id:thorns,lvl:4}]} 1",&7You just won the best booties in the game!,
+MENDING,BOOK,,,,2,AIR,3,"execute as %player% run give @s enchanted_book{Enchantments:[{id:mending,lvl:1}]} 3",&7You just won THREE mending books!,
