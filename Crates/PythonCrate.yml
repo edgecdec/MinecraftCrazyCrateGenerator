@@ -332,7 +332,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'execute as %player% run give @s enchanted_book{Enchantments:[{id:mending,lvl:1}]}
+      - 'execute as %player% run give @s enchanted_book{StoredEnchantments:[{id:mending,lvl:1}]}
         1'
       'Messages':
       - '&7You just won a mending book!'
