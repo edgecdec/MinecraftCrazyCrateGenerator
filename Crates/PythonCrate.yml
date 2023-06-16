@@ -7,7 +7,7 @@
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lPython Chest&7.'
+  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lPython Crate&7.'
   'Item': 'CHEST'
   'Glowing': false
   'Name': '&e&lPython Crate'

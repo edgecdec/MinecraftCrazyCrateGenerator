@@ -1,0 +1,401 @@
+'Crate':
+  'CrateType': 'QuickCrate'
+  'CrateName': '&eNoob Mcmmo Crate'
+  'Preview-Name': '&Noob Mcmmo Crate'
+  'StartingKeys': 0
+  'Max-Mass-Open': 10
+  'InGUI': false
+  'Slot': 14
+  'OpeningBroadCast': true
+  'BroadCast': '%prefix%&6&l%player%&r &7is a BIG NOOB opening a &e&lNOOB Mcmmo Crate&7.'
+  'Item': 'CHEST'
+  'Glowing': false
+  'Name': '&e&lNoob Mcmmo Crate'
+  'Lore':
+  - '&7This crate give you MCMMO levels!!!'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  'Preview':
+    'Toggle': true
+    'ChestLines': 6
+    'Glass':
+      'Toggle': true
+      'Item': 'BLACK_STAINED_GLASS'
+      'Name': ' '
+  'PhysicalKey':
+    'Name': '&e&lNOOB Mcmmo Crate &c&lKey'
+    'Lore':
+    - '&7A NOOBY Mcmmo Key'
+    - '&7For an Mcmmo Crate.'
+    'Item': 'TRIPWIRE_HOOK'
+    'Glowing': true
+  'Hologram':
+    'Toggle': true
+    'Height': 1.5
+    'Message':
+    - '&e&lNoob Mcmmo Crate'
+  'Prizes':
+    1:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Acrobatics 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    2:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Alchemy 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    3:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Archery 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    4:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Axes 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    5:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Excavation 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    6:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Fishing 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    7:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Herbalism 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    8:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Mining 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    9:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Repair 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    10:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Swords 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    11:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Taming 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    12:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Unarmed 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    13:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Woodcutting 2'
+      'Messages':
+      - '&7You just won &r2 levels!!!'
+    14:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Acrobatics 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    15:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Alchemy 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    16:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Archery 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    17:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Axes 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    18:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Excavation 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    19:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Fishing 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    20:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Herbalism 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    21:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Mining 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    22:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Repair 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    23:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Swords 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    24:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Taming 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    25:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Unarmed 1'
+      'Messages':
+      - '&7You just won &r1 level!'
+    26:
+      'DisplayName': 'FREE MCMMO LEVELS!'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - 'FREEE'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'addlevels %player% Woodcutting 1'
+      'Messages':
+      - '&7You just won &r1 level!'
