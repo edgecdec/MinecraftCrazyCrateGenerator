@@ -1,0 +1,66 @@
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Acrobatics 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Alchemy 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Archery 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Axes 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Excavation 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Fishing 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Herbalism 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Mining 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Repair 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Swords 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Taming 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Unarmed 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,1,AIR,1,addlevels %player% Woodcutting 7,&7You just won &r7 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Acrobatics 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Alchemy 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Archery 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Axes 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Excavation 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Fishing 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Herbalism 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Mining 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Repair 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Swords 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Taming 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Unarmed 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,3,AIR,1,addlevels %player% Woodcutting 4,&7You just won &r4 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Acrobatics 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Alchemy 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Archery 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Axes 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Excavation 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Fishing 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Herbalism 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Mining 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Repair 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Swords 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Taming 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Unarmed 2,&7You just won &r2 levels!!!
+FREE MCMMO LEVELS!,PAPER,,FREEE,,10,AIR,1,addlevels %player% Woodcutting 2,&7You just won &r2 levels!!!
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Acrobatics -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Alchemy -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Archery -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Axes -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Excavation -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Fishing -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Herbalism -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Mining -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Repair -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Swords -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Taming -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Unarmed -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,5,AIR,1,addlevels %player% Woodcutting -1,&7You just lost &r1 level :<<<
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Acrobatics -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Alchemy -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Archery -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Axes -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Excavation -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Fishing -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Herbalism -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Mining -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Repair -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Swords -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Taming -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Unarmed -2,&7You just lost &r2 levels :(((((
+BETTER LUCK NEXT TIME,PAPER,,FREEE,,2,AIR,1,addlevels %player% Woodcutting -2,&7You just lost &r2 levels :(((((
