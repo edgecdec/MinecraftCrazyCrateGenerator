@@ -246,7 +246,7 @@
       'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple. $7See
+      - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple. &7See
         what happens when you eat it...'
       - '(2.66%)'
       'MaxRange': 100
@@ -262,7 +262,7 @@
       'DisplayItem': 'CREPPER_HEAD'
       'DisplayAmount': '1'
       'Lore':
-      - '$7TNT...overload. Be extremely careful. (AWWWW MAN)'
+      - '&7TNT...overload. Be extremely careful. (AWWWW MAN)'
       - '(15.96%)'
       'MaxRange': 100
       'Chance': 30
@@ -277,7 +277,7 @@
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '32'
       'Lore':
-      - '$7Craft a set of diamond armor, and more!'
+      - '&7Craft a set of diamond armor, and more!'
       - '(10.64%)'
       'MaxRange': 100
       'Chance': 20
@@ -292,7 +292,7 @@
       'DisplayItem': 'NETHERITE_BOOTS'
       'DisplayAmount': '1'
       'Lore':
-      - '$7These booties are OP AF, enjoy!'
+      - '&7These booties are OP AF, enjoy!'
       - '(0.53%)'
       'MaxRange': 100
       'Chance': 1
@@ -311,7 +311,7 @@
       'DisplayItem': 'BOOK'
       'DisplayAmount': '3'
       'Lore':
-      - '$7Well, you are very lucky.'
+      - '&7Well, you are very lucky.'
       - '(1.06%)'
       'MaxRange': 100
       'Chance': 2
@@ -327,7 +327,7 @@
       'DisplayItem': 'SHULKER_BOX'
       'DisplayAmount': '1'
       'Lore':
-      - '$7Is that a Pre-End Shulker?!? :O'
+      - '&7Is that a Pre-End Shulker?!? :O'
       - '(2.66%)'
       'MaxRange': 100
       'Chance': 5
