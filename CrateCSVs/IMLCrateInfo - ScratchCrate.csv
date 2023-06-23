@@ -15,14 +15,14 @@ Mooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,,,10,4.42,AIR,1,crates give physical Scratc
 Soooooo Many Keyz,TRIPWIRE_HOOK,10,,,5,2.21,AIR,1,crates give physical ScratchCrate 10 %player%,&7You just won more keys!!!
 Better Key,TRIPWIRE_HOOK,1,,,30,13.27,AIR,1,crates give physical PythonCrate 1 %player%,&7You just won more keys!!!
 ,NETHERITE_UPGRADE_SMITHING_TEMPLATE,,&7Netherite Upgrade,,30,13.27,NETHERITE_UPGRADE_SMITHING_TEMPLATE,2,,
-,SENTRY_ARMOR_TRIM_TEMPLATE,,&7Sentry Armor Trim,,5,2.21,SENTRY_ARMOR_TRIM_TEMPLATE,2,,
-,VEX_ARMOR_TRIM_TEMPLATE,,&7Vex Armor Trim,,2,0.88,VEX_ARMOR_TRIM_TEMPLATE,1,,
-,WILD_ARMOR_TRIM_TEMPLATE,,&7Wild Armor Trim,,3,1.33,WILD_ARMOR_TRIM_TEMPLATE,1,,
-,COAST_ARMOR_TRIM_TEMPLATE,,&7Coast Armor Trim,,10,4.42,COAST_ARMOR_TRIM_TEMPLATE,2,,
-,DUNE_ARMOR_TRIM_TEMPLATE,,&7Dune Armor Trim,,3,1.33,DUNE_ARMOR_TRIM_TEMPLATE,1,,
-,WARM_ARMOR_TRIM_TEMPLATE,,&7Ward Armor Trim,,1,0.44,WARM_ARMOR_TRIM_TEMPLATE,1,,
-,WARD_ARMOR_TRIM_TEMPLATE,,&7Silence Armor Trim,,1,0.44,WARD_ARMOR_TRIM_TEMPLATE,1,,
-,TIDE_ARMOR_TRIM,,&7Tide Armor Trim,,5,2.21,TIDE_ARMOR_TRIM,1,,
-,EYE_ARMOR_TRIM,,&7Eye Armor Trim,,3,1.33,EYE_ARMOR_TRIM,1,,
+,SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Sentry Armor Trim,,5,2.21,SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE,2,,
+,VEX_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Vex Armor Trim,,2,0.88,VEX_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
+,WILD_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Wild Armor Trim,,3,1.33,WILD_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
+,COAST_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Coast Armor Trim,,10,4.42,COAST_ARMOR_TRIM_SMITHING_TEMPLATE,2,,
+,DUNE_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Dune Armor Trim,,3,1.33,DUNE_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
+,WARM_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Ward Armor Trim,,1,0.44,WARM_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
+,WARD_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Silence Armor Trim,,1,0.44,WARD_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
+,TIDE_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Tide Armor Trim,,5,2.21,TIDE_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
+,EYE_ARMOR_TRIM_SMITHING_TEMPLATE,,&7Eye Armor Trim,,3,1.33,EYE_ARMOR_TRIM_SMITHING_TEMPLATE,1,,
 &6&lTOY PLUSH,TOTEM_OF_UNDYING,,&7A portable music player!,,1,0.44,AIR,1,"execute as %player% run give @s toy_plush, broadcast &9%player% &bjust won a Toy Plush from a Scratch Crate!!!",&7You just won a LEGENDARY Toy Plush!!! Use around others to spread the joy!
 &6&L Bag of Fvnyuns,BUNDLE,,&7Some funyuns to munch on.,,4,1.77,AIR,1,"execute as %player% run give @s bundle{display:{Name:'[{""text"":""BAG OF FVNYUNS"",""italic"":false,""color"":""gold"",""bold"":true}]'},Items:[{id:gold_nugget,Count:64,tag:{display:{Name:'[{""text"":""SALTY FVNYUNS"",""italic"":false,""color"":""gold"",""bold"":true}]'}}}]} 1",
