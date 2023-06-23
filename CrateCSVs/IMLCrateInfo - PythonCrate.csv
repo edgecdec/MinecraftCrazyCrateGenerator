@@ -1,22 +1,22 @@
-DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,Items,Amounts,Commands,Messages
-Cash Money,,,$,,50,PAPER,1,eco give %player% 5000,&7You just won &r5k!!!
-Cash Money,,,$$,,20,PAPER,1,eco give %player% 10000,&7You just won &r10k!!!
-Cash Money,,,$$$,,7,PAPER,1,eco give %player% 50000,&7You just won &r50k!!!
-Cash Money,,,$$$$,,3,PAPER,1,eco give %player% 100000,&7You just won &r100k!!!
-Cash Money,,,$$$$$,,1,PAPER,1,eco give %player% 500000,&7You just won the &rMEGA MONEY jackpot!!!
-Netherite Scrap,,,,,30,NETHERITE_SCRAP,1,eco give %player% 1000,
-Netherite Ingot,,,,,5,NETHERITE_INGOT,1,eco give %player% 1000,
-Diamond,,,,,30,DIAMOND,5,eco give %player% 1000,
-Diamond,,,,,10,DIAMOND,10,eco give %player% 1000,
-Diamond,,,,,3,DIAMOND,64,eco give %player% 1000,
-GOOOOLLLDDDD,GOLD_BLOCK,64,,,8,GOLD_BLOCK,64,eco give %player% 1000,
-Mooor Keeeyzzz,TRIPWIRE_HOOK,3,,,15,AIR,1,crates give physical PythonCrate 3 %player%,&7You just won more keys!!!
-Mooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,,,6,AIR,1,crates give physical PythonCrate 5 %player%,&7You just won more keys!!!
-Soooooo Many Keyz,TRIPWIRE_HOOK,10,,,2,AIR,1,crates give physical PythonCrate 10 %player%,&7You just won more keys!!!
-Better Key,TRIPWIRE_HOOK,1,,,30,AIR,1,crates give physical JavaCrate 1 %player%,&7You just won more keys!!!
-Spider Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Spider Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Arachnophobes"",""italic"":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]} 1",&7You just won an insane sword!
-Zombie Killer,GOLDEN_SWORD,,,,5,AIR,1,"execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Zombie Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Doomsday Planners"",""italic"":false}]']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]} 1",&7You just won an insane sword!
-PEPPER SPRAY,IRON_NUGGET,,,,30,AIR,1,sgive %player% Pepper_Spray,
-BAN HIM!,PAPER,,Yeah you get to ban this guy :D,,3,AIR,1,sgive %player% dthebozz_ban_voucher,
-Cocoa Farmer,GOLDEN_AXE,,I <3 Cocoa,,1,AIR,1,"execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:'[{""text"":""Cocoa Farmer"",""italic"":false}]',Lore:['[{""text"":""Forged by DubDubHotTubDub\'s Admin Abuse Powers"",""italic"":false}]']}} 1",&7You just won the &rITEM jackpot!!!
-MENDING,BOOK,,,,2,AIR,1,"execute as %player% run give @s enchanted_book{StoredEnchantments:[{id:mending,lvl:1}]} 1",&7You just won a mending book!
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,PercentChance,Items,Amounts,Commands,Messages
+"&a&l$5,000",PAPER,,&7Bit o' pocket change.,,50,17.01,PAPER,1,eco give %player% 5000,"&7You just won &r$5,000!!!"
+"&a&l$10,000",PAPER,,&7Enough for half of a cheap spawner!,,20,6.8,PAPER,1,eco give %player% 10000,"&7You just won &r$10,000!!!"
+"&a&l$50,000",PAPER,,"&750K, let's gooooo!",,7,2.38,PAPER,1,eco give %player% 50000,"&7You just won &r$50,000!!!"
+"&a&l$100,000",PAPER,,&7Big bucks.,,3,1.02,PAPER,1,eco give %player% 100000,"&7You just won &r$100,000!!!"
+"&a&l$500,000",PAPER,,&7The mega money jackpot of the Python Crate.,,1,0.34,PAPER,1,"eco give %player% 500000, broadcast &6&l%player% &ajust won the $500,000 JACKPOT from a Python Crate!!!","&7You just won &r$500,000!!! &dCongrats on the MEGA MONEY jackpot!!!"
+&c&l1 Netherite Scrap,NETHERITE_SCRAP,1,&7Is this even useful now?,,30,10.2,NETHERITE_SCRAP,1,eco give %player% 1000,&7You just won &ra netherite scrap!
+&c&l1 Netherite Ingot,NETHERITE_INGOT,1,"&7Backwards, it's tognI etirehteN.",,5,1.7,NETHERITE_INGOT,1,eco give %player% 1000,&7You just won &ra netherite ingot!
+&b&l5 Diamonds,DIAMOND,5,&7High five!,,30,10.2,DIAMOND,5,eco give %player% 1000,&7You just won &r5 diamonds! High five!
+&b&l10 Diamonds,DIAMOND,10,&7Double digits!,,10,3.4,DIAMOND,10,eco give %player% 1000,&7You just won &r10 diamonds!
+&b&l64 Diamonds,DIAMOND,64,&7You're stacked!,,3,1.02,DIAMOND,64,eco give %player% 1000,&7You just won &r64 diamonds!
+&e&lGOOOOLLLDDDD,GOLD_BLOCK,64,&7GOOOOLLLDDDD!,,8,2.72,GOLD_BLOCK,64,eco give %player% 1000,&7You just won &r64 gold blocks!
+&7&lWorse Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 scratch keys.,,30,10.2,AIR,1,crates give physical ScratchCrate 5 %player%,&7You just won more keys!!!
+&7&lMooor Keeeyzzz,TRIPWIRE_HOOK,3,&73 python keys.,,15,5.1,AIR,1,crates give physical PythonCrate 3 %player%,&7You just won more keys!!!
+&7&lMooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 python keys.,,6,2.04,AIR,1,crates give physical PythonCrate 5 %player%,&7You just won more keys!!!
+&7&lSoooooo Many Keyz,TRIPWIRE_HOOK,10,"&710 python keys, wow!",,2,0.68,AIR,1,crates give physical PythonCrate 10 %player%,&7You just won more keys!!!
+&7&lBetter Key,TRIPWIRE_HOOK,1,"&71 java key, upgrade!",,30,10.2,AIR,1,crates give physical JavaCrate 1 %player%,&7You just won more keys!!!
+&5&lSpider Killer,GOLDEN_SWORD,,&7The ultimate spider killer...,,5,1.7,AIR,1,"execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Spider Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Arachnophobes"",""italic"":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]} 1",&7You just won an insane sword!
+&5&lZombie Killer,GOLDEN_SWORD,,&7The ultimate zombie killer...,,5,1.7,AIR,1,"execute as %player% run give @s golden_sword{Unbreakable:1,display:{Name:'[{""text"":""Zombie Killer"",""italic"":false}]',Lore:['[{""text"":""Forged by Doomsday Planners"",""italic"":false}]']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]} 1",&7You just won an insane sword!
+&7&lPEPPER SPRAY,IRON_NUGGET,10,&7Right click to use! One-time use snowball attack.,,30,10.2,AIR,1,"sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray, sgive %player% Pepper_Spray",&7You just won &r10 pepper sprays!
+&c&l&nBAN HIM!,PAPER,1,&7Obtain a &6LEGENDARY &7DtheBozz ban voucher. Right click to ban him for a minute.,,3,1.02,AIR,1,sgive %player% dthebozz_ban_voucher,&7You just won &ra &6&l LEGENDARY &r Dthebozz ban voucher!
+&5&lCocoa Farmer,GOLDEN_AXE,,&7The best of the best of axes.,,1,0.34,AIR,1,"execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:'[{""text"":""Cocoa Farmer"",""italic"":false}]',Lore:['[{""text"":""Forged by DubDubHotTubDub\'s Admin Abuse Powers"",""italic"":false}]']}} 1, broadcast &6&l%player% &ajust won the legendary &eCocoa Farmer &afrom a Python Crate!!!",&7You just won &ra Cocoa Farmer!!! Congrats on the ITEM jackpot!!!

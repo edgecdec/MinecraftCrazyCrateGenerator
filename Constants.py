@@ -33,6 +33,7 @@ class RewardCSVConstants:
     LORE = "Lore"
     MAX_RANGE = "MaxRange"
     CHANCE = "Chance"
+    PERCENT_CHANCE = "PercentChance"
     ITEMS = "Items"
     AMOUNTS = "Amounts"
     COMMANDS = "Commands"

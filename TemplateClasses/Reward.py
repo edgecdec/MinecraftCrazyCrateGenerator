@@ -5,6 +5,9 @@ class Reward():
     def __init__(self, rewardInfo, crateInfo):
         self.crateInfo = crateInfo
         self.Lore = rewardInfo[RewardCSVConstants.LORE].split("\\n") or "???"
+        if RewardCSVConstants.PERCENT_CHANCE in rewardInfo.keys():
+            self.PercentChance = float(rewardInfo[RewardCSVConstants.PERCENT_CHANCE])
+            self.Lore.append(f"({self.PercentChance}%)")
         self.MaxRange = int(rewardInfo[RewardCSVConstants.MAX_RANGE] or 100)
         self.Chance = int(rewardInfo[RewardCSVConstants.CHANCE] or 1)
         self.ItemsList = rewardInfo[RewardCSVConstants.ITEMS].split(",") or []
