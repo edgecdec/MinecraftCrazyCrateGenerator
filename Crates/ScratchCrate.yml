@@ -324,8 +324,8 @@
       'Messages':
       - ''
     17:
-      'DisplayName': 'SENTRY_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'SENTRY_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
       - '&7Sentry Armor Trim'
@@ -333,14 +333,14 @@
       'MaxRange': 100
       'Chance': 5
       'Items':
-      - 'Item:SENTRY_ARMOR_TRIM_TEMPLATE, Amount:2'
+      - 'Item:SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:2'
       'Commands':
       - ''
       'Messages':
       - ''
     18:
-      'DisplayName': 'VEX_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'VEX_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'VEX_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'VEX_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Vex Armor Trim'
@@ -348,14 +348,14 @@
       'MaxRange': 100
       'Chance': 2
       'Items':
-      - 'Item:VEX_ARMOR_TRIM_TEMPLATE, Amount:1'
+      - 'Item:VEX_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     19:
-      'DisplayName': 'WILD_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'WILD_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'WILD_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'WILD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Wild Armor Trim'
@@ -363,14 +363,14 @@
       'MaxRange': 100
       'Chance': 3
       'Items':
-      - 'Item:WILD_ARMOR_TRIM_TEMPLATE, Amount:1'
+      - 'Item:WILD_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     20:
-      'DisplayName': 'COAST_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'COAST_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'COAST_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'COAST_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
       - '&7Coast Armor Trim'
@@ -378,14 +378,14 @@
       'MaxRange': 100
       'Chance': 10
       'Items':
-      - 'Item:COAST_ARMOR_TRIM_TEMPLATE, Amount:2'
+      - 'Item:COAST_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:2'
       'Commands':
       - ''
       'Messages':
       - ''
     21:
-      'DisplayName': 'DUNE_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'DUNE_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'DUNE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'DUNE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Dune Armor Trim'
@@ -393,14 +393,14 @@
       'MaxRange': 100
       'Chance': 3
       'Items':
-      - 'Item:DUNE_ARMOR_TRIM_TEMPLATE, Amount:1'
+      - 'Item:DUNE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     22:
-      'DisplayName': 'WARM_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'WARM_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Ward Armor Trim'
@@ -408,14 +408,14 @@
       'MaxRange': 100
       'Chance': 1
       'Items':
-      - 'Item:WARM_ARMOR_TRIM_TEMPLATE, Amount:1'
+      - 'Item:WARD_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     23:
-      'DisplayName': 'WARD_ARMOR_TRIM_TEMPLATE'
-      'DisplayItem': 'WARD_ARMOR_TRIM_TEMPLATE'
+      'DisplayName': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Silence Armor Trim'
@@ -423,14 +423,14 @@
       'MaxRange': 100
       'Chance': 1
       'Items':
-      - 'Item:WARD_ARMOR_TRIM_TEMPLATE, Amount:1'
+      - 'Item:SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     24:
-      'DisplayName': 'TIDE_ARMOR_TRIM'
-      'DisplayItem': 'TIDE_ARMOR_TRIM'
+      'DisplayName': 'TIDE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'TIDE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Tide Armor Trim'
@@ -438,14 +438,14 @@
       'MaxRange': 100
       'Chance': 5
       'Items':
-      - 'Item:TIDE_ARMOR_TRIM, Amount:1'
+      - 'Item:TIDE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     25:
-      'DisplayName': 'EYE_ARMOR_TRIM'
-      'DisplayItem': 'EYE_ARMOR_TRIM'
+      'DisplayName': 'EYE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'EYE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Eye Armor Trim'
@@ -453,7 +453,7 @@
       'MaxRange': 100
       'Chance': 3
       'Items':
-      - 'Item:EYE_ARMOR_TRIM, Amount:1'
+      - 'Item:EYE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
