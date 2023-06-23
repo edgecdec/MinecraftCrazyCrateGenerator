@@ -96,7 +96,7 @@
       'Messages':
       - ''
     5:
-      'DisplayName': '&a$lBrush with Death'
+      'DisplayName': '&a&lBrush with Death'
       'DisplayItem': 'BRUSH'
       'DisplayAmount': '1'
       'Lore':
@@ -213,7 +213,7 @@
       - '&7You just won some archeology items!'
     10:
       'DisplayName': '&a&lSuspicious Sand'
-      'DisplayItem': 'BRUSH'
+      'DisplayItem': 'SUSPICIOUS_SAND'
       'DisplayAmount': '1'
       'Lore':
       - '&7Suspicious Sand'

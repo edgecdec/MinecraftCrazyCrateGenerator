@@ -246,8 +246,8 @@
       'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple. &7See
-        what happens when you eat it...'
+      - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.'
+      - '&7See what happens when you eat it...'
       - '(2.66%)'
       'MaxRange': 100
       'Chance': 5
