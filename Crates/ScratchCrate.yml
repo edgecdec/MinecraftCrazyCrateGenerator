@@ -399,8 +399,8 @@
       'Messages':
       - ''
     22:
-      'DisplayName': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
-      'DisplayItem': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': 'WARM_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'WARM_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Ward Armor Trim'
@@ -408,14 +408,14 @@
       'MaxRange': 100
       'Chance': 1
       'Items':
-      - 'Item:WARD_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
+      - 'Item:WARM_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
       - ''
     23:
-      'DisplayName': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
-      'DisplayItem': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayItem': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
       - '&7Silence Armor Trim'
@@ -423,7 +423,7 @@
       'MaxRange': 100
       'Chance': 1
       'Items':
-      - 'Item:SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
+      - 'Item:WARD_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
       'Commands':
       - ''
       'Messages':
