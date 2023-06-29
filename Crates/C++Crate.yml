@@ -1,0 +1,52 @@
+'Crate':
+  'CrateType': 'QuickCrate'
+  'CrateName': '&eC++ Crate'
+  'Preview-Name': '&eC++ Crate'
+  'StartingKeys': 0
+  'Max-Mass-Open': 10
+  'InGUI': false
+  'Slot': 14
+  'OpeningBroadCast': true
+  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lC++ Crate&7.'
+  'Item': 'CHEST'
+  'Glowing': false
+  'Name': '&e&lC++ Crate'
+  'Lore':
+  - '&7This crate contains some awesome items!!!'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  'Preview':
+    'Toggle': true
+    'ChestLines': 6
+    'Glass':
+      'Toggle': true
+      'Item': 'ORANGE_STAINED_GLASS'
+      'Name': ' '
+  'PhysicalKey':
+    'Name': '&e&lC++ Crate &c&lKey'
+    'Lore':
+    - '&7A C++ Key'
+    - '&7For a C++ Crate.'
+    'Item': 'TRIPWIRE_HOOK'
+    'Glowing': true
+  'Hologram':
+    'Toggle': true
+    'Height': 1.5
+    'Message':
+    - '&e&lC++ Crate'
+  'Prizes':
+    1:
+      'DisplayName': '&a&lCamel Spawn Egg'
+      'DisplayItem': 'CAMEL_SPAWN_EGG'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7A Camel Spawn Egg'
+      - '(0.44%)'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:CAMEL_SPAWN_EGG, Amount:1'
+      'Commands':
+      - ''
+      'Messages':
+      - ''

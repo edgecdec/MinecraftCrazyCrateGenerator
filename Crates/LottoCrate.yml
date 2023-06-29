@@ -1,0 +1,37 @@
+'Crate':
+  'CrateType': 'QuadCrate'
+  'CrateName': '&eLotto Crate'
+  'Preview-Name': '&eLotto Crate'
+  'StartingKeys': 0
+  'Max-Mass-Open': 10
+  'InGUI': false
+  'Slot': 14
+  'OpeningBroadCast': true
+  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lLotto Crate&7.'
+  'Item': 'CHEST'
+  'Glowing': false
+  'Name': '&e&lLotto Crate'
+  'Lore':
+  - '&7This crate contains some awesome items!!!'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  'Preview':
+    'Toggle': true
+    'ChestLines': 6
+    'Glass':
+      'Toggle': true
+      'Item': 'ORANGE_STAINED_GLASS'
+      'Name': ' '
+  'PhysicalKey':
+    'Name': '&e&lC++ Crate &c&lKey'
+    'Lore':
+    - '&7A Lotto Key'
+    - '&7For a Lotto Crate.'
+    'Item': 'TRIPWIRE_HOOK'
+    'Glowing': true
+  'Hologram':
+    'Toggle': true
+    'Height': 1.5
+    'Message':
+    - '&e&lLotto Crate'
+  'Prizes': {}

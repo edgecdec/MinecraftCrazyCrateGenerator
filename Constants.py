@@ -38,6 +38,7 @@ class RewardCSVConstants:
     AMOUNTS = "Amounts"
     COMMANDS = "Commands"
     MESSAGES = "Messages"
+    TIMES_TO_EXECUTE_COMMANDS = "TimesToExecuteCommands"
 
 class CratePreviewFields:
     TOGGLE = "Toggle"
