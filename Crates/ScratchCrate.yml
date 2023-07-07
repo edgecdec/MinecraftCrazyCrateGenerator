@@ -309,7 +309,7 @@
       'Messages':
       - '&7You just won more keys!!!'
     16:
-      'DisplayName': 'NETHERITE_UPGRADE_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lNetherite Upgrade'
       'DisplayItem': 'NETHERITE_UPGRADE_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
@@ -324,7 +324,7 @@
       'Messages':
       - ''
     17:
-      'DisplayName': 'SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
@@ -339,7 +339,7 @@
       'Messages':
       - ''
     18:
-      'DisplayName': 'VEX_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'VEX_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -354,7 +354,7 @@
       'Messages':
       - ''
     19:
-      'DisplayName': 'WILD_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'WILD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -369,7 +369,7 @@
       'Messages':
       - ''
     20:
-      'DisplayName': 'COAST_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'COAST_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
@@ -384,7 +384,7 @@
       'Messages':
       - ''
     21:
-      'DisplayName': 'DUNE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'DUNE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -399,7 +399,7 @@
       'Messages':
       - ''
     22:
-      'DisplayName': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -414,7 +414,7 @@
       'Messages':
       - ''
     23:
-      'DisplayName': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -429,7 +429,7 @@
       'Messages':
       - ''
     24:
-      'DisplayName': 'TIDE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'TIDE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -444,7 +444,7 @@
       'Messages':
       - ''
     25:
-      'DisplayName': 'EYE_ARMOR_TRIM_SMITHING_TEMPLATE'
+      'DisplayName': '&a&lSmithing Template'
       'DisplayItem': 'EYE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
@@ -475,7 +475,7 @@
       'Messages':
       - '&7You just won a LEGENDARY Toy Plush!!! Use around others to spread the joy!'
     27:
-      'DisplayName': '&6&L Bag of Fvnyuns'
+      'DisplayName': '&6&LBag of Fvnyuns'
       'DisplayItem': 'BUNDLE'
       'DisplayAmount': '1'
       'Lore':
@@ -490,3 +490,68 @@
         FVNYUNS","italic":false,"color":"gold","bold":true}]''}}}]} 1'
       'Messages':
       - ''
+    28:
+      'DisplayName': '&c&LCelebration MK2 (4th of July)'
+      'DisplayItem': 'CROSSBOW'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&cSpam fireworks everywhere!'
+      - '(2.52%)'
+      'MaxRange': 100
+      'Chance': 6
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s crossbow{Unbreakable:0,display:{Name:''[{"text":"Celebration
+        MKII","italic":false,"color":"red","bold":false}]'',Lore:[''[{"text":"All
+        good things end with a bang... or many!"},{"text":"","italic":false}]'',''[{"text":"IML
+        4th of July 2023","italic":true,"color":"blue"}]'']},Enchantments:[{id:multishot,lvl:1},{id:quick_charge,lvl:5}]}
+        1'
+      - 'execute as %players% run give @s firework_rocket{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11743532]},{Type:1,Flicker:0,Trail:0,Colors:[I;2437522]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]},{Type:0,Flicker:1,Trail:1,Colors:[I;11743532],FadeColors:[I;15790320]},{Type:0,Flicker:1,Trail:1,Colors:[I;2437522],FadeColors:[I;15790320]},{Type:4,Flicker:0,Trail:0,Colors:[I;11743532],FadeColors:[I;15790320]},{Type:4,Flicker:0,Trail:0,Colors:[I;2437522],FadeColors:[I;15790320]}]}}
+        64'
+      'Messages':
+      - '&7You just won an event item!'
+    29:
+      'DisplayName': '&c&lMusket (4th of July)'
+      'DisplayItem': 'WOODEN_SWORD'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&cPerfect for home defense!'
+      - '(2.52%)'
+      'MaxRange': 100
+      'Chance': 6
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s wooden_sword{CustomModelData:4,AttributeModifiers:[{AttributeName:"generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12364,52479,13176,-104958]},{AttributeName:"generic.attack_speed",Amount:-0.45,Slot:mainhand,Operation:2,Name:"generic.attack_speed",UUID:[I;-12364,52579,13176,-105158]}],display:{Name:''[{"text":"Musket","italic":false,"color":"red"}]'',Lore:[''[{"text":"Triangular
+        Bayonet","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]'',''[{"text":"Just
+        as the Founding Fathers","italic":true,"color":"dark_purple"}]'',''[{"text":"intended.","italic":true,"color":"dark_purple"},{"text":"","italic":false,"color":"dark_purple"}]'',''[{"text":"Right
+        click to load and shoot.","italic":false,"color":"white"}]'',''[{"text":"Requires
+        1 gunpowder and 1","italic":false,"color":"white"}]'',''[{"text":"iron nugget
+        to load.","italic":false,"color":"white"},{"text":"","italic":false,"color":"dark_purple"}]'',''[{"text":"IML
+        4th of July 2023","italic":true,"color":"blue"}]'']},Enchantments:[{id:knockback,lvl:2},{id:sharpness,lvl:5}]}
+        1'
+      - 'execute as %player% run give @s iron_nugget 32'
+      - 'execute as %player% run give @s gunpowder 32'
+      'Messages':
+      - '&7You just won an event item!'
+    30:
+      'DisplayName': '&c&lInfinite Burger (4th of July)'
+      'DisplayItem': 'RAW_GOLD'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&cTypical American breakfast.'
+      - '(2.52%)'
+      'MaxRange': 100
+      'Chance': 6
+      'Items':
+      - 'Item:AIR, Amount:1'
+      'Commands':
+      - 'execute as %player% run give @s raw_gold{CustomModelData:4,display:{Name:''[{"text":"Infinite
+        Burger","italic":false,"color":"red"}]'',Lore:[''[{"text":"Tastes like freedom."},{"text":"","italic":false}]'',''[{"text":"Right
+        click to get saturation","italic":false,"color":"white"}]'',''[{"text":"and
+        slowness with a (slight)","italic":false,"color":"white"}]'',''[{"text":"side
+        effect.","italic":false,"color":"white"},{"text":"","italic":false,"color":"dark_purple"}]'',''[{"text":"IML
+        4th of July 2023","italic":true,"color":"blue"}]'']}} 1'
+      'Messages':
+      - '&7You just won an event item!'
