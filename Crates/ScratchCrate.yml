@@ -108,9 +108,9 @@
       - 'Item:BRUSH, Amount:1'
       'Commands':
       - 'execute as %player% run give @s brush{Unbreakable:1,display:{Name:''[{"text":
-        "Brush with","color": "yellow","italic": false}'
-      - '{"text": " Death","color": "dark_red"}]'',Lore:[''[{"color":"red","text":"Lol
-        get it?","italic":false}]'']},Enchantments:[{id:knockback,lvl:5}]} 1'
+        "Brush with","color": "yellow","italic": false},{"text": " Death","color":
+        "dark_red"}]'',Lore:[''[{"color":"red","text":"Lol get it?","italic":false}]'']},Enchantments:[{id:knockback,lvl:5}]}
+        1'
       - 'broadcast &9%player% &bjust won an AMAZING brush from a Scratch Crate!!!'
       'Messages':
       - '&7You just won the BEST item in the game! Guard it with your life...'
