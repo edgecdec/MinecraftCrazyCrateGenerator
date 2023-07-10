@@ -34,4 +34,96 @@
     'Height': 1.5
     'Message':
     - '&e&lLotto Crate'
-  'Prizes': {}
+  'Prizes':
+    1:
+      'DisplayName': '&a&l$10,000'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7Lots of money.'
+      - '(0.5%)'
+      'MaxRange': 100
+      'Chance': 200
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 10000'
+      'Messages':
+      - '&7You just won &r$10,000!!!'
+    2:
+      'DisplayName': '&a&l$20,000'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7Lots of money.'
+      - '(0.25%)'
+      'MaxRange': 100
+      'Chance': 100
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 20000'
+      'Messages':
+      - '&7You just won &r$20,000!!!'
+    3:
+      'DisplayName': '&a&l$50,000'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7Even more money.'
+      - '(0.15%)'
+      'MaxRange': 100
+      'Chance': 60
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 50000'
+      'Messages':
+      - '&7You just won &r$50,000!!!'
+    4:
+      'DisplayName': '&a&l$100,000'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7A lot of lot of money.'
+      - '(0.075%)'
+      'MaxRange': 100
+      'Chance': 30
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 100000'
+      'Messages':
+      - '&7You just won &r$100,000!!!'
+    5:
+      'DisplayName': '&a&l$500,000'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7A buttload of money.'
+      - '(0.0225%)'
+      'MaxRange': 100
+      'Chance': 9
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 500000'
+      'Messages':
+      - '&7You just won &r$500,000!!!'
+    6:
+      'DisplayName': '&a&l$5,000,000'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7You''re RICH!!!'
+      - '(0.0025%)'
+      'MaxRange': 100
+      'Chance': 1
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 5000000'
+      - 'broadcast &6&l%player% &ajust won the &e&l$5,000,000 JACKPOT &afrom the Lotto
+        Crate!!!'
+      'Messages':
+      - '&7You just won &$5,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!'

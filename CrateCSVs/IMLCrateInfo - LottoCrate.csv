@@ -1,1 +1,7 @@
-"&a&l$5,000,000",PAPER,1,&7You're RICH!!!,,1,0.53,PAPER,1,"eco give %player% 5000000, broadcast &6&l%player% &ajust won the &e&l$5,000,000 JACKPOT &afrom a Lotto Crate!!!","&7You just won &$5,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!"
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,PercentChance,Items,Amounts,Commands,Messages,ExpectedValue
+"&a&l$10,000",PAPER,1,&7Lots of money.,,200,0.5,PAPER,1,eco give %player% 10000,"&7You just won &r$10,000!!!",5000
+"&a&l$20,000",PAPER,1,&7Lots of money.,,100,0.25,PAPER,1,eco give %player% 20000,"&7You just won &r$20,000!!!",5000
+"&a&l$50,000",PAPER,1,&7Even more money.,,60,0.15,PAPER,1,eco give %player% 50000,"&7You just won &r$50,000!!!",7500
+"&a&l$100,000",PAPER,1,&7A lot of lot of money.,,30,0.075,PAPER,1,eco give %player% 100000,"&7You just won &r$100,000!!!",7500
+"&a&l$500,000",PAPER,1,&7A buttload of money.,,9,0.0225,PAPER,1,eco give %player% 500000,"&7You just won &r$500,000!!!",11250
+"&a&l$5,000,000",PAPER,1,&7You're RICH!!!,,1,0.0025,PAPER,1,"eco give %player% 5000000, broadcast &6&l%player% &ajust won the &e&l$5,000,000 JACKPOT &afrom the Lotto Crate!!!","&7You just won &$5,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!",12500
