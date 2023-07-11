@@ -18,6 +18,9 @@ class Reward():
         self.Items = []
         self.populateItems()
         self.Commands = rewardInfo[RewardCSVConstants.COMMANDS].split(", ") or []
+        if RewardCSVConstants.TIMES_TO_EXECUTE_COMMANDS in rewardInfo.keys():
+            timesToExecuteCommands = int(rewardInfo[RewardCSVConstants.TIMES_TO_EXECUTE_COMMANDS] or 1)
+            self.populateCommands(self.Commands, timesToExecuteCommands)
         self.Messages = rewardInfo[RewardCSVConstants.MESSAGES].split(", ") or ['&7You just won a &r%reward%.']
         self.dict = {}
         self.createDict()
@@ -34,6 +37,12 @@ class Reward():
             RewardFields.COMMANDS: self.Commands,
             RewardFields.MESSAGES: self.Messages
         }
+
+    def populateCommands(self, commands, times):
+        self.Commands = []
+        for i in range(times):
+            for command in commands:
+                self.Commands.append(command)
 
     def populateItems(self):
         for i in range(len(self.ItemsList)):

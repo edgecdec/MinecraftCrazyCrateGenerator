@@ -131,7 +131,7 @@
     7:
       'DisplayName': '&e&lSUS Apples'
       'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
-      'DisplayAmount': '5'
+      'DisplayAmount': '7'
       'Lore':
       - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.'
       - '&7See what happens when you eat it...'
@@ -139,11 +139,17 @@
       'MaxRange': 100
       'Chance': 5
       'Items':
-      - 'Item:AIR, Amount:5'
+      - 'Item:AIR, Amount:1'
       'Commands':
       - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
+      - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
       'Messages':
-      - '&7You just won a better god apple!'
+      - '&7You just won better god apples!'
     8:
       'DisplayName': '&7&lMooor Keeeyzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -158,7 +164,7 @@
       'Commands':
       - 'crates give physical C++Crate 2 %player%'
       'Messages':
-      - ''
+      - '&7You just won more keys!!!'
     9:
       'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -173,7 +179,7 @@
       'Commands':
       - 'crates give physical C++Crate 4 %player%'
       'Messages':
-      - ''
+      - '&7You just won more keys!!!'
     10:
       'DisplayName': '&7&lSoooooo Many Keyz'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -188,7 +194,7 @@
       'Commands':
       - 'crates give physical C++Crate 7 %player%'
       'Messages':
-      - ''
+      - '&7You just won more keys!!!'
     11:
       'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -203,4 +209,4 @@
       'Commands':
       - 'crates give physical JavaCrate 5 %player%'
       'Messages':
-      - ''
+      - '&7You just won more keys!!!'

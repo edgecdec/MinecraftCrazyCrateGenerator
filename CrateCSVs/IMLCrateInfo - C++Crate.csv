@@ -1,12 +1,12 @@
-DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,PercentChance,Items,Amounts,Commands,CommandsAmounts,Messages
+DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,PercentChance,Items,Amounts,Commands,TimesToExecuteCommands,Messages
 "&a&l$300,000",PAPER,,&7Lots of money.,,30,0.288461538,PAPER,1,eco give %player% 300000,,"&7You just won &r$300,000!!!"
 "&a&l$500,000",PAPER,,&7Even more money.,,20,0.192307692,PAPER,1,eco give %player% 500000,,"&7You just won &r$500,000!!!"
 "&a&l$1,000,000",PAPER,,&7A lot of lot of money.,,10,0.096153846,PAPER,1,eco give %player% 1000000,,"&7You just won &r$1,000,000!!!"
 "&a&l$5,000,000",PAPER,,&7A buttload of money.,,3,0.028846154,PAPER,1,eco give %player% 5000000,,"&7You just won &r$5,000,000!!!"
 "&a&l$20,000,000",PAPER,,&7You're RICH!!!,,1,0.009615385,PAPER,1,"eco give %player% 20000000, broadcast &6&l%player% &ajust won the &e&l$2,000,000 JACKPOT &afrom a Java Crate!!!",,"&7You just won &$20,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!"
 &a&l7 Mending Books,BOOK,7,"&7Well, you are very lucky.",,2,1.06,AIR,1,"execute as %player% run give @s enchanted_book{StoredEnchantments:[{id:mending,lvl:1}]} 7",,&7You just won SEVEN mending books!
-&e&lSUS Apples,ENCHANTED_GOLDEN_APPLE,5,&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.\n&7See what happens when you eat it...,,5,2.66,AIR,5,sgive %player% pixelated_calvin-coated_enchanted_golden_apple,5,&7You just won a better god apple!
-&7&lMooor Keeeyzzz,TRIPWIRE_HOOK,3,&73 C++ keys.,,15,7.98,AIR,1,crates give physical C++Crate 2 %player%,&7You just won more keys!!!,
-&7&lMooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 C++ keys.,,6,3.19,AIR,1,crates give physical C++Crate 4 %player%,&7You just won more keys!!!,
-&7&lSoooooo Many Keyz,TRIPWIRE_HOOK,10,"&77 C++ keys, woo!",,2,1.06,AIR,1,crates give physical C++Crate 7 %player%,&7You just won more keys!!!,
-&7&lMooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 java keys.,,10,5.32,AIR,1,crates give physical JavaCrate 5 %player%,&7You just won more keys!!!,
+&e&lSUS Apples,ENCHANTED_GOLDEN_APPLE,7,&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.\n&7See what happens when you eat it...,,5,2.66,AIR,1,sgive %player% pixelated_calvin-coated_enchanted_golden_apple,7,&7You just won better god apples!
+&7&lMooor Keeeyzzz,TRIPWIRE_HOOK,3,&73 C++ keys.,,15,7.98,AIR,1,crates give physical C++Crate 2 %player%,,&7You just won more keys!!!,
+&7&lMooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 C++ keys.,,6,3.19,AIR,1,crates give physical C++Crate 4 %player%,,&7You just won more keys!!!,
+&7&lSoooooo Many Keyz,TRIPWIRE_HOOK,10,"&77 C++ keys, woo!",,2,1.06,AIR,1,crates give physical C++Crate 7 %player%,,&7You just won more keys!!!,
+&7&lMooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 java keys.,,10,5.32,AIR,1,crates give physical JavaCrate 5 %player%,,&7You just won more keys!!!,

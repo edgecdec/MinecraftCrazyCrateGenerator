@@ -41,7 +41,7 @@
       'DisplayAmount': '1'
       'Lore':
       - '&7Lots of money.'
-      - '(0.5%)'
+      - '(50.0%)'
       'MaxRange': 100
       'Chance': 200
       'Items':
@@ -56,7 +56,7 @@
       'DisplayAmount': '1'
       'Lore':
       - '&7Lots of money.'
-      - '(0.25%)'
+      - '(25.0%)'
       'MaxRange': 100
       'Chance': 100
       'Items':
@@ -71,7 +71,7 @@
       'DisplayAmount': '1'
       'Lore':
       - '&7Even more money.'
-      - '(0.15%)'
+      - '(15.0%)'
       'MaxRange': 100
       'Chance': 60
       'Items':
@@ -86,7 +86,7 @@
       'DisplayAmount': '1'
       'Lore':
       - '&7A lot of lot of money.'
-      - '(0.075%)'
+      - '(7.5%)'
       'MaxRange': 100
       'Chance': 30
       'Items':
@@ -101,7 +101,7 @@
       'DisplayAmount': '1'
       'Lore':
       - '&7A buttload of money.'
-      - '(0.0225%)'
+      - '(2.25%)'
       'MaxRange': 100
       'Chance': 9
       'Items':
@@ -116,7 +116,7 @@
       'DisplayAmount': '1'
       'Lore':
       - '&7You''re RICH!!!'
-      - '(0.0025%)'
+      - '(0.25%)'
       'MaxRange': 100
       'Chance': 1
       'Items':
