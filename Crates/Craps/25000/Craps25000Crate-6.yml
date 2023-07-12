@@ -10,7 +10,7 @@
   'BroadCast': '%prefix%&6&l%player%&r &7is opening a &f&lCraps Crate&7.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&fCraps25000Crate-6'
+  'Name': '&f&lCraps25000Crate-6'
   'Lore':
   - '&f&lCraps Crate,&7This crate is used in the craps game.'
   - '&7You have &6%Keys% keys &7to open this crate with.'

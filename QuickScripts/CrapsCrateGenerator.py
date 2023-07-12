@@ -143,7 +143,7 @@ def createCrapsInfo(crapsEntryAmount, roll):
         CrateCSVConstants.BROADCAST: f"%prefix%&6&l%player%&r &7is opening a &f&lCraps Crate&7.",
         CrateCSVConstants.ITEM: f"CHEST",
         CrateCSVConstants.GLOWING: f"FALSE",
-        CrateCSVConstants.NAME: f"&fCraps{crapsEntryAmount}Crate-{roll}",
+        CrateCSVConstants.NAME: f"&f&lCraps{crapsEntryAmount}Crate-{roll}",
         CrateCSVConstants.LORE: f"&f&lCraps Crate,&7This crate is used in the craps game.\\n&7You have &6%Keys% keys &7to open this crate with.\\n&7&l(&f&l!&7&l) Right click to view rewards.",
         CrateCSVConstants.PREVIEW_TOGGLE: f"TRUE",
         CrateCSVConstants.PREVIEW_CHEST_LINES: 3,
