@@ -1,3 +1,5 @@
+import os
+
 from Constants import CrateCSVConstants
 from TemplateClasses.CratePreview import CratePreview
 from Constants import CrateFields
@@ -29,6 +31,9 @@ class Crate:
         self.Hologram_Toggle = info[CrateCSVConstants.HOLOGRAM_TOGGLE] == 'True' or True
         self.Hologram_Height = round(float(info[CrateCSVConstants.HOLOGRAM_HEIGHT] or 1.5), 1)
         self.Hologram_Message = info[CrateCSVConstants.HOLOGRAM_MESSAGE].split("\\n") or [f"{self.CrateName}"]
+        self.CrapsAmount = -1
+        if CrateCSVConstants.CRAPS_AMOUNT in info:
+            self.CrapsAmount = str(info[CrateCSVConstants.CRAPS_AMOUNT])
         self.Preview = CratePreview(info)
         self.rewards = []
         self.populateRewards()
@@ -36,7 +41,10 @@ class Crate:
         self.createDict()
 
     def populateRewards(self):
-        rewardsInfo = convert_csv_to_dict(f"CrateCSVs/IMLCrateInfo - {self.RewardSheetName}.csv")
+        if int(self.CrapsAmount) > 0:
+            rewardsInfo = convert_csv_to_dict(f"../CrateCSVs/Craps/{self.CrapsAmount}/{self.RewardSheetName}.csv")
+        else:
+            rewardsInfo = convert_csv_to_dict(f"CrateCSVs/IMLCrateInfo - {self.RewardSheetName}.csv")
         for i in range(len(rewardsInfo)):
             curReward = Reward(rewardsInfo[i], self.info)
             self.rewards.append(curReward.dict)

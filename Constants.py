@@ -25,6 +25,7 @@ class CrateCSVConstants:
     HOLOGRAM_TOGGLE = "HologramToggle"
     HOLOGRAM_HEIGHT = "HologramHeight"
     HOLOGRAM_MESSAGE = "HologramMessage"
+    CRAPS_AMOUNT = "CrapsAmount"
 
 class RewardCSVConstants:
     DISPLAY_NAME = "DisplayName"
@@ -84,3 +85,19 @@ class RewardFields:
     ITEMS = "Items"
     COMMANDS = "Commands"
     MESSAGES = "Messages"
+
+class TwoDiceRollChances:
+    TOTAL = 36
+    TWO = 1
+    THREE = 2
+    FOUR = 3
+    FIVE = 4
+    SIX = 5
+    SEVEN = 6
+    EIGHT = 5
+    NINE = 4
+    TEN = 3
+    ELEVEN = 2
+    TWELVE = 1
+
+
