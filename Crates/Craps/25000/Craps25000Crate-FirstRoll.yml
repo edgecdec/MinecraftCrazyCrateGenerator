@@ -47,7 +47,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       'Messages':
       - '&7You lost!'
     2:
@@ -62,12 +62,12 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       'Messages':
       - '&7You lost!'
     3:
       'DisplayName': '&a&l4!!! RE-ROLL!'
-      'DisplayItem': 'BONE'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 4'
@@ -77,13 +77,13 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-4 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
     4:
       'DisplayName': '&a&l5!!! RE-ROLL!'
-      'DisplayItem': 'BONE'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 5'
@@ -93,13 +93,13 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-5 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
     5:
       'DisplayName': '&a&l6!!! RE-ROLL!'
-      'DisplayItem': 'BONE'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 6'
@@ -109,7 +109,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-6 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
@@ -125,12 +125,12 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 50000'
+      - 'eco give %player% 50000'
       'Messages':
       - '&7You won!'
     7:
       'DisplayName': '&a&l8!!! RE-ROLL!'
-      'DisplayItem': 'EMERALD'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 8'
@@ -140,13 +140,13 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-8 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
     8:
       'DisplayName': '&a&l9!!! RE-ROLL!'
-      'DisplayItem': 'EMERALD'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 9'
@@ -156,13 +156,13 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-9 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
     9:
       'DisplayName': '&a&l10!!! RE-ROLL!'
-      'DisplayItem': 'EMERALD'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 10'
@@ -172,13 +172,13 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-10 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
     10:
       'DisplayName': '&a&l11!!! RE-ROLL!'
-      'DisplayItem': 'EMERALD'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 11'
@@ -188,7 +188,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       - 'crates give physical Craps25000Crate-11 1 %playername%'
       'Messages':
       - '&7Re-Roll!'
@@ -204,6 +204,6 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give 0'
+      - 'eco give %player% 0'
       'Messages':
       - '&7You lost!'

@@ -75,20 +75,11 @@ def createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_DEFAULT, crapsEntryAmount=CRAPS
             crapsInfoDict[RewardCSVConstants.PERCENT_CHANCE] = round(100 * curNumChance/TWO_DIE_ROLL_TOTAL_CHANCE, 2)
             crapsInfoDict[RewardCSVConstants.LORE] = f"ROLL {i}"
             if i in FIRST_ROLL_WINS:
-                crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU WON!"
-                crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You won!"
-                crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "EMERALD"
-                crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give {amountsDict['WIN']}"
+                setWinInDict(crapsInfoDict, amountsDict)
             elif i in FIRST_ROLL_LOSSES:
-                crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU LOSE!"
-                crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "BONE"
-                crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You lost!"
-                crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give {amountsDict['LOSE']}"
+                setLossInDict(crapsInfoDict, amountsDict)
             else:
-                crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"RE-ROLL!"
-                crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give {amountsDict['LOSE']}, " \
-                                                             f"crates give physical {crapsKeyName}Crate-{i} 1 %playername%"
-                crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7Re-Roll!"
+                setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, i)
             crapsRows.append(createRewardsCSVRowFromDict(crapsInfoDict))
         outfile.write("\n".join(crapsRows))
     createCrapsInfo(crapsEntryAmount, "FirstRoll")
@@ -108,26 +99,34 @@ def createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_DEFAULT, crapsEntryAmount=CRAPS
                 crapsInfoDict[RewardCSVConstants.PERCENT_CHANCE] = round(100 * curNumChance / TWO_DIE_ROLL_TOTAL_CHANCE, 2)
                 crapsInfoDict[RewardCSVConstants.LORE] = f"ROLL {i}"
                 if i == roll:
-                    crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU WON!"
-                    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You won!"
-                    crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "EMERALD"
-                    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give {amountsDict['WIN']}"
+                    setWinInDict(crapsInfoDict, amountsDict)
                 elif i == 7:
-                    crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU LOSE!"
-                    crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "BONE"
-                    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You lost!"
-                    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give {amountsDict['LOSE']}"
+                    setLossInDict(crapsInfoDict, amountsDict)
                 else:
-                    crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"RE-ROLL!"
-                    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give {amountsDict['LOSE']}, " \
-                                                                 f"crates give physical {crapsKeyName}Crate-{roll} 1 %playername%"
-                    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7Re-Roll!"
+                    setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, roll)
                 crapsRows.append(createRewardsCSVRowFromDict(crapsInfoDict))
             outfile.write("\n".join(crapsRows))
 
         createCrapsInfo(crapsEntryAmount, roll)
 
+def setWinInDict(crapsInfoDict, amountsDict):
+    crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU WON!"
+    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You won!"
+    crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "EMERALD"
+    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['WIN']}"
 
+def setLossInDict(crapsInfoDict, amountsDict):
+    crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU LOSE!"
+    crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "BONE"
+    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You lost!"
+    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}"
+
+def setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, newKeyNum):
+    crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"RE-ROLL!"
+    crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "TRIPWIRE_HOOK"
+    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}, " \
+                                                 f"crates give physical {crapsKeyName}Crate-{newKeyNum} 1 %playername%"
+    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7Re-Roll!"
 
 def createCrapsInfo(crapsEntryAmount, roll):
     crapsCrateInfo = {
