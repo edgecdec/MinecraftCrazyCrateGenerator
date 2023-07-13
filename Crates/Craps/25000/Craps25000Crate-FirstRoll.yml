@@ -17,7 +17,7 @@
   - '&7&l(&f&l!&7&l) Right click to view rewards.'
   'Preview':
     'Toggle': true
-    'ChestLines': 3
+    'ChestLines': 4
     'Glass':
       'Toggle': true
       'Item': 'BLACK_STAINED_GLASS_PANE'
@@ -78,7 +78,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-4 1 %playername%'
+      - 'crates give physical Craps25000Crate-4 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     4:
@@ -94,7 +94,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-5 1 %playername%'
+      - 'crates give physical Craps25000Crate-5 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     5:
@@ -110,7 +110,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-6 1 %playername%'
+      - 'crates give physical Craps25000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     6:
@@ -141,7 +141,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-8 1 %playername%'
+      - 'crates give physical Craps25000Crate-8 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     8:
@@ -157,7 +157,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %playername%'
+      - 'crates give physical Craps25000Crate-9 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     9:
@@ -173,7 +173,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-10 1 %playername%'
+      - 'crates give physical Craps25000Crate-10 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     10:
@@ -189,7 +189,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-11 1 %playername%'
+      - 'crates give physical Craps25000Crate-11 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     11:

@@ -125,7 +125,7 @@ def setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, newKeyNum):
     crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"RE-ROLL!"
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "TRIPWIRE_HOOK"
     crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}, " \
-                                                 f"crates give physical {crapsKeyName}Crate-{newKeyNum} 1 %playername%"
+                                                 f"crates give physical {crapsKeyName}Crate-{newKeyNum} 1 %player%"
     crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7Re-Roll!"
 
 def createCrapsInfo(crapsEntryAmount, roll):
@@ -145,7 +145,7 @@ def createCrapsInfo(crapsEntryAmount, roll):
         CrateCSVConstants.NAME: f"&f&lCraps{crapsEntryAmount}Crate-{roll}",
         CrateCSVConstants.LORE: f"&f&lCraps Crate,&7This crate is used in the craps game.\\n&7You have &6%Keys% keys &7to open this crate with.\\n&7&l(&f&l!&7&l) Right click to view rewards.",
         CrateCSVConstants.PREVIEW_TOGGLE: f"TRUE",
-        CrateCSVConstants.PREVIEW_CHEST_LINES: 3,
+        CrateCSVConstants.PREVIEW_CHEST_LINES: 4,
         CrateCSVConstants.PREVIEW_GLASS_TOGGLE: "TRUE",
         CrateCSVConstants.PREVIEW_GLASS_NAME: "",
         CrateCSVConstants.PREVIEW_GLASS_ITEM: "BLACK_STAINED_GLASS_PANE",
