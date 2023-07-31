@@ -8,5 +8,5 @@ DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,PercentChance,Items,A
 &a&l8!!! RE-ROLL!,TRIPWIRE_HOOK,1,ROLL 8,,5,13.89,AIR,1,"eco give %player% 0, crates give physical Craps25000Crate-8 1 %player%",1,&7Re-Roll!
 &a&l9!!! RE-ROLL!,TRIPWIRE_HOOK,1,ROLL 9,,4,11.11,AIR,1,"eco give %player% 0, crates give physical Craps25000Crate-9 1 %player%",1,&7Re-Roll!
 &a&l10!!! RE-ROLL!,TRIPWIRE_HOOK,1,ROLL 10,,3,8.33,AIR,1,"eco give %player% 0, crates give physical Craps25000Crate-10 1 %player%",1,&7Re-Roll!
-&a&l11!!! RE-ROLL!,TRIPWIRE_HOOK,1,ROLL 11,,2,5.56,AIR,1,"eco give %player% 0, crates give physical Craps25000Crate-11 1 %player%",1,&7Re-Roll!
+&a&l11!!! YOU WON!,EMERALD,1,ROLL 11,,2,5.56,AIR,1,"eco give %player% 50000",1,&7You won!
 &a&l12!!! YOU LOSE!,BONE,1,ROLL 12,,1,2.78,AIR,1,"eco give %player% 0",1,&7You lost!

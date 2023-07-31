@@ -36,7 +36,7 @@ CRAPS_DEFAULTS = {
     RewardCSVConstants.MESSAGES: "",
 }
 
-FIRST_ROLL_WINS = {7}
+FIRST_ROLL_WINS = {7, 11}
 FIRST_ROLL_LOSSES = {2, 3, 12}
 
 CRAPS_CSV_DIR = f"../CrateCSVs/Craps"
