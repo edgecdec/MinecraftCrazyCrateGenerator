@@ -113,19 +113,19 @@ def setWinInDict(crapsInfoDict, amountsDict):
     crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU WON!"
     crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You won!"
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "EMERALD"
-    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %playername% {amountsDict['WIN']}"
+    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['WIN']}"
 
 def setLossInDict(crapsInfoDict, amountsDict):
     crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU LOSE!"
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "BONE"
     crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You lost!"
-    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %playername% {amountsDict['LOSE']}"
+    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}"
 
 def setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, newKeyNum):
     crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"RE-ROLL!"
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "TRIPWIRE_HOOK"
-    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %playername% {amountsDict['LOSE']}, " \
-                                                 f"crates give physical {crapsKeyName}Crate-{newKeyNum} 1 %playername%"
+    crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}, " \
+                                                 f"crates give physical {crapsKeyName}Crate-{newKeyNum} 1 %player%"
     crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7Re-Roll!"
 
 def createCrapsInfo(crapsEntryAmount, roll):
@@ -156,7 +156,7 @@ def createCrapsInfo(crapsEntryAmount, roll):
         CrateCSVConstants.HOLOGRAM_TOGGLE: "TRUE",
         CrateCSVConstants.HOLOGRAM_HEIGHT: 1.5,
         CrateCSVConstants.HOLOGRAM_MESSAGE: f"&f&lCraps{crapsEntryAmount}-{roll} Crate",
-        CrateCSVConstants.CRAPS_AMOUNT: 25000
+        CrateCSVConstants.CRAPS_AMOUNT: crapsEntryAmount
     }
     curCrate = Crate(crapsCrateInfo)
     curCrateYML = convert_dict_to_yaml(curCrate.dict)
@@ -165,4 +165,26 @@ def createCrapsInfo(crapsEntryAmount, roll):
         yaml.dump(curCrate.dict, outfile, sort_keys=False)
 
 createCraps()
+
+CRAPS_RESULT_AMOUNTS_250k = {
+    "WIN": 500000,
+    "LOSE": 0,
+    "REROLL": 0
+}
+
+CRAPS_RESULT_AMOUNTS_2500k = {
+    "WIN": 5000000,
+    "LOSE": 0,
+    "REROLL": 0
+}
+
+CRAPS_RESULT_AMOUNTS_25mil = {
+    "WIN": 50000000,
+    "LOSE": 0,
+    "REROLL": 0
+}
+
+createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_250k,crapsEntryAmount=(CRAPS_RESULT_AMOUNTS_250k['WIN']//2))
+createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_2500k,crapsEntryAmount=(CRAPS_RESULT_AMOUNTS_2500k['WIN']//2))
+createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_25mil,crapsEntryAmount=(CRAPS_RESULT_AMOUNTS_25mil['WIN']//2))
 

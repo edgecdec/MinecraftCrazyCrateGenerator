@@ -47,7 +47,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
+      - 'eco give %player% 0'
       'Messages':
       - '&7You lost!'
     2:
@@ -62,7 +62,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
+      - 'eco give %player% 0'
       'Messages':
       - '&7You lost!'
     3:
@@ -77,8 +77,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-4 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-4 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     4:
@@ -93,8 +93,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-5 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-5 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     5:
@@ -109,8 +109,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-6 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     6:
@@ -125,7 +125,7 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 50000'
+      - 'eco give %player% 50000'
       'Messages':
       - '&7You won!'
     7:
@@ -140,8 +140,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-8 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-8 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     8:
@@ -156,8 +156,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-9 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-9 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     9:
@@ -172,8 +172,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-10 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-10 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     10:
@@ -188,8 +188,8 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
-      - 'crates give physical Craps25000Crate-11 1 %playername%'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps25000Crate-11 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     11:
@@ -204,6 +204,6 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %playername% 0'
+      - 'eco give %player% 0'
       'Messages':
       - '&7You lost!'

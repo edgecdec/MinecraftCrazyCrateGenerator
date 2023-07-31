@@ -1,7 +1,7 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&fCraps25000Crate-9'
-  'Preview-Name': '&fCraps25000Crate-9'
+  'CrateName': '&fCraps250000Crate-6'
+  'Preview-Name': '&fCraps250000Crate-6'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
@@ -10,7 +10,7 @@
   'BroadCast': '%prefix%&6&l%player%&r &7is opening a &f&lCraps Crate&7.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&f&lCraps25000Crate-9'
+  'Name': '&f&lCraps250000Crate-6'
   'Lore':
   - '&f&lCraps Crate,&7This crate is used in the craps game.'
   - '&7You have &6%Keys% keys &7to open this crate with.'
@@ -23,9 +23,9 @@
       'Item': 'BLACK_STAINED_GLASS_PANE'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&f&lCraps25000Crate-9 &c&lKey'
+    'Name': '&f&lCraps250000Crate-6 &c&lKey'
     'Lore':
-    - '&7A Craps25000-9 Key'
+    - '&7A Craps250000-6 Key'
     - '&7For a Craps Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
@@ -33,7 +33,7 @@
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&f&lCraps25000-9 Crate'
+    - '&f&lCraps250000-6 Crate'
   'Prizes':
     1:
       'DisplayName': '&a&l2!!! RE-ROLL!'
@@ -48,7 +48,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     2:
@@ -64,7 +64,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     3:
@@ -80,7 +80,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     4:
@@ -96,12 +96,12 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     5:
-      'DisplayName': '&a&l6!!! RE-ROLL!'
-      'DisplayItem': 'TRIPWIRE_HOOK'
+      'DisplayName': '&a&l6!!! YOU WON!'
+      'DisplayItem': 'EMERALD'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 6'
@@ -111,10 +111,9 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'eco give %player% 500000'
       'Messages':
-      - '&7Re-Roll!'
+      - '&7You won!'
     6:
       'DisplayName': '&a&l7!!! YOU LOSE!'
       'DisplayItem': 'BONE'
@@ -143,12 +142,12 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     8:
-      'DisplayName': '&a&l9!!! YOU WON!'
-      'DisplayItem': 'EMERALD'
+      'DisplayName': '&a&l9!!! RE-ROLL!'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - 'ROLL 9'
@@ -158,9 +157,10 @@
       'Items':
       - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %player% 50000'
+      - 'eco give %player% 0'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
-      - '&7You won!'
+      - '&7Re-Roll!'
     9:
       'DisplayName': '&a&l10!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -174,7 +174,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     10:
@@ -190,7 +190,7 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
     11:
@@ -206,6 +206,6 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'eco give %player% 0'
-      - 'crates give physical Craps25000Crate-9 1 %player%'
+      - 'crates give physical Craps250000Crate-6 1 %player%'
       'Messages':
       - '&7Re-Roll!'
