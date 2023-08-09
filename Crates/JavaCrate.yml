@@ -36,8 +36,8 @@
     - '&e&lJava Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&l$30,000'
-      'DisplayItem': 'PAPER'
+      'DisplayName': '&a&lCRAPS'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - '&7Lots of money.'
@@ -45,14 +45,14 @@
       'MaxRange': 100
       'Chance': 30
       'Items':
-      - 'Item:PAPER, Amount:1'
+      - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %player% 30000'
+      - 'crates give physical Craps25000Crate-FirstRoll 1 %player%'
       'Messages':
-      - '&7You just won &r$30,000!!!'
+      - '&7You just won a craps key!!!'
     2:
-      'DisplayName': '&a&l$50,000'
-      'DisplayItem': 'PAPER'
+      'DisplayName': '&a&lCRAAPS'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - '&7Even more money.'
@@ -60,14 +60,14 @@
       'MaxRange': 100
       'Chance': 20
       'Items':
-      - 'Item:PAPER, Amount:1'
+      - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %player% 50000'
+      - 'crates give physical Craps25000Crate-FirstRoll 3 %player%'
       'Messages':
-      - '&7You just won &r$50,000!!!'
+      - '&7You just won 3 craps keys!!!'
     3:
-      'DisplayName': '&a&l$100,000'
-      'DisplayItem': 'PAPER'
+      'DisplayName': '&a&lLOTTO'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - '&7A lot of lot of money.'
@@ -75,14 +75,14 @@
       'MaxRange': 100
       'Chance': 10
       'Items':
-      - 'Item:PAPER, Amount:1'
+      - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %player% 100000'
+      - 'crates give physical LottoCrate 1 %player%'
       'Messages':
-      - '&7You just won &r$100,000!!!'
+      - '&7You just won a lotto key!!!'
     4:
-      'DisplayName': '&a&l$500,000'
-      'DisplayItem': 'PAPER'
+      'DisplayName': '&a&lCRAAAAPS'
+      'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
       - '&7A buttload of money.'
@@ -90,11 +90,11 @@
       'MaxRange': 100
       'Chance': 3
       'Items':
-      - 'Item:PAPER, Amount:1'
+      - 'Item:AIR, Amount:1'
       'Commands':
-      - 'eco give %player% 500000'
+      - 'crates give physical Craps250000Crate-FirstRoll 2 %player%'
       'Messages':
-      - '&7You just won &r$500,000!!!'
+      - '&7You just won two craps keys!!!'
     5:
       'DisplayName': '&a&l$2,000,000'
       'DisplayItem': 'PAPER'

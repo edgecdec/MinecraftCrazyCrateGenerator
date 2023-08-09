@@ -1,8 +1,8 @@
 DisplayName,DisplayItem,DisplayAmount,Lore,MaxRange,Chance,PercentChance,Items,Amounts,Commands,Messages
-"&a&l$30,000",PAPER,1,&7Lots of money.,,30,15.96,PAPER,1,eco give %player% 30000,"&7You just won &r$30,000!!!"
-"&a&l$50,000",PAPER,1,&7Even more money.,,20,10.64,PAPER,1,eco give %player% 50000,"&7You just won &r$50,000!!!"
-"&a&l$100,000",PAPER,1,&7A lot of lot of money.,,10,5.32,PAPER,1,eco give %player% 100000,"&7You just won &r$100,000!!!"
-"&a&l$500,000",PAPER,1,&7A buttload of money.,,3,1.6,PAPER,1,eco give %player% 500000,"&7You just won &r$500,000!!!"
+"&a&lCRAPS",TRIPWIRE_HOOK,1,&7Lots of money.,,30,15.96,AIR,1,crates give physical Craps25000Crate-FirstRoll 1 %player%,"&7You just won a craps key!!!"
+"&a&lCRAAPS",TRIPWIRE_HOOK,1,&7Even more money.,,20,10.64,AIR,1,crates give physical Craps25000Crate-FirstRoll 3 %player%,"&7You just won 3 craps keys!!!"
+"&a&lLOTTO",TRIPWIRE_HOOK,1,&7A lot of lot of money.,,10,5.32,AIR,1,crates give physical LottoCrate 1 %player%,"&7You just won a lotto key!!!"
+"&a&lCRAAAAPS",TRIPWIRE_HOOK,1,&7A buttload of money.,,3,1.6,AIR,1,crates give physical Craps250000Crate-FirstRoll 2 %player%,"&7You just won two craps keys!!!"
 "&a&l$2,000,000",PAPER,1,&7You're RICH!!!,,1,0.53,PAPER,1,"eco give %player% 2000000, broadcast &6&l%player% &ajust won the &e&l$2,000,000 JACKPOT &afrom a Java Crate!!!","&7You just won &$2,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!"
 &7&lMooor Keeeyzzz,TRIPWIRE_HOOK,3,&73 java keys.,,15,7.98,AIR,1,crates give physical JavaCrate 2 %player%,&7You just won more keys!!!
 &7&lMooooor Keeeeeyzzzzz,TRIPWIRE_HOOK,5,&75 java keys.,,6,3.19,AIR,1,crates give physical JavaCrate 4 %player%,&7You just won more keys!!!
