@@ -1,16 +1,16 @@
 'Crate':
   'CrateType': 'QuadCrate'
-  'CrateName': '&eLotto Crate'
-  'Preview-Name': '&eLotto Crate'
+  'CrateName': '&eLotto+ Crate'
+  'Preview-Name': '&eLotto+ Crate'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lLotto Crate&7.'
+  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lLotto+ Crate&7.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lLotto Crate'
+  'Name': '&e&lLotto+ Crate'
   'Lore':
   - '&7This crate contains some awesome items!!!'
   - '&7You have &6%Keys% keys &7to open this crate with.'
@@ -23,107 +23,122 @@
       'Item': 'ORANGE_STAINED_GLASS'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lLotto Crate &c&lKey'
+    'Name': '&e&lLotto+ Crate &c&lKey'
     'Lore':
-    - '&7A Lotto Key'
-    - '&7For a Lotto Crate.'
+    - '&7A Lotto+ Key'
+    - '&7For a Lotto+ Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lLotto Crate'
+    - '&e&lLotto+ Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&l$10,000'
+      'DisplayName': '&a&l$696,969'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
       - '&7Lots of money.'
-      - '(50.0%)'
-      'MaxRange': 400
+      - '(0.4%)'
+      'MaxRange': 500
       'Chance': 200
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 10000'
+      - 'eco give %player% 696969'
       'Messages':
-      - '&7You just won &r$10,000!!!'
+      - '&7You just won &rcash!'
     2:
-      'DisplayName': '&a&l$20,000'
+      'DisplayName': '&a&l$1,000,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
       - '&7Lots of money.'
-      - '(25.0%)'
-      'MaxRange': 400
+      - '(0.3%)'
+      'MaxRange': 500
+      'Chance': 150
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 1000000'
+      'Messages':
+      - '&7You just won &rcash!'
+    3:
+      'DisplayName': '&a&l$1,696,969'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7Lots of money.'
+      - '(0.2%)'
+      'MaxRange': 500
       'Chance': 100
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 20000'
+      - 'eco give %player% 1696969'
       'Messages':
-      - '&7You just won &r$20,000!!!'
-    3:
-      'DisplayName': '&a&l$50,000'
-      'DisplayItem': 'PAPER'
-      'DisplayAmount': '1'
-      'Lore':
-      - '&7Even more money.'
-      - '(15.0%)'
-      'MaxRange': 400
-      'Chance': 60
-      'Items':
-      - 'Item:PAPER, Amount:1'
-      'Commands':
-      - 'eco give %player% 50000'
-      'Messages':
-      - '&7You just won &r$50,000!!!'
+      - '&7You just won &rcash!'
     4:
-      'DisplayName': '&a&l$100,000'
+      'DisplayName': '&a&l$4,206,969'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
       - '&7A lot of lot of money.'
-      - '(7.5%)'
-      'MaxRange': 400
-      'Chance': 30
+      - '(0.05%)'
+      'MaxRange': 500
+      'Chance': 25
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 100000'
+      - 'eco give %player% 4206969'
       'Messages':
-      - '&7You just won &r$100,000!!!'
+      - '&7You just won &rcash!'
     5:
-      'DisplayName': '&a&l$500,000'
+      'DisplayName': '&a&l$6,900,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
       - '&7A buttload of money.'
-      - '(2.25%)'
-      'MaxRange': 400
-      'Chance': 9
+      - '(0.03%)'
+      'MaxRange': 500
+      'Chance': 15
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 500000'
+      - 'eco give %player% 6900000'
       'Messages':
-      - '&7You just won &r$500,000!!!'
+      - '&7You just won &rcash!'
     6:
-      'DisplayName': '&a&l$5,000,000'
+      'DisplayName': '&a&l$10,000,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
       - '&7You''re RICH!!!'
-      - '(0.25%)'
-      'MaxRange': 400
+      - '(0.018%)'
+      'MaxRange': 500
+      'Chance': 9
+      'Items':
+      - 'Item:PAPER, Amount:1'
+      'Commands':
+      - 'eco give %player% 10000000'
+      'Messages':
+      - '&7You just won &rcash!'
+    7:
+      'DisplayName': '&a&l$69,696,969'
+      'DisplayItem': 'PAPER'
+      'DisplayAmount': '1'
+      'Lore':
+      - '&7You''re RICH AF!!!'
+      - '(0.002%)'
+      'MaxRange': 500
       'Chance': 1
       'Items':
       - 'Item:PAPER, Amount:1'
       'Commands':
-      - 'eco give %player% 5000000'
-      - 'broadcast &6&l%player% &ajust won the &e&l$5,000,000 JACKPOT &afrom the Lotto
-        Crate!!!'
+      - 'eco give %player% 69696969'
+      - 'broadcast &6&l%player% &ajust won the &e&l$69,696,969 JACKPOT &afrom the
+        Lotto Crate!!!'
       'Messages':
-      - '&7You just won &$5,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!'
+      - '&7You just won the &rjackpot!'

@@ -42,7 +42,7 @@
       'Lore':
       - '&7Bit o'' pocket change.'
       - '(17.01%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 50
       'Items':
       - 'Item:PAPER, Amount:1'
@@ -57,7 +57,7 @@
       'Lore':
       - '&7Enough for half of a cheap spawner!'
       - '(6.8%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 20
       'Items':
       - 'Item:PAPER, Amount:1'
@@ -72,7 +72,7 @@
       'Lore':
       - '&750K, let''s gooooo!'
       - '(2.38%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 7
       'Items':
       - 'Item:PAPER, Amount:1'
@@ -87,7 +87,7 @@
       'Lore':
       - '&7Big bucks.'
       - '(1.02%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 3
       'Items':
       - 'Item:PAPER, Amount:1'
@@ -102,7 +102,7 @@
       'Lore':
       - '&7The mega money jackpot of the Python Crate.'
       - '(0.34%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 1
       'Items':
       - 'Item:PAPER, Amount:1'
@@ -118,7 +118,7 @@
       'Lore':
       - '&7Is this even useful now?'
       - '(10.2%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 30
       'Items':
       - 'Item:NETHERITE_SCRAP, Amount:1'
@@ -133,7 +133,7 @@
       'Lore':
       - '&7Backwards, it''s tognI etirehteN.'
       - '(1.7%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 5
       'Items':
       - 'Item:NETHERITE_INGOT, Amount:1'
@@ -148,7 +148,7 @@
       'Lore':
       - '&7High five!'
       - '(10.2%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 30
       'Items':
       - 'Item:DIAMOND, Amount:5'
@@ -163,7 +163,7 @@
       'Lore':
       - '&7Double digits!'
       - '(3.4%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 10
       'Items':
       - 'Item:DIAMOND, Amount:10'
@@ -178,7 +178,7 @@
       'Lore':
       - '&7You''re stacked!'
       - '(1.02%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 3
       'Items':
       - 'Item:DIAMOND, Amount:64'
@@ -193,7 +193,7 @@
       'Lore':
       - '&7GOOOOLLLDDDD!'
       - '(2.72%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 8
       'Items':
       - 'Item:GOLD_BLOCK, Amount:64'
@@ -208,7 +208,7 @@
       'Lore':
       - '&75 scratch keys.'
       - '(10.2%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 30
       'Items':
       - 'Item:AIR, Amount:1'
@@ -223,7 +223,7 @@
       'Lore':
       - '&73 python keys.'
       - '(5.1%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 15
       'Items':
       - 'Item:AIR, Amount:1'
@@ -238,7 +238,7 @@
       'Lore':
       - '&75 python keys.'
       - '(2.04%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 6
       'Items':
       - 'Item:AIR, Amount:1'
@@ -253,7 +253,7 @@
       'Lore':
       - '&710 python keys, wow!'
       - '(0.68%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -268,7 +268,7 @@
       'Lore':
       - '&71 java key, upgrade!'
       - '(10.2%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 30
       'Items':
       - 'Item:AIR, Amount:1'
@@ -283,7 +283,7 @@
       'Lore':
       - '&7The ultimate spider killer...'
       - '(1.7%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -300,7 +300,7 @@
       'Lore':
       - '&7The ultimate zombie killer...'
       - '(1.7%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -317,7 +317,7 @@
       'Lore':
       - '&7Right click to use! One-time use snowball attack.'
       - '(10.2%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 30
       'Items':
       - 'Item:AIR, Amount:1'
@@ -342,7 +342,7 @@
       - '&7Obtain a &6LEGENDARY &7DtheBozz ban voucher. Right click to ban him for
         a minute.'
       - '(1.02%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -357,7 +357,7 @@
       'Lore':
       - '&7The best of the best of axes.'
       - '(0.34%)'
-      'MaxRange': 100
+      'MaxRange': 294
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'

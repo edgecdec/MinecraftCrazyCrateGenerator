@@ -44,7 +44,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -58,7 +58,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -72,7 +72,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -86,7 +86,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -100,7 +100,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -114,7 +114,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -128,7 +128,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -142,7 +142,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -156,7 +156,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -170,7 +170,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -184,7 +184,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -198,7 +198,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -212,7 +212,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -226,7 +226,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -240,7 +240,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -254,7 +254,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -268,7 +268,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -282,7 +282,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -296,7 +296,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -310,7 +310,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -324,7 +324,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -338,7 +338,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -352,7 +352,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -366,7 +366,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -380,7 +380,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -394,7 +394,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -408,7 +408,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -422,7 +422,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -436,7 +436,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -450,7 +450,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -464,7 +464,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -478,7 +478,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -492,7 +492,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -506,7 +506,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -520,7 +520,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -534,7 +534,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -548,7 +548,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -562,7 +562,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -576,7 +576,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -590,7 +590,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -604,7 +604,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -618,7 +618,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -632,7 +632,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -646,7 +646,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -660,7 +660,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -674,7 +674,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -688,7 +688,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -702,7 +702,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -716,7 +716,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -730,7 +730,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -744,7 +744,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -758,7 +758,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -772,7 +772,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -786,7 +786,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -800,7 +800,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -814,7 +814,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -828,7 +828,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -842,7 +842,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -856,7 +856,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -870,7 +870,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -884,7 +884,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -898,7 +898,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -912,7 +912,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -926,7 +926,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -940,7 +940,7 @@
       'DisplayAmount': '1'
       'Lore':
       - 'FREEE'
-      'MaxRange': 100
+      'MaxRange': 273
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'

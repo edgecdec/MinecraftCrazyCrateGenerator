@@ -36,6 +36,7 @@ class Crate:
             self.CrapsAmount = str(info[CrateCSVConstants.CRAPS_AMOUNT])
         self.Preview = CratePreview(info)
         self.rewards = []
+        self.totalChance = 0
         self.populateRewards()
         self.dict = {}
         self.createDict()
@@ -48,6 +49,9 @@ class Crate:
         for i in range(len(rewardsInfo)):
             curReward = Reward(rewardsInfo[i], self.info)
             self.rewards.append(curReward.dict)
+            self.totalChance += curReward.Chance
+        for i in range(len(self.rewards)):
+            self.rewards[i][RewardCSVConstants.MAX_RANGE] = self.totalChance
 
 
     def createDict(self):

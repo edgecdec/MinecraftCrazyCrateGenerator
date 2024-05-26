@@ -42,7 +42,7 @@
       'Lore':
       - '&7Lots of money.'
       - '(15.96%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 30
       'Items':
       - 'Item:AIR, Amount:1'
@@ -57,7 +57,7 @@
       'Lore':
       - '&7Even more money.'
       - '(10.64%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 20
       'Items':
       - 'Item:AIR, Amount:1'
@@ -72,7 +72,7 @@
       'Lore':
       - '&7A lot of lot of money.'
       - '(5.32%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -87,7 +87,7 @@
       'Lore':
       - '&7A buttload of money.'
       - '(1.6%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 3
       'Items':
       - 'Item:AIR, Amount:1'
@@ -102,7 +102,7 @@
       'Lore':
       - '&7You''re RICH!!!'
       - '(0.53%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 1
       'Items':
       - 'Item:PAPER, Amount:1'
@@ -119,7 +119,7 @@
       'Lore':
       - '&73 java keys.'
       - '(7.98%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 15
       'Items':
       - 'Item:AIR, Amount:1'
@@ -134,7 +134,7 @@
       'Lore':
       - '&75 java keys.'
       - '(3.19%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 6
       'Items':
       - 'Item:AIR, Amount:1'
@@ -149,7 +149,7 @@
       'Lore':
       - '&77 java keys, woo!'
       - '(1.06%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -164,7 +164,7 @@
       'Lore':
       - '&75 python keys.'
       - '(5.32%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -179,7 +179,7 @@
       'Lore':
       - '&d&nHead of the almighty clown DubDubHotTubDub'
       - '(0.53%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -197,7 +197,7 @@
       'Lore':
       - '&7For the love of fishing'
       - '(1.06%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:1'
@@ -215,7 +215,7 @@
       'Lore':
       - '&7Amazing boots! For the clumsy.'
       - '(2.66%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -233,7 +233,7 @@
       'Lore':
       - '&7The best item'
       - '(10.64%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 20
       'Items':
       - 'Item:AIR, Amount:1'
@@ -249,7 +249,7 @@
       - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.'
       - '&7See what happens when you eat it...'
       - '(2.66%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -264,7 +264,7 @@
       'Lore':
       - '&7TNT...overload. Be extremely careful. (AWWWW MAN)'
       - '(15.96%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 30
       'Items':
       - 'Item:AIR, Amount:1'
@@ -279,7 +279,7 @@
       'Lore':
       - '&7Craft a set of diamond armor, and more!'
       - '(10.64%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 20
       'Items':
       - 'Item:DIAMOND, Amount:32'
@@ -294,7 +294,7 @@
       'Lore':
       - '&7These booties are OP AF, enjoy!'
       - '(0.53%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -313,7 +313,7 @@
       'Lore':
       - '&7Well, you are very lucky.'
       - '(1.06%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 2
       'Items':
       - 'Item:AIR, Amount:3'
@@ -329,7 +329,7 @@
       'Lore':
       - '&7Is that a Pre-End Shulker?!? :O'
       - '(2.66%)'
-      'MaxRange': 100
+      'MaxRange': 188
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'

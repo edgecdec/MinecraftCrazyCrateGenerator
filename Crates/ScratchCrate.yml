@@ -42,7 +42,7 @@
       'Lore':
       - '&7A Camel Spawn Egg'
       - '(0.44%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 1
       'Items':
       - 'Item:CAMEL_SPAWN_EGG, Amount:1'
@@ -57,7 +57,7 @@
       'Lore':
       - '&7A Sniffer Egg'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:SNIFFER_EGG, Amount:1'
@@ -72,7 +72,7 @@
       'Lore':
       - '&7A Sniffer Spawn Egg'
       - '(0.44%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 1
       'Items':
       - 'Item:SNIFFER_SPAWN_EGG, Amount:1'
@@ -87,7 +87,7 @@
       'Lore':
       - '&7Cherry Wood'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:CHERRY_WOOD, Amount:512'
@@ -102,7 +102,7 @@
       'Lore':
       - '&7The one and only.'
       - '(0.44%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 1
       'Items':
       - 'Item:BRUSH, Amount:1'
@@ -121,7 +121,7 @@
       'Lore':
       - '&7Suspicious Gravel'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -144,7 +144,7 @@
       'Lore':
       - '&7Suspicious Gravel '
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:'
@@ -170,7 +170,7 @@
       'Lore':
       - '&7Suspicious Sand'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:'
@@ -196,7 +196,7 @@
       'Lore':
       - '&7Suspicious Sand'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:'
@@ -218,7 +218,7 @@
       'Lore':
       - '&7Suspicious Sand'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:'
@@ -240,7 +240,7 @@
       'Lore':
       - '&7End Stone!!!'
       - '(8.85%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 20
       'Items':
       - 'Item:END_STONE, Amount:64'
@@ -255,7 +255,7 @@
       'Lore':
       - ''
       - '(8.85%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 20
       'Items':
       - 'Item:AIR, Amount:1'
@@ -270,7 +270,7 @@
       'Lore':
       - ''
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:AIR, Amount:1'
@@ -285,7 +285,7 @@
       'Lore':
       - ''
       - '(2.21%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 5
       'Items':
       - 'Item:AIR, Amount:1'
@@ -300,7 +300,7 @@
       'Lore':
       - ''
       - '(13.27%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 30
       'Items':
       - 'Item:AIR, Amount:1'
@@ -315,7 +315,7 @@
       'Lore':
       - '&7Netherite Upgrade'
       - '(13.27%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 30
       'Items':
       - 'Item:NETHERITE_UPGRADE_SMITHING_TEMPLATE, Amount:2'
@@ -330,7 +330,7 @@
       'Lore':
       - '&7Sentry Armor Trim'
       - '(2.21%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 5
       'Items':
       - 'Item:SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:2'
@@ -345,7 +345,7 @@
       'Lore':
       - '&7Vex Armor Trim'
       - '(0.88%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 2
       'Items':
       - 'Item:VEX_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -360,7 +360,7 @@
       'Lore':
       - '&7Wild Armor Trim'
       - '(1.33%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 3
       'Items':
       - 'Item:WILD_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -375,7 +375,7 @@
       'Lore':
       - '&7Coast Armor Trim'
       - '(4.42%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 10
       'Items':
       - 'Item:COAST_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:2'
@@ -390,7 +390,7 @@
       'Lore':
       - '&7Dune Armor Trim'
       - '(1.33%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 3
       'Items':
       - 'Item:DUNE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -405,7 +405,7 @@
       'Lore':
       - '&7Ward Armor Trim'
       - '(0.44%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 1
       'Items':
       - 'Item:WARD_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -420,7 +420,7 @@
       'Lore':
       - '&7Silence Armor Trim'
       - '(0.44%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 1
       'Items':
       - 'Item:SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -435,7 +435,7 @@
       'Lore':
       - '&7Tide Armor Trim'
       - '(2.21%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 5
       'Items':
       - 'Item:TIDE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -450,7 +450,7 @@
       'Lore':
       - '&7Eye Armor Trim'
       - '(1.33%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 3
       'Items':
       - 'Item:EYE_ARMOR_TRIM_SMITHING_TEMPLATE, Amount:1'
@@ -465,7 +465,7 @@
       'Lore':
       - '&7A portable music player!'
       - '(0.44%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 1
       'Items':
       - 'Item:AIR, Amount:1'
@@ -481,7 +481,7 @@
       'Lore':
       - '&7Some funyuns to munch on.'
       - '(1.77%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 4
       'Items':
       - 'Item:AIR, Amount:1'
@@ -497,7 +497,7 @@
       'Lore':
       - '&cSpam fireworks everywhere!'
       - '(2.52%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 6
       'Items':
       - 'Item:AIR, Amount:1'
@@ -518,7 +518,7 @@
       'Lore':
       - '&cPerfect for home defense!'
       - '(2.52%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 6
       'Items':
       - 'Item:AIR, Amount:1'
@@ -542,7 +542,7 @@
       'Lore':
       - '&cTypical American breakfast.'
       - '(2.52%)'
-      'MaxRange': 100
+      'MaxRange': 244
       'Chance': 6
       'Items':
       - 'Item:AIR, Amount:1'
