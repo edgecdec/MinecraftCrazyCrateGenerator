@@ -1,0 +1,213 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&b&lDiamond 10 Craps Crate-6'
+  Preview-Name: '&b&lDiamond 10 Craps Crate-6'
+  StartingKeys: 0
+  Max-Mass-Open: 1
+  InGUI: false
+  Slot: 14
+  OpeningBroadCast: true
+  BroadCast: '%prefix%&6&l%player%&r &7is rolling the dice in a &b&lDiamond 10 Craps
+    Crate-6&7!'
+  Item: DIAMOND
+  Glowing: false
+  Name: '&b&lDiamond 10 Craps Crate-6'
+  Lore:
+  - '&7Rolling for diamond!'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: LIGHT_BLUE_STAINED_GLASS_PANE
+      Name: ' '
+  PhysicalKey:
+    Name: '&b&lDiamond 10 Craps Crate-6 &c&lKey'
+    Lore:
+    - '&7A &b&lDiamond 10 Craps Crate-6 Key'
+    - '&7Roll for diamond!'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Hologram:
+    Toggle: true
+    Height: 1.5
+    Message:
+    - '&b&lDiamond 10 Craps Crate-6'
+    - '&7Roll for Diamond!'
+  Prizes:
+    1:
+      DisplayName: '&a&l2!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 2
+      - (2.78%)
+      MaxRange: 36
+      Chance: 1
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    2:
+      DisplayName: '&a&l3!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 3
+      - (5.56%)
+      MaxRange: 36
+      Chance: 2
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    3:
+      DisplayName: '&a&l4!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 4
+      - (8.33%)
+      MaxRange: 36
+      Chance: 3
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    4:
+      DisplayName: '&a&l5!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 5
+      - (11.11%)
+      MaxRange: 36
+      Chance: 4
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    5:
+      DisplayName: '&a&l6!!! YOU WON!'
+      DisplayItem: DIAMOND
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 6
+      - (13.89%)
+      MaxRange: 36
+      Chance: 5
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 10
+      Messages:
+      - '&7You won!'
+    6:
+      DisplayName: '&a&l7!!! YOU LOSE!'
+      DisplayItem: BONE
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 7
+      - (16.67%)
+      MaxRange: 36
+      Chance: 6
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      Messages:
+      - '&7You lost!'
+    7:
+      DisplayName: '&a&l8!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 8
+      - (13.89%)
+      MaxRange: 36
+      Chance: 5
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    8:
+      DisplayName: '&a&l9!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 9
+      - (11.11%)
+      MaxRange: 36
+      Chance: 4
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    9:
+      DisplayName: '&a&l10!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 10
+      - (8.33%)
+      MaxRange: 36
+      Chance: 3
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    10:
+      DisplayName: '&a&l11!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 11
+      - (5.56%)
+      MaxRange: 36
+      Chance: 2
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
+    11:
+      DisplayName: '&a&l12!!! RE-ROLL!'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: '1'
+      Lore:
+      - ROLL 12
+      - (2.78%)
+      MaxRange: 36
+      Chance: 1
+      Items:
+      - Item:AIR, Amount:1
+      Commands:
+      - give %player% diamond 0
+      - crates give physical CrapsDiamond10Crate-6 1 %player%
+      Messages:
+      - '&7Re-Roll!'
