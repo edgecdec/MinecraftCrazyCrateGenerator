@@ -1,20 +1,20 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&ePython Crate'
-  'Preview-Name': '&ePython Crate'
+  'CrateName': '<yellow>Python Crate'
+  'Preview-Name': '<yellow>Python Crate'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lPython Crate&7.'
+  'BroadCast': '%prefix%<gold><bold>%player%<reset> <gray>is opening a <yellow><bold>Python Crate<gray>.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lPython Crate'
+  'Name': '<yellow><bold>Python Crate'
   'Lore':
-  - '&7This crate contains some awesome items!!!'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '<gray>This crate contains some awesome items!!!'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
   'Preview':
     'Toggle': true
     'ChestLines': 6
@@ -23,24 +23,24 @@
       'Item': 'LIME_STAINED_GLASS_PANE'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lPython Crate &c&lKey'
+    'Name': '<yellow><bold>Python Crate <red><bold>Key'
     'Lore':
-    - '&7A Python Key'
-    - '&7For a Python Crate.'
+    - '<gray>A Python Key'
+    - '<gray>For a Python Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lPython Crate'
+    - '<yellow><bold>Python Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&l$5,000'
+      'DisplayName': '<green><bold>$5,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Bit o'' pocket change.'
+      - '<gray>Bit o'' pocket change.'
       - '(17.01%)'
       'MaxRange': 294
       'Chance': 50
@@ -49,13 +49,13 @@
       'Commands':
       - 'eco give %player% 5000'
       'Messages':
-      - '&7You just won &r$5,000!!!'
+      - '<gray>You just won <reset>$5,000!!!'
     2:
-      'DisplayName': '&a&l$10,000'
+      'DisplayName': '<green><bold>$10,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Enough for half of a cheap spawner!'
+      - '<gray>Enough for half of a cheap spawner!'
       - '(6.8%)'
       'MaxRange': 294
       'Chance': 20
@@ -64,13 +64,13 @@
       'Commands':
       - 'eco give %player% 10000'
       'Messages':
-      - '&7You just won &r$10,000!!!'
+      - '<gray>You just won <reset>$10,000!!!'
     3:
-      'DisplayName': '&a&l$50,000'
+      'DisplayName': '<green><bold>$50,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&750K, let''s gooooo!'
+      - '<gray>50K, let''s gooooo!'
       - '(2.38%)'
       'MaxRange': 294
       'Chance': 7
@@ -79,13 +79,13 @@
       'Commands':
       - 'eco give %player% 50000'
       'Messages':
-      - '&7You just won &r$50,000!!!'
+      - '<gray>You just won <reset>$50,000!!!'
     4:
-      'DisplayName': '&a&l$100,000'
+      'DisplayName': '<green><bold>$100,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Big bucks.'
+      - '<gray>Big bucks.'
       - '(1.02%)'
       'MaxRange': 294
       'Chance': 3
@@ -94,13 +94,13 @@
       'Commands':
       - 'eco give %player% 100000'
       'Messages':
-      - '&7You just won &r$100,000!!!'
+      - '<gray>You just won <reset>$100,000!!!'
     5:
-      'DisplayName': '&a&l$500,000'
+      'DisplayName': '<green><bold>$500,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7The mega money jackpot of the Python Crate.'
+      - '<gray>The mega money jackpot of the Python Crate.'
       - '(0.34%)'
       'MaxRange': 294
       'Chance': 1
@@ -108,15 +108,15 @@
       - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 500000'
-      - 'broadcast &6&l%player% &ajust won the $500,000 JACKPOT from a Python Crate!!!'
+      - 'broadcast <gold><bold>%player% <green>just won the $500,000 JACKPOT from a Python Crate!!!'
       'Messages':
-      - '&7You just won &r$500,000!!! &dCongrats on the MEGA MONEY jackpot!!!'
+      - '<gray>You just won <reset>$500,000!!! <light_purple>Congrats on the MEGA MONEY jackpot!!!'
     6:
-      'DisplayName': '&c&l1 Netherite Scrap'
+      'DisplayName': '<red><bold>1 Netherite Scrap'
       'DisplayItem': 'NETHERITE_SCRAP'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Is this even useful now?'
+      - '<gray>Is this even useful now?'
       - '(10.2%)'
       'MaxRange': 294
       'Chance': 30
@@ -125,13 +125,13 @@
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
-      - '&7You just won &ra netherite scrap!'
+      - '<gray>You just won <reset>a netherite scrap!'
     7:
-      'DisplayName': '&c&l1 Netherite Ingot'
+      'DisplayName': '<red><bold>1 Netherite Ingot'
       'DisplayItem': 'NETHERITE_INGOT'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Backwards, it''s tognI etirehteN.'
+      - '<gray>Backwards, it''s tognI etirehteN.'
       - '(1.7%)'
       'MaxRange': 294
       'Chance': 5
@@ -140,13 +140,13 @@
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
-      - '&7You just won &ra netherite ingot!'
+      - '<gray>You just won <reset>a netherite ingot!'
     8:
-      'DisplayName': '&b&l5 Diamonds'
+      'DisplayName': '<aqua><bold>5 Diamonds'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '5'
       'Lore':
-      - '&7High five!'
+      - '<gray>High five!'
       - '(10.2%)'
       'MaxRange': 294
       'Chance': 30
@@ -155,13 +155,13 @@
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
-      - '&7You just won &r5 diamonds! High five!'
+      - '<gray>You just won <reset>5 diamonds! High five!'
     9:
-      'DisplayName': '&b&l10 Diamonds'
+      'DisplayName': '<aqua><bold>10 Diamonds'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '10'
       'Lore':
-      - '&7Double digits!'
+      - '<gray>Double digits!'
       - '(3.4%)'
       'MaxRange': 294
       'Chance': 10
@@ -170,13 +170,13 @@
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
-      - '&7You just won &r10 diamonds!'
+      - '<gray>You just won <reset>10 diamonds!'
     10:
-      'DisplayName': '&b&l64 Diamonds'
+      'DisplayName': '<aqua><bold>64 Diamonds'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '64'
       'Lore':
-      - '&7You''re stacked!'
+      - '<gray>You''re stacked!'
       - '(1.02%)'
       'MaxRange': 294
       'Chance': 3
@@ -185,13 +185,13 @@
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
-      - '&7You just won &r64 diamonds!'
+      - '<gray>You just won <reset>64 diamonds!'
     11:
-      'DisplayName': '&e&lGOOOOLLLDDDD'
+      'DisplayName': '<yellow><bold>GOOOOLLLDDDD'
       'DisplayItem': 'GOLD_BLOCK'
       'DisplayAmount': '64'
       'Lore':
-      - '&7GOOOOLLLDDDD!'
+      - '<gray>GOOOOLLLDDDD!'
       - '(2.72%)'
       'MaxRange': 294
       'Chance': 8
@@ -200,13 +200,13 @@
       'Commands':
       - 'eco give %player% 1000'
       'Messages':
-      - '&7You just won &r64 gold blocks!'
+      - '<gray>You just won <reset>64 gold blocks!'
     12:
-      'DisplayName': '&7&lWorse Keeeeeyzzzzz'
+      'DisplayName': '<gray><bold>Worse Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '5'
       'Lore':
-      - '&75 scratch keys.'
+      - '<gray>5 scratch keys.'
       - '(10.2%)'
       'MaxRange': 294
       'Chance': 30
@@ -215,13 +215,13 @@
       'Commands':
       - 'crates give physical ScratchCrate 5 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     13:
-      'DisplayName': '&7&lMooor Keeeyzzz'
+      'DisplayName': '<gray><bold>Mooor Keeeyzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '3'
       'Lore':
-      - '&73 python keys.'
+      - '<gray>3 python keys.'
       - '(5.1%)'
       'MaxRange': 294
       'Chance': 15
@@ -230,13 +230,13 @@
       'Commands':
       - 'crates give physical PythonCrate 3 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     14:
-      'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
+      'DisplayName': '<gray><bold>Mooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '5'
       'Lore':
-      - '&75 python keys.'
+      - '<gray>5 python keys.'
       - '(2.04%)'
       'MaxRange': 294
       'Chance': 6
@@ -245,13 +245,13 @@
       'Commands':
       - 'crates give physical PythonCrate 5 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     15:
-      'DisplayName': '&7&lSoooooo Many Keyz'
+      'DisplayName': '<gray><bold>Soooooo Many Keyz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '10'
       'Lore':
-      - '&710 python keys, wow!'
+      - '<gray>10 python keys, wow!'
       - '(0.68%)'
       'MaxRange': 294
       'Chance': 2
@@ -260,13 +260,13 @@
       'Commands':
       - 'crates give physical PythonCrate 10 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     16:
-      'DisplayName': '&7&lBetter Key'
+      'DisplayName': '<gray><bold>Better Key'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
-      - '&71 java key, upgrade!'
+      - '<gray>1 java key, upgrade!'
       - '(10.2%)'
       'MaxRange': 294
       'Chance': 30
@@ -275,13 +275,13 @@
       'Commands':
       - 'crates give physical JavaCrate 1 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     17:
-      'DisplayName': '&5&lSpider Killer'
+      'DisplayName': '<dark_purple><bold>Spider Killer'
       'DisplayItem': 'GOLDEN_SWORD'
       'DisplayAmount': '1'
       'Lore':
-      - '&7The ultimate spider killer...'
+      - '<gray>The ultimate spider killer...'
       - '(1.7%)'
       'MaxRange': 294
       'Chance': 5
@@ -292,13 +292,13 @@
         Killer","italic":false}]'',Lore:[''[{"text":"Forged by Arachnophobes","italic":false}]'']},Enchantments:[{id:bane_of_arthropods,lvl:10},{id:sweeping,lvl:3}]}
         1'
       'Messages':
-      - '&7You just won an insane sword!'
+      - '<gray>You just won an insane sword!'
     18:
-      'DisplayName': '&5&lZombie Killer'
+      'DisplayName': '<dark_purple><bold>Zombie Killer'
       'DisplayItem': 'GOLDEN_SWORD'
       'DisplayAmount': '1'
       'Lore':
-      - '&7The ultimate zombie killer...'
+      - '<gray>The ultimate zombie killer...'
       - '(1.7%)'
       'MaxRange': 294
       'Chance': 5
@@ -309,13 +309,13 @@
         Killer","italic":false}]'',Lore:[''[{"text":"Forged by Doomsday Planners","italic":false}]'']},Enchantments:[{id:smite,lvl:10},{id:sweeping,lvl:3}]}
         1'
       'Messages':
-      - '&7You just won an insane sword!'
+      - '<gray>You just won an insane sword!'
     19:
-      'DisplayName': '&7&lPEPPER SPRAY'
+      'DisplayName': '<gray><bold>PEPPER SPRAY'
       'DisplayItem': 'IRON_NUGGET'
       'DisplayAmount': '10'
       'Lore':
-      - '&7Right click to use! One-time use snowball attack.'
+      - '<gray>Right click to use! One-time use snowball attack.'
       - '(10.2%)'
       'MaxRange': 294
       'Chance': 30
@@ -333,13 +333,13 @@
       - 'sgive %player% Pepper_Spray'
       - 'sgive %player% Pepper_Spray'
       'Messages':
-      - '&7You just won &r10 pepper sprays!'
+      - '<gray>You just won <reset>10 pepper sprays!'
     20:
-      'DisplayName': '&c&l&nBAN HIM!'
+      'DisplayName': '<red><bold><underlined>BAN HIM!'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Obtain a &6LEGENDARY &7DtheBozz ban voucher. Right click to ban him for
+      - '<gray>Obtain a <gold>LEGENDARY <gray>DtheBozz ban voucher. Right click to ban him for
         a minute.'
       - '(1.02%)'
       'MaxRange': 294
@@ -349,13 +349,13 @@
       'Commands':
       - 'sgive %player% dthebozz_ban_voucher'
       'Messages':
-      - '&7You just won &ra &6&l LEGENDARY &r Dthebozz ban voucher!'
+      - '<gray>You just won <reset>a <gold><bold> LEGENDARY <reset> Dthebozz ban voucher!'
     21:
-      'DisplayName': '&5&lCocoa Farmer'
+      'DisplayName': '<dark_purple><bold>Cocoa Farmer'
       'DisplayItem': 'GOLDEN_AXE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7The best of the best of axes.'
+      - '<gray>The best of the best of axes.'
       - '(0.34%)'
       'MaxRange': 294
       'Chance': 1
@@ -365,7 +365,7 @@
       - 'execute as %player% run give @s golden_axe{Unbreakable:1,display:{Name:''[{"text":"Cocoa
         Farmer","italic":false}]'',Lore:[''[{"text":"Forged by DubDubHotTubDub\''s
         Admin Abuse Powers","italic":false}]'']}} 1'
-      - 'broadcast &6&l%player% &ajust won the legendary &eCocoa Farmer &afrom a Python
+      - 'broadcast <gold><bold>%player% <green>just won the legendary <yellow>Cocoa Farmer <green>from a Python
         Crate!!!'
       'Messages':
-      - '&7You just won &ra Cocoa Farmer!!! Congrats on the ITEM jackpot!!!'
+      - '<gray>You just won <reset>a Cocoa Farmer!!! Congrats on the ITEM jackpot!!!'

@@ -70,7 +70,7 @@ def createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_DEFAULT, crapsEntryAmount=CRAPS
         for i in range(2, 13):
             crapsInfoDict = CRAPS_DEFAULTS
             curNumChance = TWO_DIE_ROLL_CHANCES[i]
-            crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] = f"&a&l{i}!!! "
+            crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] = f"<green><bold>{i}!!! "
             crapsInfoDict[RewardCSVConstants.CHANCE] = curNumChance
             crapsInfoDict[RewardCSVConstants.PERCENT_CHANCE] = round(100 * curNumChance/TWO_DIE_ROLL_TOTAL_CHANCE, 2)
             crapsInfoDict[RewardCSVConstants.LORE] = f"ROLL {i}"
@@ -94,7 +94,7 @@ def createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_DEFAULT, crapsEntryAmount=CRAPS
             for i in range(2, 13):
                 crapsInfoDict = CRAPS_DEFAULTS
                 curNumChance = TWO_DIE_ROLL_CHANCES[i]
-                crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] = f"&a&l{i}!!! "
+                crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] = f"<green><bold>{i}!!! "
                 crapsInfoDict[RewardCSVConstants.CHANCE] = curNumChance
                 crapsInfoDict[RewardCSVConstants.PERCENT_CHANCE] = round(100 * curNumChance / TWO_DIE_ROLL_TOTAL_CHANCE, 2)
                 crapsInfoDict[RewardCSVConstants.LORE] = f"ROLL {i}"
@@ -111,14 +111,14 @@ def createCraps(amountsDict=CRAPS_RESULT_AMOUNTS_DEFAULT, crapsEntryAmount=CRAPS
 
 def setWinInDict(crapsInfoDict, amountsDict):
     crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU WON!"
-    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You won!"
+    crapsInfoDict[RewardCSVConstants.MESSAGES] = "<gray>You won!"
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "EMERALD"
     crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['WIN']}"
 
 def setLossInDict(crapsInfoDict, amountsDict):
     crapsInfoDict[RewardCSVConstants.DISPLAY_NAME] += f"YOU LOSE!"
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "BONE"
-    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7You lost!"
+    crapsInfoDict[RewardCSVConstants.MESSAGES] = "<gray>You lost!"
     crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}"
 
 def setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, newKeyNum):
@@ -126,36 +126,36 @@ def setReRollInDict(crapsInfoDict, amountsDict, crapsKeyName, newKeyNum):
     crapsInfoDict[RewardCSVConstants.DISPLAY_ITEM] = "TRIPWIRE_HOOK"
     crapsInfoDict[RewardCSVConstants.COMMANDS] = f"eco give %player% {amountsDict['LOSE']}, " \
                                                  f"crates give physical {crapsKeyName}Crate-{newKeyNum} 1 %player%"
-    crapsInfoDict[RewardCSVConstants.MESSAGES] = "&7Re-Roll!"
+    crapsInfoDict[RewardCSVConstants.MESSAGES] = "<gray>Re-Roll!"
 
 def createCrapsInfo(crapsEntryAmount, roll):
     crapsCrateInfo = {
         CrateCSVConstants.REWARD_SHEET_NAME: f"Craps{crapsEntryAmount}Crate-{roll}",
-        CrateCSVConstants.CRATE_NAME: f"&fCraps{crapsEntryAmount}Crate-{roll}",
+        CrateCSVConstants.CRATE_NAME: f"<white>Craps{crapsEntryAmount}Crate-{roll}",
         CrateCSVConstants.CRATE_TYPE: f"QuickCrate",
-        CrateCSVConstants.PREVIEW_NAME: f"&fCraps{crapsEntryAmount}Crate-{roll}",
+        CrateCSVConstants.PREVIEW_NAME: f"<white>Craps{crapsEntryAmount}Crate-{roll}",
         CrateCSVConstants.STARTING_KEYS: 0,
         CrateCSVConstants.MAX_MASS_OPEN: 10,
         CrateCSVConstants.IN_GUI: f"FALSE",
         CrateCSVConstants.SLOT: 14,
         CrateCSVConstants.OPENING_BROADCAST: f"FALSE",
-        CrateCSVConstants.BROADCAST: f"%prefix%&6&l%player%&r &7is opening a &f&lCraps Crate&7.",
+        CrateCSVConstants.BROADCAST: f"%prefix%<gold><bold>%player%<reset> <gray>is opening a <white><bold>Craps Crate<gray>.",
         CrateCSVConstants.ITEM: f"CHEST",
         CrateCSVConstants.GLOWING: f"FALSE",
-        CrateCSVConstants.NAME: f"&f&lCraps{crapsEntryAmount}Crate-{roll}",
-        CrateCSVConstants.LORE: f"&f&lCraps Crate,&7This crate is used in the craps game.\\n&7You have &6%Keys% keys &7to open this crate with.\\n&7&l(&f&l!&7&l) Right click to view rewards.",
+        CrateCSVConstants.NAME: f"<white><bold>Craps{crapsEntryAmount}Crate-{roll}",
+        CrateCSVConstants.LORE: f"<white><bold>Craps Crate,<gray>This crate is used in the craps game.\\n<gray>You have <gold>%Keys% keys <gray>to open this crate with.\\n<gray><bold>(<white><bold>!<gray><bold>) Right click to view rewards.",
         CrateCSVConstants.PREVIEW_TOGGLE: f"TRUE",
         CrateCSVConstants.PREVIEW_CHEST_LINES: 4,
         CrateCSVConstants.PREVIEW_GLASS_TOGGLE: "TRUE",
         CrateCSVConstants.PREVIEW_GLASS_NAME: "",
         CrateCSVConstants.PREVIEW_GLASS_ITEM: "BLACK_STAINED_GLASS_PANE",
-        CrateCSVConstants.PHYSICAL_KEY_NAME: f"&f&lCraps{crapsEntryAmount}Crate-{roll} &c&lKey",
-        CrateCSVConstants.PHYSICAL_KEY_LORE: f"&7A Craps{crapsEntryAmount}-{roll} Key\\n&7For a Craps Crate.",
+        CrateCSVConstants.PHYSICAL_KEY_NAME: f"<white><bold>Craps{crapsEntryAmount}Crate-{roll} <red><bold>Key",
+        CrateCSVConstants.PHYSICAL_KEY_LORE: f"<gray>A Craps{crapsEntryAmount}-{roll} Key\\n<gray>For a Craps Crate.",
         CrateCSVConstants.PHYSICAL_KEY_ITEM: "TRIPWIRE_HOOK",
         CrateCSVConstants.PHYSICAL_KEY_GLOWING: "TRUE",
         CrateCSVConstants.HOLOGRAM_TOGGLE: "TRUE",
         CrateCSVConstants.HOLOGRAM_HEIGHT: 1.5,
-        CrateCSVConstants.HOLOGRAM_MESSAGE: f"&f&lCraps{crapsEntryAmount}-{roll} Crate",
+        CrateCSVConstants.HOLOGRAM_MESSAGE: f"<white><bold>Craps{crapsEntryAmount}-{roll} Crate",
         CrateCSVConstants.CRAPS_AMOUNT: crapsEntryAmount
     }
     curCrate = Crate(crapsCrateInfo)

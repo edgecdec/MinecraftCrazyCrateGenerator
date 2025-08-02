@@ -1,20 +1,20 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&fCraps25000000Crate-FirstRoll'
-  'Preview-Name': '&fCraps25000000Crate-FirstRoll'
+  'CrateName': '<white>Craps25000000Crate-FirstRoll'
+  'Preview-Name': '<white>Craps25000000Crate-FirstRoll'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &f&lCraps Crate&7.'
+  'BroadCast': '%prefix%<gold><bold>%player%<reset> <gray>is opening a <white><bold>Craps Crate<gray>.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&f&lCraps25000000Crate-FirstRoll'
+  'Name': '<white><bold>Craps25000000Crate-FirstRoll'
   'Lore':
-  - '&f&lCraps Crate,&7This crate is used in the craps game.'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&f&l!&7&l) Right click to view rewards.'
+  - '<white><bold>Craps Crate,<gray>This crate is used in the craps game.'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<white><bold>!<gray><bold>) Right click to view rewards.'
   'Preview':
     'Toggle': true
     'ChestLines': 4
@@ -23,20 +23,20 @@
       'Item': 'BLACK_STAINED_GLASS_PANE'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&f&lCraps25000000Crate-FirstRoll &c&lKey'
+    'Name': '<white><bold>Craps25000000Crate-FirstRoll <red><bold>Key'
     'Lore':
-    - '&7A Craps25000000-FirstRoll Key'
-    - '&7For a Craps Crate.'
+    - '<gray>A Craps25000000-FirstRoll Key'
+    - '<gray>For a Craps Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&f&lCraps25000000-FirstRoll Crate'
+    - '<white><bold>Craps25000000-FirstRoll Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&l2!!! YOU LOSE!'
+      'DisplayName': '<green><bold>2!!! YOU LOSE!'
       'DisplayItem': 'BONE'
       'DisplayAmount': '1'
       'Lore':
@@ -49,9 +49,9 @@
       'Commands':
       - 'eco give %player% 0'
       'Messages':
-      - '&7You lost!'
+      - '<gray>You lost!'
     2:
-      'DisplayName': '&a&l3!!! YOU LOSE!'
+      'DisplayName': '<green><bold>3!!! YOU LOSE!'
       'DisplayItem': 'BONE'
       'DisplayAmount': '1'
       'Lore':
@@ -64,9 +64,9 @@
       'Commands':
       - 'eco give %player% 0'
       'Messages':
-      - '&7You lost!'
+      - '<gray>You lost!'
     3:
-      'DisplayName': '&a&l4!!! RE-ROLL!'
+      'DisplayName': '<green><bold>4!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
@@ -80,9 +80,9 @@
       - 'eco give %player% 0'
       - 'crates give physical Craps25000000Crate-4 1 %player%'
       'Messages':
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     4:
-      'DisplayName': '&a&l5!!! RE-ROLL!'
+      'DisplayName': '<green><bold>5!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
@@ -96,9 +96,9 @@
       - 'eco give %player% 0'
       - 'crates give physical Craps25000000Crate-5 1 %player%'
       'Messages':
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     5:
-      'DisplayName': '&a&l6!!! RE-ROLL!'
+      'DisplayName': '<green><bold>6!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
@@ -112,9 +112,9 @@
       - 'eco give %player% 0'
       - 'crates give physical Craps25000000Crate-6 1 %player%'
       'Messages':
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     6:
-      'DisplayName': '&a&l7!!! YOU WON!'
+      'DisplayName': '<green><bold>7!!! YOU WON!'
       'DisplayItem': 'EMERALD'
       'DisplayAmount': '1'
       'Lore':
@@ -127,9 +127,9 @@
       'Commands':
       - 'eco give %player% 50000000'
       'Messages':
-      - '&7You won!'
+      - '<gray>You won!'
     7:
-      'DisplayName': '&a&l8!!! RE-ROLL!'
+      'DisplayName': '<green><bold>8!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
@@ -143,9 +143,9 @@
       - 'eco give %player% 0'
       - 'crates give physical Craps25000000Crate-8 1 %player%'
       'Messages':
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     8:
-      'DisplayName': '&a&l9!!! RE-ROLL!'
+      'DisplayName': '<green><bold>9!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
@@ -159,9 +159,9 @@
       - 'eco give %player% 0'
       - 'crates give physical Craps25000000Crate-9 1 %player%'
       'Messages':
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     9:
-      'DisplayName': '&a&l10!!! RE-ROLL!'
+      'DisplayName': '<green><bold>10!!! RE-ROLL!'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
@@ -175,9 +175,9 @@
       - 'eco give %player% 0'
       - 'crates give physical Craps25000000Crate-10 1 %player%'
       'Messages':
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     10:
-      'DisplayName': '&a&l11!!! YOU WON!'
+      'DisplayName': '<green><bold>11!!! YOU WON!'
       'DisplayItem': 'EMERALD'
       'DisplayAmount': '1'
       'Lore':
@@ -190,9 +190,9 @@
       'Commands':
       - 'eco give %player% 50000000'
       'Messages':
-      - '&7You won!'
+      - '<gray>You won!'
     11:
-      'DisplayName': '&a&l12!!! YOU LOSE!'
+      'DisplayName': '<green><bold>12!!! YOU LOSE!'
       'DisplayItem': 'BONE'
       'DisplayAmount': '1'
       'Lore':
@@ -205,4 +205,4 @@
       'Commands':
       - 'eco give %player% 0'
       'Messages':
-      - '&7You lost!'
+      - '<gray>You lost!'

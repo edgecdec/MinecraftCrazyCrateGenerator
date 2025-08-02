@@ -1,20 +1,20 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&eScratch Crate'
-  'Preview-Name': '&eScratch Crate'
+  'CrateName': '<yellow>Scratch Crate'
+  'Preview-Name': '<yellow>Scratch Crate'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lScratch Crate&7.'
+  'BroadCast': '%prefix%<gold><bold>%player%<reset> <gray>is opening a <yellow><bold>Scratch Crate<gray>.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lScratch Crate'
+  'Name': '<yellow><bold>Scratch Crate'
   'Lore':
-  - '&7This crate contains basic materials.'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '<gray>This crate contains basic materials.'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
   'Preview':
     'Toggle': true
     'ChestLines': 6
@@ -23,24 +23,24 @@
       'Item': 'YELLOW_STAINED_GLASS_PANE'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lScratch Crate &c&lKey'
+    'Name': '<yellow><bold>Scratch Crate <red><bold>Key'
     'Lore':
-    - '&7A Scratch Key'
-    - '&7For a Scratch Crate.'
+    - '<gray>A Scratch Key'
+    - '<gray>For a Scratch Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lScratch Crate'
+    - '<yellow><bold>Scratch Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&lCamel Spawn Egg'
+      'DisplayName': '<green><bold>Camel Spawn Egg'
       'DisplayItem': 'CAMEL_SPAWN_EGG'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A Camel Spawn Egg'
+      - '<gray>A Camel Spawn Egg'
       - '(0.44%)'
       'MaxRange': 244
       'Chance': 1
@@ -51,11 +51,11 @@
       'Messages':
       - ''
     2:
-      'DisplayName': '&a&lSniffer Egg'
+      'DisplayName': '<green><bold>Sniffer Egg'
       'DisplayItem': 'SNIFFER_EGG'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A Sniffer Egg'
+      - '<gray>A Sniffer Egg'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -66,11 +66,11 @@
       'Messages':
       - ''
     3:
-      'DisplayName': '&a&lSniffer Spawn Egg'
+      'DisplayName': '<green><bold>Sniffer Spawn Egg'
       'DisplayItem': 'SNIFFER_SPAWN_EGG'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A Sniffer Spawn Egg'
+      - '<gray>A Sniffer Spawn Egg'
       - '(0.44%)'
       'MaxRange': 244
       'Chance': 1
@@ -81,11 +81,11 @@
       'Messages':
       - ''
     4:
-      'DisplayName': '&a&lNew Wood'
+      'DisplayName': '<green><bold>New Wood'
       'DisplayItem': 'CHERRY_WOOD'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Cherry Wood'
+      - '<gray>Cherry Wood'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -96,11 +96,11 @@
       'Messages':
       - ''
     5:
-      'DisplayName': '&a&lBrush with Death'
+      'DisplayName': '<green><bold>Brush with Death'
       'DisplayItem': 'BRUSH'
       'DisplayAmount': '1'
       'Lore':
-      - '&7The one and only.'
+      - '<gray>The one and only.'
       - '(0.44%)'
       'MaxRange': 244
       'Chance': 1
@@ -111,15 +111,15 @@
         "Brush with","color": "yellow","italic": false},{"text": " Death","color":
         "dark_red"}]'',Lore:[''[{"color":"red","text":"Lol get it?","italic":false}]'']},Enchantments:[{id:knockback,lvl:5}]}
         1'
-      - 'broadcast &9%player% &bjust won an AMAZING brush from a Scratch Crate!!!'
+      - 'broadcast <blue>%player% <aqua>just won an AMAZING brush from a Scratch Crate!!!'
       'Messages':
-      - '&7You just won the BEST item in the game! Guard it with your life...'
+      - '<gray>You just won the BEST item in the game! Guard it with your life...'
     6:
-      'DisplayName': '&a&lSuspicious Gravel'
+      'DisplayName': '<green><bold>Suspicious Gravel'
       'DisplayItem': 'SUSPICIOUS_GRAVEL'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Suspicious Gravel'
+      - '<gray>Suspicious Gravel'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -136,13 +136,13 @@
       - 'execute as %player% run loot give @s loot minecraft:archaeology/trail_ruins_rare'
       - 'execute as %player% run loot give @s loot minecraft:archaeology/trail_ruins_rare'
       'Messages':
-      - '&7You just won some archeology items!'
+      - '<gray>You just won some archeology items!'
     7:
-      'DisplayName': '&a&lSuspicious Gravel'
+      'DisplayName': '<green><bold>Suspicious Gravel'
       'DisplayItem': 'SUSPICIOUS_GRAVEL'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Suspicious Gravel '
+      - '<gray>Suspicious Gravel '
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -162,13 +162,13 @@
       - 'execute as %player% run loot give @s loot minecraft:archaeology/ocean_ruin_cold'
       - 'execute as %player% run loot give @s loot minecraft:archaeology/ocean_ruin_cold'
       'Messages':
-      - '&7You just won some archeology items!'
+      - '<gray>You just won some archeology items!'
     8:
-      'DisplayName': '&a&lSuspicious Sand'
+      'DisplayName': '<green><bold>Suspicious Sand'
       'DisplayItem': 'SUSPICIOUS_SAND'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Suspicious Sand'
+      - '<gray>Suspicious Sand'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -188,13 +188,13 @@
       - 'execute as %player% run loot give @s loot minecraft:archaeology/ocean_ruin_warm'
       - 'execute as %player% run loot give @s loot minecraft:archaeology/ocean_ruin_warm'
       'Messages':
-      - '&7You just won some archeology items!'
+      - '<gray>You just won some archeology items!'
     9:
-      'DisplayName': '&a&lSuspicious Sand'
+      'DisplayName': '<green><bold>Suspicious Sand'
       'DisplayItem': 'SUSPICIOUS_SAND'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Suspicious Sand'
+      - '<gray>Suspicious Sand'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -210,13 +210,13 @@
       - 'execute as %player% run loot give @s loot minecraft:archaeology/desert_pyramid'
       - 'execute as %player% run loot give @s loot minecraft:archaeology/desert_pyramid'
       'Messages':
-      - '&7You just won some archeology items!'
+      - '<gray>You just won some archeology items!'
     10:
-      'DisplayName': '&a&lSuspicious Sand'
+      'DisplayName': '<green><bold>Suspicious Sand'
       'DisplayItem': 'SUSPICIOUS_SAND'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Suspicious Sand'
+      - '<gray>Suspicious Sand'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -232,13 +232,13 @@
       - 'execute as %player% run loot give @s loot minecraft:archaeology/desert_well'
       - 'execute as %player% run loot give @s loot minecraft:archaeology/desert_well'
       'Messages':
-      - '&7You just won some archeology items!'
+      - '<gray>You just won some archeology items!'
     11:
       'DisplayName': 'End Stone'
       'DisplayItem': 'END_STONE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7End Stone!!!'
+      - '<gray>End Stone!!!'
       - '(8.85%)'
       'MaxRange': 244
       'Chance': 20
@@ -262,7 +262,7 @@
       'Commands':
       - 'crates give physical ScratchCrate 3 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     13:
       'DisplayName': 'Mooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -277,7 +277,7 @@
       'Commands':
       - 'crates give physical ScratchCrate 5 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     14:
       'DisplayName': 'Soooooo Many Keyz'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -292,7 +292,7 @@
       'Commands':
       - 'crates give physical ScratchCrate 10 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     15:
       'DisplayName': 'Better Key'
       'DisplayItem': 'TRIPWIRE_HOOK'
@@ -307,13 +307,13 @@
       'Commands':
       - 'crates give physical PythonCrate 1 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     16:
-      'DisplayName': '&a&lNetherite Upgrade'
+      'DisplayName': '<green><bold>Netherite Upgrade'
       'DisplayItem': 'NETHERITE_UPGRADE_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
-      - '&7Netherite Upgrade'
+      - '<gray>Netherite Upgrade'
       - '(13.27%)'
       'MaxRange': 244
       'Chance': 30
@@ -324,11 +324,11 @@
       'Messages':
       - ''
     17:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
-      - '&7Sentry Armor Trim'
+      - '<gray>Sentry Armor Trim'
       - '(2.21%)'
       'MaxRange': 244
       'Chance': 5
@@ -339,11 +339,11 @@
       'Messages':
       - ''
     18:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'VEX_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Vex Armor Trim'
+      - '<gray>Vex Armor Trim'
       - '(0.88%)'
       'MaxRange': 244
       'Chance': 2
@@ -354,11 +354,11 @@
       'Messages':
       - ''
     19:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'WILD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Wild Armor Trim'
+      - '<gray>Wild Armor Trim'
       - '(1.33%)'
       'MaxRange': 244
       'Chance': 3
@@ -369,11 +369,11 @@
       'Messages':
       - ''
     20:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'COAST_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '2'
       'Lore':
-      - '&7Coast Armor Trim'
+      - '<gray>Coast Armor Trim'
       - '(4.42%)'
       'MaxRange': 244
       'Chance': 10
@@ -384,11 +384,11 @@
       'Messages':
       - ''
     21:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'DUNE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Dune Armor Trim'
+      - '<gray>Dune Armor Trim'
       - '(1.33%)'
       'MaxRange': 244
       'Chance': 3
@@ -399,11 +399,11 @@
       'Messages':
       - ''
     22:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'WARD_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Ward Armor Trim'
+      - '<gray>Ward Armor Trim'
       - '(0.44%)'
       'MaxRange': 244
       'Chance': 1
@@ -414,11 +414,11 @@
       'Messages':
       - ''
     23:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Silence Armor Trim'
+      - '<gray>Silence Armor Trim'
       - '(0.44%)'
       'MaxRange': 244
       'Chance': 1
@@ -429,11 +429,11 @@
       'Messages':
       - ''
     24:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'TIDE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Tide Armor Trim'
+      - '<gray>Tide Armor Trim'
       - '(2.21%)'
       'MaxRange': 244
       'Chance': 5
@@ -444,11 +444,11 @@
       'Messages':
       - ''
     25:
-      'DisplayName': '&a&lSmithing Template'
+      'DisplayName': '<green><bold>Smithing Template'
       'DisplayItem': 'EYE_ARMOR_TRIM_SMITHING_TEMPLATE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Eye Armor Trim'
+      - '<gray>Eye Armor Trim'
       - '(1.33%)'
       'MaxRange': 244
       'Chance': 3
@@ -459,11 +459,11 @@
       'Messages':
       - ''
     26:
-      'DisplayName': '&6&lTOY PLUSH'
+      'DisplayName': '<gold><bold>TOY PLUSH'
       'DisplayItem': 'TOTEM_OF_UNDYING'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A portable music player!'
+      - '<gray>A portable music player!'
       - '(0.44%)'
       'MaxRange': 244
       'Chance': 1
@@ -471,15 +471,15 @@
       - 'Item:AIR, Amount:1'
       'Commands':
       - 'sgive %player% toy_plush'
-      - 'broadcast &9%player% &bjust won a Toy Plush from a Scratch Crate!!!'
+      - 'broadcast <blue>%player% <aqua>just won a Toy Plush from a Scratch Crate!!!'
       'Messages':
-      - '&7You just won a LEGENDARY Toy Plush!!! Use around others to spread the joy!'
+      - '<gray>You just won a LEGENDARY Toy Plush!!! Use around others to spread the joy!'
     27:
-      'DisplayName': '&6&LBag of Fvnyuns'
+      'DisplayName': '<gold>&LBag of Fvnyuns'
       'DisplayItem': 'BUNDLE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Some funyuns to munch on.'
+      - '<gray>Some funyuns to munch on.'
       - '(1.77%)'
       'MaxRange': 244
       'Chance': 4
@@ -491,11 +491,11 @@
       'Messages':
       - ''
     28:
-      'DisplayName': '&c&LCelebration MK2 (4th of July)'
+      'DisplayName': '<red>&LCelebration MK2 (4th of July)'
       'DisplayItem': 'CROSSBOW'
       'DisplayAmount': '1'
       'Lore':
-      - '&cSpam fireworks everywhere!'
+      - '<red>Spam fireworks everywhere!'
       - '(2.52%)'
       'MaxRange': 244
       'Chance': 6
@@ -510,13 +510,13 @@
       - 'execute as %players% run give @s firework_rocket{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;11743532]},{Type:1,Flicker:0,Trail:0,Colors:[I;2437522]},{Type:2,Flicker:0,Trail:0,Colors:[I;15790320]},{Type:0,Flicker:1,Trail:1,Colors:[I;11743532],FadeColors:[I;15790320]},{Type:0,Flicker:1,Trail:1,Colors:[I;2437522],FadeColors:[I;15790320]},{Type:4,Flicker:0,Trail:0,Colors:[I;11743532],FadeColors:[I;15790320]},{Type:4,Flicker:0,Trail:0,Colors:[I;2437522],FadeColors:[I;15790320]}]}}
         64'
       'Messages':
-      - '&7You just won an event item!'
+      - '<gray>You just won an event item!'
     29:
-      'DisplayName': '&c&lMusket (4th of July)'
+      'DisplayName': '<red><bold>Musket (4th of July)'
       'DisplayItem': 'WOODEN_SWORD'
       'DisplayAmount': '1'
       'Lore':
-      - '&cPerfect for home defense!'
+      - '<red>Perfect for home defense!'
       - '(2.52%)'
       'MaxRange': 244
       'Chance': 6
@@ -534,13 +534,13 @@
       - 'execute as %player% run give @s iron_nugget 32'
       - 'execute as %player% run give @s gunpowder 32'
       'Messages':
-      - '&7You just won an event item!'
+      - '<gray>You just won an event item!'
     30:
-      'DisplayName': '&c&lInfinite Burger (4th of July)'
+      'DisplayName': '<red><bold>Infinite Burger (4th of July)'
       'DisplayItem': 'RAW_GOLD'
       'DisplayAmount': '1'
       'Lore':
-      - '&cTypical American breakfast.'
+      - '<red>Typical American breakfast.'
       - '(2.52%)'
       'MaxRange': 244
       'Chance': 6
@@ -554,4 +554,4 @@
         effect.","italic":false,"color":"white"},{"text":"","italic":false,"color":"dark_purple"}]'',''[{"text":"IML
         4th of July 2023","italic":true,"color":"blue"}]'']}} 1'
       'Messages':
-      - '&7You just won an event item!'
+      - '<gray>You just won an event item!'

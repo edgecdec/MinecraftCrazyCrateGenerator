@@ -1,20 +1,20 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&eCommunity Effect Crate'
-  'Preview-Name': '&eCommunity Effect Crate'
+  'CrateName': '<yellow>Community Effect Crate'
+  'Preview-Name': '<yellow>Community Effect Crate'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lCommunity Effect Crate&7.'
+  'BroadCast': '%prefix%<gold><bold>%player%<reset> <gray>is opening a <yellow><bold>Community Effect Crate<gray>.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lCommunity Effect Crate'
+  'Name': '<yellow><bold>Community Effect Crate'
   'Lore':
-  - '&7This crate contains effects that will apply to all players!!!'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '<gray>This crate contains effects that will apply to all players!!!'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
   'Preview':
     'Toggle': true
     'ChestLines': 6
@@ -23,17 +23,17 @@
       'Item': 'ORANGE_STAINED_GLASS'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lCommunity Effect Crate &c&lKey'
+    'Name': '<yellow><bold>Community Effect Crate <red><bold>Key'
     'Lore':
-    - '&7A Community Effect Key'
-    - '&7For a Community Effect Crate.'
+    - '<gray>A Community Effect Key'
+    - '<gray>For a Community Effect Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lCommunity Effect Crate'
+    - '<yellow><bold>Community Effect Crate'
   'Prizes':
     1:
       'DisplayName': 'Speed'
@@ -47,7 +47,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:speed 600 1 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Speed!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Speed!'
       'Messages':
       - ''
     2:
@@ -62,7 +62,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:jump_boost 600 1 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Jump Boost!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Jump Boost!'
       'Messages':
       - ''
     3:
@@ -77,7 +77,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:slowness 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Slowness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Slowness!'
       'Messages':
       - ''
     4:
@@ -92,7 +92,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:haste 600 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Haste!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Haste!'
       'Messages':
       - ''
     5:
@@ -107,7 +107,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:mining_fatigue 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Mining Fatigue!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Mining Fatigue!'
       'Messages':
       - ''
     6:
@@ -122,7 +122,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:strength 300 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Strength!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Strength!'
       'Messages':
       - ''
     7:
@@ -137,7 +137,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:instant_health 600 9 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Instant Health!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Instant Health!'
       'Messages':
       - ''
     8:
@@ -152,7 +152,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:instant_damage 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Instant Damage!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Instant Damage!'
       'Messages':
       - ''
     9:
@@ -167,7 +167,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:nausea 120 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Nausea!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Nausea!'
       'Messages':
       - ''
     10:
@@ -182,7 +182,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:regeneration 300 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Regeneration!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Regeneration!'
       'Messages':
       - ''
     11:
@@ -197,7 +197,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:resistance 300 1 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Resistance!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Resistance!'
       'Messages':
       - ''
     12:
@@ -212,7 +212,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:fire_resistance 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Fire Resistance!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Fire Resistance!'
       'Messages':
       - ''
     13:
@@ -227,7 +227,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:water_breathing 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Water Breathing!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Water Breathing!'
       'Messages':
       - ''
     14:
@@ -242,7 +242,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:invisibility 300 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Invisibility!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Invisibility!'
       'Messages':
       - ''
     15:
@@ -257,7 +257,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:blindness 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Blindness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Blindness!'
       'Messages':
       - ''
     16:
@@ -272,7 +272,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:night_vision 900 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Night Vision!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Night Vision!'
       'Messages':
       - ''
     17:
@@ -287,7 +287,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:hunger 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Hunger!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Hunger!'
       'Messages':
       - ''
     18:
@@ -302,7 +302,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:weakness 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Weakness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Weakness!'
       'Messages':
       - ''
     19:
@@ -317,7 +317,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:poison 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Poison!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Poison!'
       'Messages':
       - ''
     20:
@@ -332,7 +332,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:wither 5 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Wither!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Wither!'
       'Messages':
       - ''
     21:
@@ -347,7 +347,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:health_boost 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Health Boost!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Health Boost!'
       'Messages':
       - ''
     22:
@@ -362,7 +362,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:absorption 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Absorption!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Absorption!'
       'Messages':
       - ''
     23:
@@ -377,7 +377,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:saturation 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Saturation!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Saturation!'
       'Messages':
       - ''
     24:
@@ -392,7 +392,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:glowing 300 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Glowing!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Glowing!'
       'Messages':
       - ''
     25:
@@ -407,7 +407,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:levitation 5 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Levitation!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Levitation!'
       'Messages':
       - ''
     26:
@@ -422,7 +422,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:slow_falling 180 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Slow Falling!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Slow Falling!'
       'Messages':
       - ''
     27:
@@ -437,7 +437,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:conduit_power 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Conduit Power!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Conduit Power!'
       'Messages':
       - ''
     28:
@@ -452,7 +452,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:dolphins_grace 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Dolphin''s Grace!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Dolphin''s Grace!'
       'Messages':
       - ''
     29:
@@ -467,7 +467,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:bad_omen 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Bad Omen!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Bad Omen!'
       'Messages':
       - ''
     30:
@@ -482,7 +482,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:darkness 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Darkness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Darkness!'
       'Messages':
       - ''
     31:
@@ -497,7 +497,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:speed 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Speed!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Speed!'
       'Messages':
       - ''
     32:
@@ -512,7 +512,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:jump_boost 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Jump!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Jump!'
       'Messages':
       - ''
     33:
@@ -527,7 +527,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:slowness 60 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Slowness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Slowness!'
       'Messages':
       - ''
     34:
@@ -542,7 +542,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:haste 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Haste!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Haste!'
       'Messages':
       - ''
     35:
@@ -557,7 +557,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:mining_fatigue 120 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Mining Fatigue!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Mining Fatigue!'
       'Messages':
       - ''
     36:
@@ -572,7 +572,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:strength 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Strength!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Strength!'
       'Messages':
       - ''
     37:
@@ -587,7 +587,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:nausea 180 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Nausea!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Nausea!'
       'Messages':
       - ''
     38:
@@ -602,7 +602,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:regeneration 180 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Regeneration!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Regeneration!'
       'Messages':
       - ''
     39:
@@ -617,7 +617,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:resistance 300 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Resistance!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Resistance!'
       'Messages':
       - ''
     40:
@@ -632,7 +632,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:fire_resistance 1200 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Fire Resistance!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Fire Resistance!'
       'Messages':
       - ''
     41:
@@ -647,7 +647,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:water_breathing 1200 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Water Breathing!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Water Breathing!'
       'Messages':
       - ''
     42:
@@ -662,7 +662,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:invisibility 900 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Invisibility!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Invisibility!'
       'Messages':
       - ''
     43:
@@ -677,7 +677,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:blindness 180 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Blindness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Blindness!'
       'Messages':
       - ''
     44:
@@ -692,7 +692,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:night_vision 1800 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Night Vision!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Night Vision!'
       'Messages':
       - ''
     45:
@@ -707,7 +707,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:hunger 60 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Hunger!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Hunger!'
       'Messages':
       - ''
     46:
@@ -722,7 +722,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:weakness 60 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Weakness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Weakness!'
       'Messages':
       - ''
     47:
@@ -737,7 +737,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:poison 60 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Poison!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Poison!'
       'Messages':
       - ''
     48:
@@ -752,7 +752,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:wither 15 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Wither!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Wither!'
       'Messages':
       - ''
     49:
@@ -767,7 +767,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:health_boost 300 19 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Health Boost!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Health Boost!'
       'Messages':
       - ''
     50:
@@ -782,7 +782,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:absorption 300 19 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Absorption!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Absorption!'
       'Messages':
       - ''
     51:
@@ -797,7 +797,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:saturation 1800 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Saturation!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Saturation!'
       'Messages':
       - ''
     52:
@@ -812,7 +812,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:glowing 900 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Glowing!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Glowing!'
       'Messages':
       - ''
     53:
@@ -827,7 +827,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:levitation 5 9 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Levitation!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Levitation!'
       'Messages':
       - ''
     54:
@@ -842,7 +842,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:slow_falling 300 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Slow Falling!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Slow Falling!'
       'Messages':
       - ''
     55:
@@ -857,7 +857,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:conduit_power 1200 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Conduit Power!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Conduit Power!'
       'Messages':
       - ''
     56:
@@ -872,7 +872,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:dolphins_grace 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Dolphin''s Grace!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Dolphin''s Grace!'
       'Messages':
       - ''
     57:
@@ -887,7 +887,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:darkness 180 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Super Darkness!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Super Darkness!'
       'Messages':
       - ''
     58:
@@ -902,7 +902,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:speed 30 99 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Speed Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Speed Jackpot!'
       'Messages':
       - ''
     59:
@@ -917,7 +917,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:jump_boost 30 99 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Jump Boost Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Jump Boost Jackpot!'
       'Messages':
       - ''
     60:
@@ -932,7 +932,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:slowness 30 254 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Slowness Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Slowness Jackpot!'
       'Messages':
       - ''
     61:
@@ -947,7 +947,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:haste 30 254 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Haste Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Haste Jackpot!'
       'Messages':
       - ''
     62:
@@ -962,7 +962,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:mining_fatigue 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Mining Fatigue Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Mining Fatigue Jackpot!'
       'Messages':
       - ''
     63:
@@ -977,7 +977,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:strength 30 254 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Strength Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Strength Jackpot!'
       'Messages':
       - ''
     64:
@@ -992,7 +992,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:nausea 600 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Nausea Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Nausea Jackpot!'
       'Messages':
       - ''
     65:
@@ -1007,7 +1007,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:regeneration 60 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Regeneration Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Regeneration Jackpot!'
       'Messages':
       - ''
     66:
@@ -1022,7 +1022,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:resistance 60 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Resistance Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Resistance Jackpot!'
       'Messages':
       - ''
     67:
@@ -1037,7 +1037,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:fire_resistance 3600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Fire Resistance Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Fire Resistance Jackpot!'
       'Messages':
       - ''
     68:
@@ -1052,7 +1052,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:water_breathing 3600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Water Breathing Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Water Breathing Jackpot!'
       'Messages':
       - ''
     69:
@@ -1067,7 +1067,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:invisibility 2700 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Invisibility Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Invisibility Jackpot!'
       'Messages':
       - ''
     70:
@@ -1082,7 +1082,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:blindness 600 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Blindness Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Blindness Jackpot!'
       'Messages':
       - ''
     71:
@@ -1097,7 +1097,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:night_vision 7200 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Night Vision Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Night Vision Jackpot!'
       'Messages':
       - ''
     72:
@@ -1112,7 +1112,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:hunger 600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Hunger Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Hunger Jackpot!'
       'Messages':
       - ''
     73:
@@ -1127,7 +1127,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:weakness 600 1 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Weakness Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Weakness Jackpot!'
       'Messages':
       - ''
     74:
@@ -1142,7 +1142,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:poison 180 2 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Poison Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Poison Jackpot!'
       'Messages':
       - ''
     75:
@@ -1157,7 +1157,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:health_boost 120 99 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Health Boost Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Health Boost Jackpot!'
       'Messages':
       - ''
     76:
@@ -1172,7 +1172,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:absorption 120 99 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Absorption Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Absorption Jackpot!'
       'Messages':
       - ''
     77:
@@ -1187,7 +1187,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:saturation 3600 9 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Saturation Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Saturation Jackpot!'
       'Messages':
       - ''
     78:
@@ -1202,7 +1202,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:glowing 1800 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Glowing Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Glowing Jackpot!'
       'Messages':
       - ''
     79:
@@ -1217,7 +1217,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:levitation 60 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Levitation Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Levitation Jackpot!'
       'Messages':
       - ''
     80:
@@ -1232,7 +1232,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:slow_falling 3600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Slow Falling Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Slow Falling Jackpot!'
       'Messages':
       - ''
     81:
@@ -1247,7 +1247,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:conduit_power 3600 0 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Conduit Power Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Conduit Power Jackpot!'
       'Messages':
       - ''
     82:
@@ -1262,7 +1262,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:dolphins_grace 180 99 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Dolphin''s Grace Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Dolphin''s Grace Jackpot!'
       'Messages':
       - ''
     83:
@@ -1277,7 +1277,7 @@
       - 'Item:AIR, Amount:'
       'Commands':
       - 'execute as @p run effect give @a minecraft:darkness 300 4 TRUE'
-      - 'broadcast &c&l%player% &6just affected the server with Darkness Jackpot!'
+      - 'broadcast <red><bold>%player% <gold>just affected the server with Darkness Jackpot!'
       'Messages':
       - ''
     84:
@@ -1308,8 +1308,8 @@
       - 'execute as @p run effect give @a minecraft:glowing 300 9 TRUE'
       - 'execute as @p run effect give @a minecraft:conduit_power 300 9 TRUE'
       - 'execute as @p run effect give @a minecraft:dolphins_grace 300 9 TRUE'
-      - 'broadcast &c&l%player% &6just got &a&l%CRAZY LUCK &6 and affected the server
-        with &b&l%ALL POSITIVE EFFECTS!'
+      - 'broadcast <red><bold>%player% <gold>just got <green><bold>%CRAZY LUCK <gold> and affected the server
+        with <aqua><bold>%ALL POSITIVE EFFECTS!'
       'Messages':
       - ''
     85:
@@ -1335,8 +1335,8 @@
       - 'execute as @p run effect give @a minecraft:levitation 3 1 TRUE'
       - 'execute as @p run effect give @a minecraft:bad_omen 60 9 TRUE'
       - 'execute as @p run effect give @a minecraft:darkness 60 9 TRUE'
-      - 'broadcast &c&l%player% &6just got &2&l%CRAZY BAD LUCK &6 and affected the
-        server with &4&l%NEGATIVE EFFECTS!'
+      - 'broadcast <red><bold>%player% <gold>just got <dark_green><bold>%CRAZY BAD LUCK <gold> and affected the
+        server with <dark_red><bold>%NEGATIVE EFFECTS!'
       'Messages':
       - ''
     86:
@@ -1383,7 +1383,7 @@
       - 'execute as @p run effect give @a minecraft:hero_of_the_village 60 9 TRUE'
       - 'execute as @p run effect give @a minecraft:bad_omen 60 9 TRUE'
       - 'execute as @p run effect give @a minecraft:darkness 60 9 TRUE'
-      - 'broadcast &c&l%player% &6just got &b&l%CRAZY LUCK &6 and affected the server
-        with &5&l%ALL EFFECTS!'
+      - 'broadcast <red><bold>%player% <gold>just got <aqua><bold>%CRAZY LUCK <gold> and affected the server
+        with <dark_purple><bold>%ALL EFFECTS!'
       'Messages':
       - ''

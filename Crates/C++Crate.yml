@@ -1,20 +1,20 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&eC++ Crate'
-  'Preview-Name': '&eC++ Crate'
+  'CrateName': '<yellow>C++ Crate'
+  'Preview-Name': '<yellow>C++ Crate'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lC++ Crate&7.'
+  'BroadCast': '%prefix%<gold><bold>%player%<reset> <gray>is opening a <yellow><bold>C++ Crate<gray>.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lC++ Crate'
+  'Name': '<yellow><bold>C++ Crate'
   'Lore':
-  - '&7This crate contains some awesome items!!!'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '<gray>This crate contains some awesome items!!!'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
   'Preview':
     'Toggle': true
     'ChestLines': 6
@@ -23,24 +23,24 @@
       'Item': 'ORANGE_STAINED_GLASS'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lC++ Crate &c&lKey'
+    'Name': '<yellow><bold>C++ Crate <red><bold>Key'
     'Lore':
-    - '&7A C++ Key'
-    - '&7For a C++ Crate.'
+    - '<gray>A C++ Key'
+    - '<gray>For a C++ Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lC++ Crate'
+    - '<yellow><bold>C++ Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&l$300,000'
+      'DisplayName': '<green><bold>$300,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Lots of money.'
+      - '<gray>Lots of money.'
       - '(0.288461538%)'
       'MaxRange': 104
       'Chance': 30
@@ -49,13 +49,13 @@
       'Commands':
       - 'eco give %player% 300000'
       'Messages':
-      - '&7You just won &r$300,000!!!'
+      - '<gray>You just won <reset>$300,000!!!'
     2:
-      'DisplayName': '&a&l$500,000'
+      'DisplayName': '<green><bold>$500,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Even more money.'
+      - '<gray>Even more money.'
       - '(0.192307692%)'
       'MaxRange': 104
       'Chance': 20
@@ -64,13 +64,13 @@
       'Commands':
       - 'eco give %player% 500000'
       'Messages':
-      - '&7You just won &r$500,000!!!'
+      - '<gray>You just won <reset>$500,000!!!'
     3:
-      'DisplayName': '&a&l$1,000,000'
+      'DisplayName': '<green><bold>$1,000,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A lot of lot of money.'
+      - '<gray>A lot of lot of money.'
       - '(0.096153846%)'
       'MaxRange': 104
       'Chance': 10
@@ -79,13 +79,13 @@
       'Commands':
       - 'eco give %player% 1000000'
       'Messages':
-      - '&7You just won &r$1,000,000!!!'
+      - '<gray>You just won <reset>$1,000,000!!!'
     4:
-      'DisplayName': '&a&l$5,000,000'
+      'DisplayName': '<green><bold>$5,000,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A buttload of money.'
+      - '<gray>A buttload of money.'
       - '(0.028846154%)'
       'MaxRange': 104
       'Chance': 3
@@ -94,13 +94,13 @@
       'Commands':
       - 'eco give %player% 5000000'
       'Messages':
-      - '&7You just won &r$5,000,000!!!'
+      - '<gray>You just won <reset>$5,000,000!!!'
     5:
-      'DisplayName': '&a&l$20,000,000'
+      'DisplayName': '<green><bold>$20,000,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7You''re RICH!!!'
+      - '<gray>You''re RICH!!!'
       - '(0.009615385%)'
       'MaxRange': 104
       'Chance': 1
@@ -108,16 +108,16 @@
       - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 20000000'
-      - 'broadcast &6&l%player% &ajust won the &e&l$2,000,000 JACKPOT &afrom a Java
+      - 'broadcast <gold><bold>%player% <green>just won the <yellow><bold>$2,000,000 JACKPOT <green>from a Java
         Crate!!!'
       'Messages':
-      - '&7You just won &$20,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!'
+      - '<gray>You just won &$20,000,000!!! <light_purple>Congrats on the SUPER MEGA MONEY jackpot!!!'
     6:
-      'DisplayName': '&a&l7 Mending Books'
+      'DisplayName': '<green><bold>7 Mending Books'
       'DisplayItem': 'BOOK'
       'DisplayAmount': '7'
       'Lore':
-      - '&7Well, you are very lucky.'
+      - '<gray>Well, you are very lucky.'
       - '(1.06%)'
       'MaxRange': 104
       'Chance': 2
@@ -127,14 +127,14 @@
       - 'execute as %player% run give @s enchanted_book{StoredEnchantments:[{id:mending,lvl:1}]}
         7'
       'Messages':
-      - '&7You just won SEVEN mending books!'
+      - '<gray>You just won SEVEN mending books!'
     7:
-      'DisplayName': '&e&lSUS Apples'
+      'DisplayName': '<yellow><bold>SUS Apples'
       'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
       'DisplayAmount': '7'
       'Lore':
-      - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.'
-      - '&7See what happens when you eat it...'
+      - '<gray>A legendary <light_purple>Pixelated <gold><bold>Calvin-Coated <light_purple>Enchanted Golden Apple.'
+      - '<gray>See what happens when you eat it...'
       - '(2.66%)'
       'MaxRange': 104
       'Chance': 5
@@ -149,13 +149,13 @@
       - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
       - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
       'Messages':
-      - '&7You just won better god apples!'
+      - '<gray>You just won better god apples!'
     8:
-      'DisplayName': '&7&lMooor Keeeyzzz'
+      'DisplayName': '<gray><bold>Mooor Keeeyzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '3'
       'Lore':
-      - '&73 C++ keys.'
+      - '<gray>3 C++ keys.'
       - '(7.98%)'
       'MaxRange': 104
       'Chance': 15
@@ -164,13 +164,13 @@
       'Commands':
       - 'crates give physical C++Crate 2 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     9:
-      'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
+      'DisplayName': '<gray><bold>Mooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '5'
       'Lore':
-      - '&75 C++ keys.'
+      - '<gray>5 C++ keys.'
       - '(3.19%)'
       'MaxRange': 104
       'Chance': 6
@@ -179,13 +179,13 @@
       'Commands':
       - 'crates give physical C++Crate 4 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     10:
-      'DisplayName': '&7&lSoooooo Many Keyz'
+      'DisplayName': '<gray><bold>Soooooo Many Keyz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '10'
       'Lore':
-      - '&77 C++ keys, woo!'
+      - '<gray>7 C++ keys, woo!'
       - '(1.06%)'
       'MaxRange': 104
       'Chance': 2
@@ -194,13 +194,13 @@
       'Commands':
       - 'crates give physical C++Crate 7 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     11:
-      'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
+      'DisplayName': '<gray><bold>Mooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '5'
       'Lore':
-      - '&75 java keys.'
+      - '<gray>5 java keys.'
       - '(5.32%)'
       'MaxRange': 104
       'Chance': 10
@@ -209,4 +209,4 @@
       'Commands':
       - 'crates give physical JavaCrate 5 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'

@@ -1,21 +1,21 @@
 Crate:
   CrateType: QuickCrate
-  CrateName: '&b&lDiamond 10 Craps Crate-6'
-  Preview-Name: '&b&lDiamond 10 Craps Crate-6'
+  CrateName: '<aqua><bold>Diamond 10 Craps Crate-6'
+  Preview-Name: '<aqua><bold>Diamond 10 Craps Crate-6'
   StartingKeys: 0
   Max-Mass-Open: 1
   InGUI: false
   Slot: 14
   OpeningBroadCast: true
-  BroadCast: '%prefix%&6&l%player%&r &7is rolling the dice in a &b&lDiamond 10 Craps
-    Crate-6&7!'
+  BroadCast: '%prefix%<gold><bold>%player%<reset> <gray>is rolling the dice in a <aqua><bold>Diamond 10 Craps
+    Crate-6<gray>!'
   Item: DIAMOND
   Glowing: false
-  Name: '&b&lDiamond 10 Craps Crate-6'
+  Name: '<aqua><bold>Diamond 10 Craps Crate-6'
   Lore:
-  - '&7Rolling for diamond!'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '<gray>Rolling for diamond!'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
   Preview:
     Toggle: true
     ChestLines: 6
@@ -24,21 +24,21 @@ Crate:
       Item: LIGHT_BLUE_STAINED_GLASS_PANE
       Name: ' '
   PhysicalKey:
-    Name: '&b&lDiamond 10 Craps Crate-6 &c&lKey'
+    Name: '<aqua><bold>Diamond 10 Craps Crate-6 <red><bold>Key'
     Lore:
-    - '&7A &b&lDiamond 10 Craps Crate-6 Key'
-    - '&7Roll for diamond!'
+    - '<gray>A <aqua><bold>Diamond 10 Craps Crate-6 Key'
+    - '<gray>Roll for diamond!'
     Item: TRIPWIRE_HOOK
     Glowing: true
   Hologram:
     Toggle: true
     Height: 1.5
     Message:
-    - '&b&lDiamond 10 Craps Crate-6'
-    - '&7Roll for Diamond!'
+    - '<aqua><bold>Diamond 10 Craps Crate-6'
+    - '<gray>Roll for Diamond!'
   Prizes:
     1:
-      DisplayName: '&a&l2!!! RE-ROLL!'
+      DisplayName: '<green><bold>2!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -52,9 +52,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     2:
-      DisplayName: '&a&l3!!! RE-ROLL!'
+      DisplayName: '<green><bold>3!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -68,9 +68,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     3:
-      DisplayName: '&a&l4!!! RE-ROLL!'
+      DisplayName: '<green><bold>4!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -84,9 +84,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     4:
-      DisplayName: '&a&l5!!! RE-ROLL!'
+      DisplayName: '<green><bold>5!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -100,9 +100,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     5:
-      DisplayName: '&a&l6!!! YOU WON!'
+      DisplayName: '<green><bold>6!!! YOU WON!'
       DisplayItem: DIAMOND
       DisplayAmount: '1'
       Lore:
@@ -115,9 +115,9 @@ Crate:
       Commands:
       - give %player% diamond 10
       Messages:
-      - '&7You won!'
+      - '<gray>You won!'
     6:
-      DisplayName: '&a&l7!!! YOU LOSE!'
+      DisplayName: '<green><bold>7!!! YOU LOSE!'
       DisplayItem: BONE
       DisplayAmount: '1'
       Lore:
@@ -130,9 +130,9 @@ Crate:
       Commands:
       - give %player% diamond 0
       Messages:
-      - '&7You lost!'
+      - '<gray>You lost!'
     7:
-      DisplayName: '&a&l8!!! RE-ROLL!'
+      DisplayName: '<green><bold>8!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -146,9 +146,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     8:
-      DisplayName: '&a&l9!!! RE-ROLL!'
+      DisplayName: '<green><bold>9!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -162,9 +162,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     9:
-      DisplayName: '&a&l10!!! RE-ROLL!'
+      DisplayName: '<green><bold>10!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -178,9 +178,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     10:
-      DisplayName: '&a&l11!!! RE-ROLL!'
+      DisplayName: '<green><bold>11!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -194,9 +194,9 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'
     11:
-      DisplayName: '&a&l12!!! RE-ROLL!'
+      DisplayName: '<green><bold>12!!! RE-ROLL!'
       DisplayItem: TRIPWIRE_HOOK
       DisplayAmount: '1'
       Lore:
@@ -210,4 +210,4 @@ Crate:
       - give %player% diamond 0
       - crates give physical CrapsDiamond10Crate-6 1 %player%
       Messages:
-      - '&7Re-Roll!'
+      - '<gray>Re-Roll!'

@@ -1,20 +1,20 @@
 'Crate':
   'CrateType': 'QuickCrate'
-  'CrateName': '&eJava Crate'
-  'Preview-Name': '&eJava Crate'
+  'CrateName': '<yellow>Java Crate'
+  'Preview-Name': '<yellow>Java Crate'
   'StartingKeys': 0
   'Max-Mass-Open': 10
   'InGUI': false
   'Slot': 14
   'OpeningBroadCast': true
-  'BroadCast': '%prefix%&6&l%player%&r &7is opening a &e&lJava Crate&7.'
+  'BroadCast': '%prefix%<gold><bold>%player%<reset> <gray>is opening a <yellow><bold>Java Crate<gray>.'
   'Item': 'CHEST'
   'Glowing': false
-  'Name': '&e&lJava Crate'
+  'Name': '<yellow><bold>Java Crate'
   'Lore':
-  - '&7This crate contains some awesome items!!!'
-  - '&7You have &6%Keys% keys &7to open this crate with.'
-  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  - '<gray>This crate contains some awesome items!!!'
+  - '<gray>You have <gold>%Keys% keys <gray>to open this crate with.'
+  - '<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
   'Preview':
     'Toggle': true
     'ChestLines': 6
@@ -23,24 +23,24 @@
       'Item': 'ORANGE_STAINED_GLASS'
       'Name': ' '
   'PhysicalKey':
-    'Name': '&e&lJava Crate &c&lKey'
+    'Name': '<yellow><bold>Java Crate <red><bold>Key'
     'Lore':
-    - '&7A Java Key'
-    - '&7For a Java Crate.'
+    - '<gray>A Java Key'
+    - '<gray>For a Java Crate.'
     'Item': 'TRIPWIRE_HOOK'
     'Glowing': true
   'Hologram':
     'Toggle': true
     'Height': 1.5
     'Message':
-    - '&e&lJava Crate'
+    - '<yellow><bold>Java Crate'
   'Prizes':
     1:
-      'DisplayName': '&a&lCRAPS'
+      'DisplayName': '<green><bold>CRAPS'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Lots of money.'
+      - '<gray>Lots of money.'
       - '(15.96%)'
       'MaxRange': 188
       'Chance': 30
@@ -49,13 +49,13 @@
       'Commands':
       - 'crates give physical Craps25000Crate-FirstRoll 1 %player%'
       'Messages':
-      - '&7You just won a craps key!!!'
+      - '<gray>You just won a craps key!!!'
     2:
-      'DisplayName': '&a&lCRAAPS'
+      'DisplayName': '<green><bold>CRAAPS'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Even more money.'
+      - '<gray>Even more money.'
       - '(10.64%)'
       'MaxRange': 188
       'Chance': 20
@@ -64,13 +64,13 @@
       'Commands':
       - 'crates give physical Craps25000Crate-FirstRoll 3 %player%'
       'Messages':
-      - '&7You just won 3 craps keys!!!'
+      - '<gray>You just won 3 craps keys!!!'
     3:
-      'DisplayName': '&a&lLOTTO'
+      'DisplayName': '<green><bold>LOTTO'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A lot of lot of money.'
+      - '<gray>A lot of lot of money.'
       - '(5.32%)'
       'MaxRange': 188
       'Chance': 10
@@ -79,13 +79,13 @@
       'Commands':
       - 'crates give physical LottoCrate 1 %player%'
       'Messages':
-      - '&7You just won a lotto key!!!'
+      - '<gray>You just won a lotto key!!!'
     4:
-      'DisplayName': '&a&lCRAAAAPS'
+      'DisplayName': '<green><bold>CRAAAAPS'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A buttload of money.'
+      - '<gray>A buttload of money.'
       - '(1.6%)'
       'MaxRange': 188
       'Chance': 3
@@ -94,13 +94,13 @@
       'Commands':
       - 'crates give physical Craps250000Crate-FirstRoll 2 %player%'
       'Messages':
-      - '&7You just won two craps keys!!!'
+      - '<gray>You just won two craps keys!!!'
     5:
-      'DisplayName': '&a&l$2,000,000'
+      'DisplayName': '<green><bold>$2,000,000'
       'DisplayItem': 'PAPER'
       'DisplayAmount': '1'
       'Lore':
-      - '&7You''re RICH!!!'
+      - '<gray>You''re RICH!!!'
       - '(0.53%)'
       'MaxRange': 188
       'Chance': 1
@@ -108,16 +108,16 @@
       - 'Item:PAPER, Amount:1'
       'Commands':
       - 'eco give %player% 2000000'
-      - 'broadcast &6&l%player% &ajust won the &e&l$2,000,000 JACKPOT &afrom a Java
+      - 'broadcast <gold><bold>%player% <green>just won the <yellow><bold>$2,000,000 JACKPOT <green>from a Java
         Crate!!!'
       'Messages':
-      - '&7You just won &$2,000,000!!! &dCongrats on the SUPER MEGA MONEY jackpot!!!'
+      - '<gray>You just won &$2,000,000!!! <light_purple>Congrats on the SUPER MEGA MONEY jackpot!!!'
     6:
-      'DisplayName': '&7&lMooor Keeeyzzz'
+      'DisplayName': '<gray><bold>Mooor Keeeyzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '3'
       'Lore':
-      - '&73 java keys.'
+      - '<gray>3 java keys.'
       - '(7.98%)'
       'MaxRange': 188
       'Chance': 15
@@ -126,13 +126,13 @@
       'Commands':
       - 'crates give physical JavaCrate 2 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     7:
-      'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
+      'DisplayName': '<gray><bold>Mooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '5'
       'Lore':
-      - '&75 java keys.'
+      - '<gray>5 java keys.'
       - '(3.19%)'
       'MaxRange': 188
       'Chance': 6
@@ -141,13 +141,13 @@
       'Commands':
       - 'crates give physical JavaCrate 4 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     8:
-      'DisplayName': '&7&lSoooooo Many Keyz'
+      'DisplayName': '<gray><bold>Soooooo Many Keyz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '10'
       'Lore':
-      - '&77 java keys, woo!'
+      - '<gray>7 java keys, woo!'
       - '(1.06%)'
       'MaxRange': 188
       'Chance': 2
@@ -156,13 +156,13 @@
       'Commands':
       - 'crates give physical JavaCrate 7 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     9:
-      'DisplayName': '&7&lMooooor Keeeeeyzzzzz'
+      'DisplayName': '<gray><bold>Mooooor Keeeeeyzzzzz'
       'DisplayItem': 'TRIPWIRE_HOOK'
       'DisplayAmount': '5'
       'Lore':
-      - '&75 python keys.'
+      - '<gray>5 python keys.'
       - '(5.32%)'
       'MaxRange': 188
       'Chance': 10
@@ -171,13 +171,13 @@
       'Commands':
       - 'crates give physical PythonCrate 5 %player%'
       'Messages':
-      - '&7You just won more keys!!!'
+      - '<gray>You just won more keys!!!'
     10:
-      'DisplayName': '&6&lLEGENDARY CLOWN HEAD'
+      'DisplayName': '<gold><bold>LEGENDARY CLOWN HEAD'
       'DisplayItem': 'PLAYER_HEAD'
       'DisplayAmount': '1'
       'Lore':
-      - '&d&nHead of the almighty clown DubDubHotTubDub'
+      - '<light_purple><underlined>Head of the almighty clown DubDubHotTubDub'
       - '(0.53%)'
       'MaxRange': 188
       'Chance': 1
@@ -187,15 +187,15 @@
       - 'execute as %player% run give @s player_head{display:{Name:''[{"text":"Clown\''s
         Revenge","italic":false}]'',Lore:[''[{"text":"Clowns have feelings too...","italic":false}]'']},Enchantments:[{id:thorns,lvl:50}],SkullOwner:DubDubHotTubDub}
         1'
-      - 'broadcast &6&l%player% &ajust won a &dDubDub Clown Head &afrom a Java Crate!!!'
+      - 'broadcast <gold><bold>%player% <green>just won a <light_purple>DubDub Clown Head <green>from a Java Crate!!!'
       'Messages':
-      - '&7You just won a legendary clown head! &dWOOOOO!!!'
+      - '<gray>You just won a legendary clown head! <light_purple>WOOOOO!!!'
     11:
-      'DisplayName': '&9&lS0UL''s soul'
+      'DisplayName': '<blue><bold>S0UL''s soul'
       'DisplayItem': 'FISHING_ROD'
       'DisplayAmount': '1'
       'Lore':
-      - '&7For the love of fishing'
+      - '<gray>For the love of fishing'
       - '(1.06%)'
       'MaxRange': 188
       'Chance': 2
@@ -207,13 +207,13 @@
         exists just to fish","italic":false}]'']},Enchantments:[{id:luck_of_the_sea,lvl:3},{id:lure,lvl:4}]}
         1'
       'Messages':
-      - '&7You just won the best rod EVER!'
+      - '<gray>You just won the best rod EVER!'
     12:
-      'DisplayName': '&1&lMEME'
+      'DisplayName': '<dark_blue><bold>MEME'
       'DisplayItem': 'LEATHER_BOOTS'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Amazing boots! For the clumsy.'
+      - '<gray>Amazing boots! For the clumsy.'
       - '(2.66%)'
       'MaxRange': 188
       'Chance': 5
@@ -225,13 +225,13 @@
         Purple","italic":false}]'']},Enchantments:[{id:feather_falling,lvl:10},{id:soul_speed,lvl:10}]}
         1'
       'Messages':
-      - '&7You just won a meme!'
+      - '<gray>You just won a meme!'
     13:
-      'DisplayName': '&a&lLevels LOL'
+      'DisplayName': '<green><bold>Levels LOL'
       'DisplayItem': 'EXPERIENCE BOTTLE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7The best item'
+      - '<gray>The best item'
       - '(10.64%)'
       'MaxRange': 188
       'Chance': 20
@@ -240,14 +240,14 @@
       'Commands':
       - 'xp give %player% 100l'
       'Messages':
-      - '&7You just won 100 levels!'
+      - '<gray>You just won 100 levels!'
     14:
-      'DisplayName': '&e&lSUS Apple'
+      'DisplayName': '<yellow><bold>SUS Apple'
       'DisplayItem': 'ENCHANTED_GOLDEN_APPLE'
       'DisplayAmount': '1'
       'Lore':
-      - '&7A legendary &dPixelated &6&lCalvin-Coated &dEnchanted Golden Apple.'
-      - '&7See what happens when you eat it...'
+      - '<gray>A legendary <light_purple>Pixelated <gold><bold>Calvin-Coated <light_purple>Enchanted Golden Apple.'
+      - '<gray>See what happens when you eat it...'
       - '(2.66%)'
       'MaxRange': 188
       'Chance': 5
@@ -256,13 +256,13 @@
       'Commands':
       - 'sgive %player% pixelated_calvin-coated_enchanted_golden_apple'
       'Messages':
-      - '&7You just won a better god apple!'
+      - '<gray>You just won a better god apple!'
     15:
-      'DisplayName': '&4&lC4 Explosive'
+      'DisplayName': '<dark_red><bold>C4 Explosive'
       'DisplayItem': 'CREPPER_HEAD'
       'DisplayAmount': '1'
       'Lore':
-      - '&7TNT...overload. Be extremely careful. (AWWWW MAN)'
+      - '<gray>TNT...overload. Be extremely careful. (AWWWW MAN)'
       - '(15.96%)'
       'MaxRange': 188
       'Chance': 30
@@ -271,13 +271,13 @@
       'Commands':
       - 'sgive %player% C4'
       'Messages':
-      - '&7BOOM GOES THE DYNAMITE!'
+      - '<gray>BOOM GOES THE DYNAMITE!'
     16:
-      'DisplayName': '&b&l32 Diamonds'
+      'DisplayName': '<aqua><bold>32 Diamonds'
       'DisplayItem': 'DIAMOND'
       'DisplayAmount': '32'
       'Lore':
-      - '&7Craft a set of diamond armor, and more!'
+      - '<gray>Craft a set of diamond armor, and more!'
       - '(10.64%)'
       'MaxRange': 188
       'Chance': 20
@@ -286,13 +286,13 @@
       'Commands':
       - 'eco give %player% 10000'
       'Messages':
-      - '&7You just won 32 diamonds!'
+      - '<gray>You just won 32 diamonds!'
     17:
-      'DisplayName': '&d&lBOOTIES'
+      'DisplayName': '<light_purple><bold>BOOTIES'
       'DisplayItem': 'NETHERITE_BOOTS'
       'DisplayAmount': '1'
       'Lore':
-      - '&7These booties are OP AF, enjoy!'
+      - '<gray>These booties are OP AF, enjoy!'
       - '(0.53%)'
       'MaxRange': 188
       'Chance': 1
@@ -302,16 +302,16 @@
       - 'execute as %player% run give @s netherite_boots{Unbreakable:1,display:{Name:''[{"text":"ULTIMATE
         BOOTS","italic":false}]'',Lore:[''[{"text":"You can fall far","italic":false}]'']},Enchantments:[{id:blast_protection,lvl:5},{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:frost_walker,lvl:3},{id:projectile_protection,lvl:5},{id:soul_speed,lvl:4},{id:thorns,lvl:4}]}
         1'
-      - 'broadcast &6&l%player% &ajust won some legendary &d&lBOOTES &afrom a Java
+      - 'broadcast <gold><bold>%player% <green>just won some legendary <light_purple><bold>BOOTES <green>from a Java
         Crate!!!'
       'Messages':
-      - '&7You just won the best booties in the game!'
+      - '<gray>You just won the best booties in the game!'
     18:
-      'DisplayName': '&a&l3 Mending Books'
+      'DisplayName': '<green><bold>3 Mending Books'
       'DisplayItem': 'BOOK'
       'DisplayAmount': '3'
       'Lore':
-      - '&7Well, you are very lucky.'
+      - '<gray>Well, you are very lucky.'
       - '(1.06%)'
       'MaxRange': 188
       'Chance': 2
@@ -321,13 +321,13 @@
       - 'execute as %player% run give @s enchanted_book{StoredEnchantments:[{id:mending,lvl:1}]}
         3'
       'Messages':
-      - '&7You just won THREE mending books!'
+      - '<gray>You just won THREE mending books!'
     19:
-      'DisplayName': '&5&l1 Shulker Box'
+      'DisplayName': '<dark_purple><bold>1 Shulker Box'
       'DisplayItem': 'SHULKER_BOX'
       'DisplayAmount': '1'
       'Lore':
-      - '&7Is that a Pre-End Shulker?!? :O'
+      - '<gray>Is that a Pre-End Shulker?!? :O'
       - '(2.66%)'
       'MaxRange': 188
       'Chance': 5
@@ -339,4 +339,4 @@
         item gives you speed","italic":false}]'',''[{"text":"in your off-hand for
         the memes","italic":false}]'']}} 1'
       'Messages':
-      - '&7You just won a PRE-END Shulker Box!'
+      - '<gray>You just won a PRE-END Shulker Box!'

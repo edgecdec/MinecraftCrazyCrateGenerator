@@ -22,9 +22,9 @@ class Crate:
         self.Item = info[CrateCSVConstants.ITEM] or 'CHEST'
         self.Glowing = info[CrateCSVConstants.GLOWING] == 'True' or False
         self.Name = info[CrateCSVConstants.NAME] or self.CrateName
-        self.BroadCast = info[CrateCSVConstants.BROADCAST] or f'%prefix%&6&l%player%&r &7is opening a {self.Name}&7.'
-        self.Lore = info[CrateCSVConstants.LORE].split("\\n") or [f"&7This is a {self.CrateName}", "&7You have &6%Keys% keys &7to open this crate with.&7&l(&e&l!&7&l)", "Right click to view rewards."]
-        self.PhysicalKey_Name = info[CrateCSVConstants.PHYSICAL_KEY_NAME] or f'{self.Name} &c&lKey'
+        self.BroadCast = info[CrateCSVConstants.BROADCAST] or f'%prefix%<gold><bold>%player%<reset> <gray>is opening a {self.Name}<gray>.'
+        self.Lore = info[CrateCSVConstants.LORE].split("\\n") or [f"<gray>This is a {self.CrateName}", "<gray>You have <gold>%Keys% keys <gray>to open this crate with.<gray><bold>(<yellow><bold>!<gray><bold>)", "Right click to view rewards."]
+        self.PhysicalKey_Name = info[CrateCSVConstants.PHYSICAL_KEY_NAME] or f'{self.Name} <red><bold>Key'
         self.PhysicalKey_Lore = info[CrateCSVConstants.PHYSICAL_KEY_LORE].split("\\n") or [f'A {self.Name} Key.', f'For a {self.CrateName}']
         self.PhysicalKey_Item = info[CrateCSVConstants.PHYSICAL_KEY_ITEM] or 'TRIPWIRE_HOOK'
         self.PhysicalKey_Glowing = info[CrateCSVConstants.PHYSICAL_KEY_GLOWING] == 'TRUE' or True

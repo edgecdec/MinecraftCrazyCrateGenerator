@@ -76,20 +76,20 @@ class CrapsGenerator:
             percent = round((chance / 36) * 100, 2)
             
             if roll in [7, 11]:  # Natural wins
-                display_name = f"&a&l{roll}!!! YOU WON!"
+                display_name = f"<green><bold>{roll}!!! YOU WON!"
                 display_item = self.item_type.upper()
                 command = self.get_win_command()
-                message = "&7You won!"
+                message = "<gray>You won!"
             elif roll in [2, 3, 12]:  # Craps (losses)
-                display_name = f"&a&l{roll}!!! YOU LOSE!"
+                display_name = f"<green><bold>{roll}!!! YOU LOSE!"
                 display_item = "BONE"
                 command = self.get_loss_command()
-                message = "&7You lost!"
+                message = "<gray>You lost!"
             else:  # Point numbers (4, 5, 6, 8, 9, 10)
-                display_name = f"&a&l{roll}!!! RE-ROLL!"
+                display_name = f"<green><bold>{roll}!!! RE-ROLL!"
                 display_item = "TRIPWIRE_HOOK"
                 command = self.get_reroll_command(roll)
-                message = "&7Re-Roll!"
+                message = "<gray>Re-Roll!"
             
             row = [
                 display_name, display_item, "1", f"ROLL {roll}", "", 
@@ -123,20 +123,20 @@ class CrapsGenerator:
             percent = round((chance / 36) * 100, 2)
             
             if roll == point_number:  # Hit the point - WIN!
-                display_name = f"&a&l{roll}!!! YOU WON!"
+                display_name = f"<green><bold>{roll}!!! YOU WON!"
                 display_item = self.item_type.upper()
                 command = self.get_win_command()
-                message = "&7You won!"
+                message = "<gray>You won!"
             elif roll == 7:  # Seven out - LOSE!
-                display_name = f"&a&l{roll}!!! YOU LOSE!"
+                display_name = f"<green><bold>{roll}!!! YOU LOSE!"
                 display_item = "BONE"
                 command = self.get_loss_command()
-                message = "&7You lost!"
+                message = "<gray>You lost!"
             else:  # Any other number - re-roll
-                display_name = f"&a&l{roll}!!! RE-ROLL!"
+                display_name = f"<green><bold>{roll}!!! RE-ROLL!"
                 display_item = "TRIPWIRE_HOOK"
                 command = self.get_reroll_command(point_number)
-                message = "&7Re-Roll!"
+                message = "<gray>Re-Roll!"
             
             row = [
                 display_name, display_item, "1", f"ROLL {roll}", "", 
@@ -164,23 +164,23 @@ class CrapsGenerator:
             'InGUI': 'FALSE',  # Craps crates don't appear in GUI
             'Slot': '14',
             'OpeningBroadCast': 'TRUE',
-            'BroadCast': f'%prefix%&6&l%player%&r &7is rolling the dice in a {crate_name}&7!',
+            'BroadCast': f'%prefix%<gold><bold>%player%<reset> <gray>is rolling the dice in a {crate_name}<gray>!',
             'Item': self.item_type.upper(),
             'Glowing': 'TRUE',
             'Name': crate_name,
-            'Lore': f'&7Rolling for {self.item_type}!\\n&7You have &6%Keys% keys &7to open this crate with.\\n&7&l(&e&l!&7&l) Right click to view rewards.',
+            'Lore': f'<gray>Rolling for {self.item_type}!\\n<gray>You have <gold>%Keys% keys <gray>to open this crate with.\\n<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.',
             'Preview.Toggle': 'TRUE',
             'Preview.ChestLines': '6',
             'Preview.Glass.Toggle': 'TRUE',
             'Preview.Glass.Name': '',
             'Preview.Glass.Item': 'LIGHT_BLUE_STAINED_GLASS_PANE',
-            'PhysicalKeyName': f'{crate_name} &c&lKey',
-            'PhysicalKeyLore': f'&7A {crate_name} Key\\n&7Roll for {self.item_type}!',
+            'PhysicalKeyName': f'{crate_name} <red><bold>Key',
+            'PhysicalKeyLore': f'<gray>A {crate_name} Key\\n<gray>Roll for {self.item_type}!',
             'PhysicalKeyItem': 'TRIPWIRE_HOOK',
             'PhysicalKeyGlowing': 'TRUE',
             'HologramToggle': 'TRUE',
             'HologramHeight': '1.5',
-            'HologramMessage': f'{crate_name}\\n&7Roll for {self.item_type.title()}!',
+            'HologramMessage': f'{crate_name}\\n<gray>Roll for {self.item_type.title()}!',
             'CrapsAmount': self.folder_name
         }
     
@@ -196,11 +196,11 @@ class CrapsGenerator:
         # Generate FirstRoll crate (main crate)
         print("Creating FirstRoll crate (main crate)...")
         reward_sheet_name = f"{self.crate_prefix}-FirstRoll"
-        crate_name = f"&b&l{self.item_type.title()} {self.win_count} Craps Crate"
+        crate_name = f"<aqua><bold>{self.item_type.title()} {self.win_count} Craps Crate"
         
         # Create crate entry with special lore for main crate
         crate_info = self.create_crate_yaml_entry(reward_sheet_name, crate_name, is_main_crate=True)
-        crate_info['Lore'] = f'&7Roll the dice and win {self.win_count} {self.item_type}!\\n&7Natural 7 or 11 wins instantly!\\n&7Snake eyes (2), 3, or 12 loses!\\n&7Other numbers become your point!\\n&7You have &6%Keys% keys &7to open this crate with.\\n&7&l(&e&l!&7&l) Right click to view rewards.'
+        crate_info['Lore'] = f'<gray>Roll the dice and win {self.win_count} {self.item_type}!\\n<gray>Natural 7 or 11 wins instantly!\\n<gray>Snake eyes (2), 3, or 12 loses!\\n<gray>Other numbers become your point!\\n<gray>You have <gold>%Keys% keys <gray>to open this crate with.\\n<gray><bold>(<yellow><bold>!<gray><bold>) Right click to view rewards.'
         
         # Create Crate object
         crate_obj = Crate.Crate(crate_info)
@@ -220,7 +220,7 @@ class CrapsGenerator:
         
         for point in point_numbers:
             reward_sheet_name = f"{self.crate_prefix}-{point}"
-            crate_name = f"&b&l{self.item_type.title()} {self.win_count} Craps Crate-{point}"
+            crate_name = f"<aqua><bold>{self.item_type.title()} {self.win_count} Craps Crate-{point}"
             
             # Create crate entry
             crate_info = self.create_crate_yaml_entry(reward_sheet_name, crate_name)
