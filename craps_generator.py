@@ -48,15 +48,25 @@ class CrapsGenerator:
     
     def get_win_command(self):
         """Get the command for winning"""
-        return f"give %player% {self.item_type} {self.win_count}"
+        if self.win_count > 0:
+            return f"give %player% {self.item_type} {self.win_count}"
+        else:
+            return ""  # No command if giving 0 items
     
     def get_loss_command(self):
         """Get the command for losing"""
-        return f"give %player% {self.item_type} {self.loss_count}"
+        if self.loss_count > 0:
+            return f"give %player% {self.item_type} {self.loss_count}"
+        else:
+            return ""  # No command if giving 0 items
     
     def get_reroll_command(self, target_number):
         """Get the command for re-rolling with a specific target"""
-        return f"give %player% {self.item_type} {self.loss_count}, crates give physical {self.crate_prefix}-{target_number} 1 %player%"
+        commands = []
+        if self.loss_count > 0:
+            commands.append(f"give %player% {self.item_type} {self.loss_count}")
+        commands.append(f"crates give physical {self.crate_prefix}-{target_number} 1 %player%")
+        return ", ".join(commands)
     
     def create_first_roll_csv(self):
         """Create the first roll CSV file"""
